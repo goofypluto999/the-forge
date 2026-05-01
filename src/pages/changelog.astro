@@ -1,0 +1,164 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+interface Entry {
+  date: string;
+  version: string;
+  notes: string[];
+}
+
+const entries: Entry[] = [
+  {
+    date: '2026-05-01',
+    version: 'v1.2',
+    notes: [
+      'Added /compare programmatic SEO cluster (3 comparison pages: Claude Desktop vs Cursor, Sonnet vs Haiku, MCP vs function calling)',
+      '4 new seed posts (07-MCP vs LangChain, 08-self-hosted LLMs, 09-prompt injection, 10-agent evaluation, 11-Opus/Sonnet/Haiku comparison, 12-build first Claude Skill, 13-AI agents for SDRs)',
+      'Site-wide Organization + Person + WebSite schema in BaseLayout',
+      'IndexNow infrastructure: key file hosted, ping script, GitHub Actions cron after each daily-publish',
+      'Robots.txt expanded to 22 unique User-agent allowlists',
+      'Custom OG image (og-default.svg)',
+      'humans.txt + .well-known/security.txt added',
+    ],
+  },
+  {
+    date: '2026-05-01',
+    version: 'v1.1',
+    notes: [
+      'Forged Format v1 launched: TL;DR block + claims manifest + JSON twin + ClaimReview schema + entity declarations',
+      'JSON twin endpoint live at /<slug>.cite.json',
+      'RSS 2.0 feed + JSON Feed 1.1 with _forge.cite_manifest extension',
+      'Manual sitemap.xml replaces broken @astrojs/sitemap integration',
+      'Daily publish cron (06:00 UTC) + topic ingestion cron (02:00 UTC)',
+    ],
+  },
+  {
+    date: '2026-05-01',
+    version: 'v1.0',
+    notes: [
+      'Brand: The Forge (rebranded from Mundane Mode to fit adsforge.store domain)',
+      'Domain wired: adsforge.store on Cloudflare → Vercel',
+      'Email aliases: hello@, tips@, bots@ forwarding to Gmail',
+      'Audience-check popup ("Are you a bot? / Stinky human")',
+      'Archive system (today\'s posts on home, older at /archive)',
+      'Astro 4 + TypeScript scaffold',
+      'BACKFILL.md spec for 180-post archive backfill (separate Claude session)',
+    ],
+  },
+];
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://adsforge.store' },
+    { '@type': 'ListItem', position: 2, name: 'Changelog', item: 'https://adsforge.store/changelog' },
+  ],
+};
+---
+
+<BaseLayout
+  title="Changelog — The Forge"
+  description="What's shipped on The Forge. Version-by-version, with dates and notes. We treat editorial like software."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <section class="hero">
+    <p class="kicker">// changelog · we treat editorial like software</p>
+    <h1>What's shipped.</h1>
+    <p class="lede">
+      The Forge updates daily (auto-publish cron) and gets infrastructure changes
+      whenever they ship. This is the public record.
+    </p>
+  </section>
+
+  <section class="entries">
+    {entries.map((e) => (
+      <article class="entry">
+        <header>
+          <time datetime={e.date}>{e.date}</time>
+          <span class="version">{e.version}</span>
+        </header>
+        <ul>
+          {e.notes.map((n) => <li>{n}</li>)}
+        </ul>
+      </article>
+    ))}
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 2rem;
+  }
+  .kicker {
+    color: #a0e8a0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    margin: 0 0 1rem;
+    opacity: 0.7;
+  }
+  .hero h1 {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    line-height: 1;
+    letter-spacing: -0.04em;
+    margin: 0 0 1rem;
+    color: #fafaf6;
+  }
+  .lede {
+    color: #888;
+    font-size: 1rem;
+    margin: 0;
+  }
+  .entries {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 6rem;
+  }
+  .entry {
+    border-top: 1px solid #2a2a2a;
+    padding: 2rem 0;
+  }
+  .entry header {
+    display: flex;
+    gap: 1rem;
+    align-items: baseline;
+    margin-bottom: 1rem;
+  }
+  time {
+    color: #888;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.875rem;
+  }
+  .version {
+    color: #a0e8a0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.875rem;
+    background: rgba(160, 232, 160, 0.08);
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+  }
+  .entry ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .entry li {
+    color: #d0d0c8;
+    line-height: 1.55;
+    padding: 0.4rem 0;
+    font-size: 0.9375rem;
+    padding-left: 1.25rem;
+    position: relative;
+  }
+  .entry li::before {
+    content: '+';
+    position: absolute;
+    left: 0;
+    color: #a0e8a0;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+  }
+</style>

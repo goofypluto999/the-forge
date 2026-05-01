@@ -1,0 +1,8 @@
+# Security policy for The Forge — adsforge.store
+# https://www.rfc-editor.org/rfc/rfc9116
+
+Contact: mailto:bots@adsforge.store
+Expires: 2027-05-01T00:00:00.000Z
+Acknowledgments: https://adsforge.store/about
+Preferred-Languages: en
+Canonical: https://adsforge.store/.well-known/security.txt

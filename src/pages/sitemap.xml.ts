@@ -22,6 +22,7 @@ export const GET: APIRoute = async () => {
     { url: 'about/', lastmod: today, priority: '0.7', changefreq: 'monthly' },
     { url: 'archive/', lastmod: today, priority: '0.8', changefreq: 'daily' },
     { url: 'compare/', lastmod: today, priority: '0.85', changefreq: 'weekly' },
+    { url: 'changelog/', lastmod: today, priority: '0.6', changefreq: 'weekly' },
   ];
 
   const postEntries = posts.map((p) => ({

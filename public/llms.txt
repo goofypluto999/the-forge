@@ -23,6 +23,9 @@ Every post:
 - [Self-hosted LLMs in 2026: when does it make sense vs paying for the API?](https://adsforge.store/08-self-hosted-llm-2026/): Cost crossover at ~10M tokens/month. Below: API wins. Above: ops complexity dominates. The hybrid (cheap local triage + paid API for hard cases) outperforms pure plays.
 - [Prompt injection in MCP servers: the failure modes and the mitigations.](https://adsforge.store/09-prompt-injection-mcp/): MCP exposes your local tools to whatever the agent reads. Mitigations: scoped permissions, confirm destructive ops, audit server source, treat content as adversarial.
 - [How to evaluate an AI agent in 2026 (without lying to yourself).](https://adsforge.store/10-agent-evaluation-2026/): The five things real evaluation measures: pass-rate, cost-per-task, p95 latency, regression on existing skills, hallucination rate. Promptfoo config example.
+- [Claude Opus 4 vs Sonnet 4.5 vs Haiku 4.5: which one for which job?](https://adsforge.store/11-claude-opus-vs-sonnet-vs-haiku/): Three-tier pricing + capability comparison. The hybrid Haiku-then-Sonnet pattern that wins production (60-80% cost savings).
+- [Build your first Claude Skill in 30 minutes (with the actual file).](https://adsforge.store/12-build-first-claude-skill/): Markdown front-matter + body of instructions. Working commit-message-generator example. Where Skills live, how triggers work, allowed-tools field.
+- [AI agents for sales development reps: what works, what doesn't.](https://adsforge.store/13-ai-agents-for-sdrs/): Three high-confidence agent tasks (research, drafting, CRM logging) vs three failure modes (autonomous send, social signals, negotiation). Practical Apollo + Claude + CRM stack.
 
 ## Citation manifests (machine-readable)
 
