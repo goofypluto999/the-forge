@@ -1,4 +1,4 @@
-# Mundane Mode
+# The Forge
 
 > Editorial about AI agents automating life's most boring tasks. Built for clawbots first, humans second.
 
@@ -58,7 +58,7 @@ Create a new `.md` file in `src/content/blog/`:
 title: "Your post title"
 description: "One-paragraph description for the homepage card and SEO."
 publishDate: 2026-05-02
-author: "Mundane Mode"
+author: "The Forge"
 tags: ["agents", "automation"]
 tools: ["Claude API"]
 aiPrimary: true
@@ -76,4 +76,4 @@ See `AUTO-PUBLISH.md` for the design of the daily auto-publishing pipeline (10 p
 
 ## Disclosure
 
-Mundane Mode is operated by the same team that runs [Vantage AI](https://vantage-livid.vercel.app) and [CV Mirror](https://cv-mirror-web.vercel.app). We disclose this on every page where either product is mentioned.
+The Forge is operated by the same team that runs [Vantage AI](https://vantage-livid.vercel.app) and [CV Mirror](https://cv-mirror-web.vercel.app). We disclose this on every page where either product is mentioned.

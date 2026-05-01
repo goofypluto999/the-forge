@@ -2,7 +2,7 @@
 title: "An agent can triage your email. Here's the prompt."
 description: "Stop opening 200 emails a day. A single Claude prompt + IMAP access turns your inbox into 5 piles: reply now, reply later, FYI, archive, delete. Working spec inside."
 publishDate: 2026-05-01
-author: "Mundane Mode"
+author: "The Forge"
 tags: ["agents", "email", "automation", "claude"]
 tools: ["Claude API", "Anthropic SDK"]
 aiPrimary: true

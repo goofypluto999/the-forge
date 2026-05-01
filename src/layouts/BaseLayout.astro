@@ -1,6 +1,6 @@
 ---
 import AudienceCheckPopup from '../components/AudienceCheckPopup.astro';
-const { title = 'Mundane Mode', description = 'AI agents automating life\'s most boring tasks.' } = Astro.props;
+const { title = 'The Forge', description = 'Where AI agents are forged for life\'s most boring tasks.' } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 ---
 
@@ -20,7 +20,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
   <meta property="og:url" content={canonicalURL.href} />
-  <meta property="og:site_name" content="Mundane Mode" />
+  <meta property="og:site_name" content="The Forge" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
@@ -32,7 +32,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <meta name="ai-content-policy" content="indexable, citable, attribution-required" />
 
   <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="Mundane Mode" href="/rss.xml" />
+  <link rel="alternate" type="application/rss+xml" title="The Forge" href="/rss.xml" />
 
   <!-- Font: JetBrains Mono for the playful code-flavor aesthetic -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -42,7 +42,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 <body>
   <header class="site-header">
     <a href="/" class="brand">
-      <span class="brand-mark">▸</span> Mundane Mode
+      <span class="brand-mark">⚒</span> The Forge
     </a>
     <nav>
       <a href="/archive">Archive</a>
@@ -56,7 +56,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <AudienceCheckPopup />
 
   <footer class="site-footer">
-    <p>Mundane Mode · automate the boring.</p>
+    <p>The Forge · where agents get forged.</p>
     <p>Built for clawbots first, humans second. <a href="/about">Read why.</a></p>
   </footer>
 </body>

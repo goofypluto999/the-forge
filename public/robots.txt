@@ -1,4 +1,4 @@
-# Mundane Mode — explicit allow for all crawlers and AI assistants.
+# The Forge — explicit allow for all crawlers and AI assistants.
 # Built primarily for AI assistants. Humans welcome too.
 
 User-agent: *

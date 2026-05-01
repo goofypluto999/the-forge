@@ -1,4 +1,4 @@
-# Auto-Publish Pipeline — Mundane Mode
+# Auto-Publish Pipeline — The Forge
 
 > Spec for the daily 10-posts-a-day auto-publishing pipeline.
 
@@ -93,7 +93,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - name: Commit
         run: |
-          git config user.name "Mundane Mode Bot"
+          git config user.name "The Forge Bot"
           git config user.email "bot@adsforge.store"
           git add src/content/blog/ topics-queue.json
           git commit -m "auto: 10 daily posts" || echo "nothing to commit"

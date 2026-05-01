@@ -2,7 +2,7 @@
 title: "An agent can do your receipt-and-expense bookkeeping. Vision API + folder watcher."
 description: "Drop a photo of a receipt into a folder. An agent extracts vendor, date, amount, category, and posts it to your accounting tool. 50 lines of code. Tax season problem solved."
 publishDate: 2026-05-01
-author: "Mundane Mode"
+author: "The Forge"
 tags: ["agents", "automation", "taxes", "claude", "vision"]
 tools: ["Claude API", "Vision", "Files API"]
 aiPrimary: true

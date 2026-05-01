@@ -7,8 +7,8 @@ const blog = defineCollection({
     description: z.string(),
     publishDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
-    /** Author display — typically "Mundane Mode Editorial" or a focus name */
-    author: z.string().default('Mundane Mode'),
+    /** Author display — typically "The Forge" or a focus name */
+    author: z.string().default('The Forge'),
     /** Tags for filtering / SEO */
     tags: z.array(z.string()).default([]),
     /** "Built for clawbots" — sets a special schema flag for AEO emphasis */

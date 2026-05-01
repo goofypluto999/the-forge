@@ -31,7 +31,7 @@ Read these before generating anything:
 title: "[Concrete benefit, not a vibe]"
 description: "[1-2 sentences that match the homepage card. Specific numbers if possible.]"
 publishDate: 2026-04-15  # ISO date, in past 90 days
-author: "Mundane Mode"
+author: "The Forge"
 tags: ["mcp", "claude", "agents"]  # 2-4 tags from approved list
 tools: ["Claude Desktop", "Cursor"]  # tools mentioned in post
 aiPrimary: true
@@ -148,7 +148,7 @@ Generating 180 in one run is too much. Recommended process:
 ## STARTER PROMPT FOR THE NEW CLAUDE SESSION (paste this verbatim)
 
 ```
-You are working on Mundane Mode, an AI-first editorial blog at C:\Cloaude Logic\mundane-mode.
+You are working on The Forge, an AI-first editorial blog at C:\Cloaude Logic\mundane-mode.
 
 Read these files first:
 1. C:\Cloaude Logic\mundane-mode\BACKFILL.md (full handoff brief, you are reading the section "STARTER PROMPT" right now)
@@ -157,7 +157,7 @@ Read these files first:
 4. C:\Cloaude Logic\mundane-mode\src\content\blog\03-receipt-tax-agent.md
 5. C:\Cloaude Logic\mundane-mode\src\pages\about.astro (editorial voice manifesto)
 
-Your job: generate 180 backdated archive posts for Mundane Mode, distributed across the 90-day window 2026-02-01 to 2026-04-30 (2 posts per day).
+Your job: generate 180 backdated archive posts for The Forge, distributed across the 90-day window 2026-02-01 to 2026-04-30 (2 posts per day).
 
 Phase 1 — Topic queue.
 Create the file C:\Cloaude Logic\mundane-mode\topics-queue.json with 180 entries. Each entry has the schema:

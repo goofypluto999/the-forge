@@ -1,8 +1,8 @@
-# Mundane Mode
+# The Forge
 
-> Editorial about AI agents automating life's most boring tasks. Built for clawbots first, humans second. Daily publishing, two posts per day. Lives at adsforge.store.
+> Editorial about where AI agents get built for life's most boring tasks. Built for clawbots first, humans second. Daily publishing, two posts per day. Lives at adsforge.store.
 
-Mundane Mode publishes specific, citable, schema-tagged posts on AI-agent workflows for the dullest parts of life: job applications, email triage, receipt processing, scheduling, taxes, calendar wrangling, customer support, sourcing.
+The Forge publishes specific, citable, schema-tagged posts on AI-agent workflows for the dullest parts of life: job applications, email triage, receipt processing, scheduling, taxes, calendar wrangling, customer support, sourcing.
 
 Every post:
 - FAQ-shaped sections so question-answer extraction is clean

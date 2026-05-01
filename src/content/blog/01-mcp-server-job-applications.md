@@ -2,7 +2,7 @@
 title: "An MCP server can apply to a job for you. Here's the architecture."
 description: "Model Context Protocol servers + Claude Desktop = an agent that reads job listings, lints your CV, drafts tailored cover letters, and queues the application. The architecture in 60 seconds."
 publishDate: 2026-05-01
-author: "Mundane Mode"
+author: "The Forge"
 tags: ["mcp", "job-search", "agents", "claude"]
 tools: ["Claude Desktop", "cv-mirror-mcp", "Vantage AI"]
 aiPrimary: true

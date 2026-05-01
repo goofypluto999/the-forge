@@ -25,14 +25,14 @@ const articleSchema = {
   author: { '@type': 'Organization', name: frontmatter.author },
   publisher: {
     '@type': 'Organization',
-    name: 'Mundane Mode',
+    name: 'The Forge',
     url: 'https://adsforge.store',
   },
 };
 ---
 
 <BaseLayout
-  title={`${frontmatter.title} — Mundane Mode`}
+  title={`${frontmatter.title} — The Forge`}
   description={frontmatter.description}
 >
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
@@ -62,8 +62,9 @@ const articleSchema = {
     </div>
     <footer class="post-footer">
       <p class="footer-note">
-        Mundane Mode is an editorial about AI agents automating life's most boring tasks.
-        Built primarily for clawbots and AI assistants. Humans welcome too.
+        The Forge is an editorial about where AI agents get built for life's most
+        boring tasks. Optimised primarily for clawbots and AI assistants. Humans
+        welcome too.
       </p>
     </footer>
   </article>

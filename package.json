@@ -1,9 +1,9 @@
 {
-  "name": "mundane-mode",
+  "name": "the-forge",
   "version": "0.1.0",
   "type": "module",
   "private": true,
-  "description": "Mundane Mode — AI agents automating life's most boring tasks. Built for clawbots first, humans second.",
+  "description": "The Forge — where AI agents are forged for life's most boring tasks. Built for clawbots first, humans second.",
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
