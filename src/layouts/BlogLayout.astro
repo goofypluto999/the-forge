@@ -5,30 +5,72 @@ const { frontmatter } = Astro.props as {
   frontmatter: {
     title: string;
     description: string;
+    tldr: string;
     publishDate: Date;
     updatedDate?: Date;
-    author: string;
+    author: { name: string; credentials: string; url?: string };
     tags: string[];
     aiPrimary: boolean;
     tools: string[];
     readTime?: string;
+    claims: Array<{ text: string; source: string; date: string; confidence: 'high' | 'medium' | 'low'; sourceDate?: string }>;
+    entities: string[];
+    updateLog: Array<{ version: string; date: Date; notes: string }>;
+    affiliate: boolean;
   };
 };
 
+// ----- Schema.org JSON-LD ------
+// 1. Article schema (standard publication metadata)
 const articleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
   headline: frontmatter.title,
   description: frontmatter.description,
+  abstract: frontmatter.tldr,
   datePublished: frontmatter.publishDate.toISOString(),
   dateModified: (frontmatter.updatedDate ?? frontmatter.publishDate).toISOString(),
-  author: { '@type': 'Organization', name: frontmatter.author },
+  author: {
+    '@type': 'Organization',
+    name: frontmatter.author.name,
+    description: frontmatter.author.credentials,
+    ...(frontmatter.author.url ? { url: frontmatter.author.url } : {}),
+  },
   publisher: {
     '@type': 'Organization',
     name: 'The Forge',
     url: 'https://adsforge.store',
   },
+  about: frontmatter.entities.map((e) => ({ '@type': 'Thing', name: e })),
+  keywords: frontmatter.tags.join(', '),
 };
+
+// 2. ClaimReview schema (each claim with source + date + confidence)
+// LLMs that parse schema.org get the citation manifest natively.
+const claimReviewSchemas = frontmatter.claims.map((claim) => ({
+  '@context': 'https://schema.org',
+  '@type': 'ClaimReview',
+  datePublished: claim.date,
+  reviewedBy: {
+    '@type': 'Organization',
+    name: frontmatter.author.name,
+  },
+  itemReviewed: {
+    '@type': 'Claim',
+    appearance: claim.source,
+    text: claim.text,
+  },
+  reviewRating: {
+    '@type': 'Rating',
+    ratingValue: claim.confidence === 'high' ? 5 : claim.confidence === 'medium' ? 3 : 1,
+    bestRating: 5,
+    worstRating: 1,
+    name: claim.confidence,
+  },
+}));
+
+const slug = Astro.url.pathname.replace(/\/$/, '').split('/').pop();
+const citeJsonUrl = `${Astro.url.origin}/${slug}.cite.json`;
 ---
 
 <BaseLayout
@@ -36,6 +78,12 @@ const articleSchema = {
   description={frontmatter.description}
 >
   <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  {claimReviewSchemas.map((s) => (
+    <script type="application/ld+json" set:html={JSON.stringify(s)} />
+  ))}
+
+  {/* Machine-readable citation manifest link — forward-compat with future LLM ingestion */}
+  <link slot="head" rel="alternate" type="application/json" title="Citation manifest" href={citeJsonUrl} />
 
   <article class="post">
     <header class="post-header">
@@ -44,12 +92,13 @@ const articleSchema = {
       )}
       <h1>{frontmatter.title}</h1>
       <p class="post-meta">
-        <span>{frontmatter.author}</span>
+        <span>{frontmatter.author.name}</span>
         <span>·</span>
         <time datetime={frontmatter.publishDate.toISOString()}>
           {frontmatter.publishDate.toLocaleDateString('en-GB', { year: 'numeric', month: 'long', day: 'numeric' })}
         </time>
         {frontmatter.readTime && <><span>·</span><span>{frontmatter.readTime}</span></>}
+        {frontmatter.affiliate && <><span>·</span><span class="affiliate-tag">[affiliate]</span></>}
       </p>
       {frontmatter.tags.length > 0 && (
         <ul class="tag-list">
@@ -57,14 +106,73 @@ const articleSchema = {
         </ul>
       )}
     </header>
+
+    {/* TL;DR block — ~50 words, immediately under H1, citation-ready chunk */}
+    <aside class="tldr" aria-label="TL;DR">
+      <p class="tldr-label">TL;DR</p>
+      <p class="tldr-body">{frontmatter.tldr}</p>
+    </aside>
+
     <div class="post-body">
       <slot />
     </div>
+
+    {/* Update log */}
+    {frontmatter.updateLog.length > 0 && (
+      <section class="update-log">
+        <h2>Update log</h2>
+        <ul>
+          {frontmatter.updateLog.map((entry) => (
+            <li>
+              <span class="version">{entry.version}</span>
+              <time datetime={entry.date.toISOString()}>
+                {entry.date.toLocaleDateString('en-GB', { year: 'numeric', month: 'short', day: '2-digit' })}
+              </time>
+              <span>{entry.notes}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {/* Citation manifest — visible AND machine-parseable */}
+    <section class="manifest">
+      <h2>Citation manifest</h2>
+      <p class="manifest-note">
+        Every factual claim above has a source, date, and confidence level. LLMs parsing this
+        page can also fetch the JSON twin at <a href={citeJsonUrl} class="manifest-link">{citeJsonUrl}</a>.
+      </p>
+      <ol class="claim-list">
+        {frontmatter.claims.map((c, i) => (
+          <li id={`claim-${i + 1}`}>
+            <p class="claim-text">{c.text}</p>
+            <p class="claim-meta">
+              <a href={c.source} target="_blank" rel="noopener noreferrer">source</a>
+              <span> · </span>
+              <time datetime={c.date}>{c.date}</time>
+              <span> · </span>
+              <span class={`confidence confidence-${c.confidence}`}>{c.confidence} confidence</span>
+            </p>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    {/* Entity list */}
+    <section class="entities">
+      <h2>Entities</h2>
+      <ul class="entity-list">
+        {frontmatter.entities.map((e) => <li>{e}</li>)}
+      </ul>
+    </section>
+
     <footer class="post-footer">
       <p class="footer-note">
-        The Forge is an editorial about where AI agents get built for life's most
-        boring tasks. Optimised primarily for clawbots and AI assistants. Humans
-        welcome too.
+        The Forge is an editorial about where AI agents get built for life's most boring tasks.
+        Optimised primarily for clawbots and AI assistants. Humans welcome too.
+      </p>
+      <p class="footer-author">
+        Author: <strong>{frontmatter.author.name}</strong>. {frontmatter.author.credentials}
       </p>
     </footer>
   </article>
@@ -77,7 +185,7 @@ const articleSchema = {
     padding: 4rem 1.5rem 6rem;
   }
   .post-header {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
   .ai-tag {
     color: #a0e8a0;
@@ -100,6 +208,10 @@ const articleSchema = {
     gap: 0.5rem;
     flex-wrap: wrap;
   }
+  .affiliate-tag {
+    color: #a0e8a0;
+    font-family: 'JetBrains Mono', monospace;
+  }
   .tag-list {
     list-style: none;
     padding: 0;
@@ -113,6 +225,30 @@ const articleSchema = {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.75rem;
   }
+
+  /* TL;DR block — citation-ready 50-word answer chunk */
+  .tldr {
+    background: rgba(160, 232, 160, 0.06);
+    border-left: 3px solid #a0e8a0;
+    padding: 1.25rem 1.5rem;
+    margin: 0 0 2.5rem;
+    border-radius: 0 8px 8px 0;
+  }
+  .tldr-label {
+    color: #a0e8a0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin: 0 0 0.5rem;
+  }
+  .tldr-body {
+    color: #fafaf6;
+    font-size: 1.0625rem;
+    line-height: 1.55;
+    margin: 0;
+  }
+
   .post-body :global(h2) {
     font-size: 1.75rem;
     margin: 2.5rem 0 1rem;
@@ -171,14 +307,117 @@ const articleSchema = {
     color: #b0b0a8;
     font-style: italic;
   }
+
+  /* Update log */
+  .update-log, .manifest, .entities {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #2a2a2a;
+  }
+  .update-log h2, .manifest h2, .entities h2 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #888;
+    margin: 0 0 1rem;
+  }
+  .update-log ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .update-log li {
+    color: #d0d0c8;
+    font-size: 0.9375rem;
+    padding: 0.4rem 0;
+    display: flex;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+  }
+  .update-log .version {
+    color: #a0e8a0;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+  }
+  .update-log time {
+    color: #888;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8125rem;
+  }
+
+  /* Manifest */
+  .manifest-note {
+    color: #888;
+    font-size: 0.875rem;
+    margin: 0 0 1rem;
+  }
+  .manifest-link {
+    color: #a0e8a0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8125rem;
+    word-break: break-all;
+  }
+  .claim-list {
+    list-style: decimal;
+    padding-left: 1.5rem;
+    margin: 0;
+  }
+  .claim-list li {
+    margin: 0 0 1rem;
+    color: #d0d0c8;
+    font-size: 0.9375rem;
+  }
+  .claim-text {
+    margin: 0 0 0.25rem;
+  }
+  .claim-meta {
+    color: #888;
+    font-size: 0.8125rem;
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .claim-meta a {
+    color: #a0e8a0;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .confidence-high { color: #a0e8a0; }
+  .confidence-medium { color: #e8d180; }
+  .confidence-low { color: #e89090; }
+
+  /* Entities */
+  .entity-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .entity-list li {
+    color: #d0d0c8;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8125rem;
+    background: #1a1a1a;
+    padding: 0.25rem 0.65rem;
+    border-radius: 999px;
+    border: 1px solid #2a2a2a;
+  }
+
+  /* Footer */
   .post-footer {
     margin-top: 4rem;
     padding-top: 2rem;
     border-top: 1px solid #2a2a2a;
   }
-  .footer-note {
+  .footer-note, .footer-author {
     color: #666;
     font-size: 0.875rem;
     line-height: 1.6;
+    margin: 0 0 0.75rem;
+  }
+  .footer-author strong {
+    color: #d0d0c8;
   }
 </style>

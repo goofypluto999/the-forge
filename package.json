@@ -10,7 +10,8 @@
     "preview": "astro preview",
     "astro": "astro",
     "generate": "tsx scripts/generate.ts",
-    "approve": "tsx scripts/approve.ts"
+    "approve": "tsx scripts/approve.ts",
+    "ingest": "tsx scripts/ingest-feeds.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.40.0",
