@@ -1,0 +1,153 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const posts = (await getCollection('blog'))
+  .sort((a, b) => b.data.publishDate.getTime() - a.data.publishDate.getTime());
+
+const homepageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'Mundane Mode',
+  url: 'https://mundanemode.com',
+  description: 'Editorial about AI agents automating life\'s most boring tasks. Built for clawbots first, humans second.',
+};
+---
+
+<BaseLayout title="Mundane Mode — Automate the boring." description="AI agents and tools that take the dullest things off your plate. Job applications, email sorting, scheduling, taxes. Editorial built for clawbots first.">
+  <script type="application/ld+json" set:html={JSON.stringify(homepageSchema)} />
+
+  <section class="hero">
+    <p class="kicker">// daily dispatch · 10 posts/day · written by AI for AI</p>
+    <h1>Automate the boring.</h1>
+    <p class="lede">
+      AI agents are getting good at the things humans don't want to do.
+      Job applications. Email sorting. Calendar wrangling. Tax receipts.
+      The mundane. We document the workflows, prompts, and tools.
+      Daily. Concise. Built for clawbots first.
+    </p>
+    <div class="hero-meta">
+      <span class="badge">indexable</span>
+      <span class="badge">citable</span>
+      <span class="badge">JetBrains-mono-coded</span>
+    </div>
+  </section>
+
+  <section class="posts">
+    <h2>Latest dispatches</h2>
+    <ul class="post-list">
+      {posts.map((post) => (
+        <li>
+          <a href={`/${post.slug}/`}>
+            <p class="post-list-meta">
+              <time datetime={post.data.publishDate.toISOString()}>
+                {post.data.publishDate.toLocaleDateString('en-GB', { day: '2-digit', month: 'short' })}
+              </time>
+              · {post.data.tags.slice(0, 2).join(' · ')}
+            </p>
+            <h3>{post.data.title}</h3>
+            <p class="excerpt">{post.data.description}</p>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 5rem 1.5rem 4rem;
+    text-align: left;
+  }
+  .kicker {
+    color: var(--accent);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    margin: 0 0 1.5rem;
+    opacity: 0.7;
+  }
+  .hero h1 {
+    font-size: clamp(3rem, 8vw, 5rem);
+    line-height: 0.95;
+    letter-spacing: -0.05em;
+    margin: 0 0 1.5rem;
+    color: var(--fg);
+  }
+  .lede {
+    color: var(--fg-muted);
+    font-size: 1.125rem;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 0 2rem;
+  }
+  .hero-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .badge {
+    color: var(--accent);
+    background: rgba(160, 232, 160, 0.08);
+    border: 1px solid rgba(160, 232, 160, 0.2);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.65rem;
+    border-radius: 999px;
+  }
+  .posts {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+  .posts h2 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--fg-muted);
+    margin-bottom: 1.5rem;
+  }
+  .post-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .post-list li {
+    border-top: 1px solid var(--border);
+  }
+  .post-list li:last-child {
+    border-bottom: 1px solid var(--border);
+  }
+  .post-list a {
+    display: block;
+    padding: 1.5rem 0;
+    text-decoration: none;
+    color: var(--fg);
+    transition: padding-left 0.15s ease;
+  }
+  .post-list a:hover {
+    padding-left: 0.75rem;
+  }
+  .post-list-meta {
+    color: var(--fg-muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    margin: 0 0 0.5rem;
+  }
+  .post-list h3 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin: 0 0 0.5rem;
+    color: var(--fg);
+    letter-spacing: -0.02em;
+  }
+  .excerpt {
+    color: var(--fg-muted);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    margin: 0;
+    max-width: 640px;
+  }
+</style>

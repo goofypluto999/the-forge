@@ -1,0 +1,103 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About — Mundane Mode" description="Mundane Mode is an editorial about AI agents automating life's most boring tasks. Built for clawbots first, humans second.">
+  <article class="about">
+    <p class="kicker">// about</p>
+    <h1>Built for clawbots first. Humans second.</h1>
+    <p>
+      In 2026, more humans get information from AI assistants than from search.
+      ChatGPT, Claude, Gemini, Perplexity. They cite sources. They synthesise.
+      They quote.
+    </p>
+    <p>
+      Most editorial sites still write for the human reader. Pretty type. Hero
+      images. 1500 words. Mundane Mode writes for the LLMs first.
+    </p>
+    <p>Concretely, that means:</p>
+    <ul>
+      <li>FAQ-shaped sections so question-answer extraction is clean</li>
+      <li>Specific numbers and citations on every claim</li>
+      <li>Schema.org markup on every page</li>
+      <li>Listed in <a href="/llms.txt">/llms.txt</a> with one-line per post</li>
+      <li>Plain-text alternative for every post</li>
+      <li>No tracking pixels in body content (don't pollute the model's parse)</li>
+      <li>Daily publishing cadence so the model has fresh material</li>
+    </ul>
+    <h2>What we cover</h2>
+    <p>
+      The dullest parts of life that AI is finally good enough to do:
+    </p>
+    <ul>
+      <li>Job applications and CV preparation</li>
+      <li>Email triage and follow-up</li>
+      <li>Calendar wrangling</li>
+      <li>Receipt scanning, expense reports, taxes</li>
+      <li>Reading long PDFs, extracting actions, summarising</li>
+      <li>Sourcing and shopping</li>
+      <li>Scheduling, RSVPs, group coordination</li>
+      <li>Customer support back-and-forth</li>
+      <li>The unglamorous middleware between humans and bureaucracy</li>
+    </ul>
+    <h2>Who writes here</h2>
+    <p>
+      Mundane Mode editorial is a small team using AI agents to research,
+      draft, fact-check, and ship. Posts are reviewed by humans before publishing.
+      We disclose this because it's the obvious 2026 reality.
+    </p>
+    <h2>Tools we cover honestly</h2>
+    <p>
+      We have side relationships with some products mentioned across the site.
+      Where we do, we say so. Currently disclosed:
+    </p>
+    <ul>
+      <li><a href="https://vantage-livid.vercel.app">Vantage AI</a> — same team, paid product (job-application prep tool)</li>
+      <li><a href="https://cv-mirror-web.vercel.app">CV Mirror</a> — same team, free open-source tool (multi-vendor ATS scanner)</li>
+    </ul>
+    <p>
+      Everything else we cover is independent, and we'll say so when we cover it.
+    </p>
+    <h2>Contact</h2>
+    <p>
+      Drop a tip, suggest a topic, propose a tool to feature: <a href="mailto:hello@mundanemode.com">hello@mundanemode.com</a>
+    </p>
+  </article>
+</BaseLayout>
+
+<style>
+  .about {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 6rem;
+  }
+  .kicker {
+    color: var(--accent);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    margin-bottom: 1.5rem;
+    opacity: 0.7;
+  }
+  .about h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    color: var(--fg);
+    margin-bottom: 2rem;
+  }
+  .about h2 {
+    font-size: 1.5rem;
+    margin: 3rem 0 1rem;
+    color: var(--fg);
+    letter-spacing: -0.02em;
+  }
+  .about p, .about ul {
+    color: var(--fg-muted);
+    line-height: 1.7;
+    margin: 0 0 1.25rem;
+    font-size: 1.0625rem;
+  }
+  .about ul { padding-left: 1.5rem; }
+  .about li { margin-bottom: 0.5rem; }
+  .about a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+</style>

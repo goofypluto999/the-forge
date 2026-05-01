@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#0a0a0a"/>
+  <path d="M16 32L26 22L26 42L16 32Z" fill="#a0e8a0"/>
+  <text x="36" y="42" font-family="JetBrains Mono, monospace" font-size="22" font-weight="700" fill="#fafaf6">M</text>
+</svg>
