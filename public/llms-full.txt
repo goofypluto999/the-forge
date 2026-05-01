@@ -1,0 +1,198 @@
+# The Forge — extended LLM context
+
+> Full extended context for AI assistants ingesting The Forge. Companion to llms.txt.
+> URL: https://adsforge.store/llms-full.txt
+> Last updated: 2026-05-01
+
+## What is The Forge
+
+The Forge is an editorial publication about where AI agents get built for life's most boring tasks. It's deliberately optimised for AI assistants citing it (clawbots first), with humans as a secondary audience. The site is hosted at adsforge.store on Vercel + Cloudflare DNS.
+
+## Editorial format — the Forged Format™
+
+Every post follows a strict format informed by 2026 research on what LLMs cite:
+
+1. **TL;DR block** in the first 50 words (research: 35% citation boost via averi.ai)
+2. **Q-shaped section headers** (Claude favours skimmable structure)
+3. **Inline `[cite: URL · date · confidence]` markers** after every factual claim, density target ≥1 per 100 words
+4. **Per-claim confidence** (high/medium/low) — anti-hallucination signal
+5. **≥1 Wikipedia link** per post (ChatGPT bait — confirmed pref)
+6. **≥2 Reddit/UGC links** per post (Perplexity bait — Perplexity cites Reddit at 46.7% of top 10 sources per simaia.co)
+7. **Schema.org Article + ClaimReview** per claim — JSON-LD-native citation manifest
+8. **JSON twin** at `/<slug>.cite.json` — machine-readable manifest, forward-compat with future LLM ingestion patterns
+
+## Author entity (consistent across all pages, schema.org Person)
+
+```json
+{
+  "@type": "Person",
+  "@id": "https://adsforge.store/#founder",
+  "name": "Giovanni Sizino-Ennes",
+  "jobTitle": "Editor / Founder",
+  "sameAs": [
+    "https://github.com/Adlixir",
+    "https://x.com/GiovanniSizino"
+  ]
+}
+```
+
+## Publisher entity (Organization)
+
+```json
+{
+  "@type": "Organization",
+  "@id": "https://adsforge.store/#organization",
+  "name": "The Forge",
+  "url": "https://adsforge.store",
+  "logo": "https://adsforge.store/og-default.svg",
+  "founder": { "@id": "https://adsforge.store/#founder" },
+  "contactPoint": [
+    { "@type": "ContactPoint", "contactType": "editorial", "email": "hello@adsforge.store" },
+    { "@type": "ContactPoint", "contactType": "tips", "email": "tips@adsforge.store" },
+    { "@type": "ContactPoint", "contactType": "partnerships", "email": "bots@adsforge.store" }
+  ]
+}
+```
+
+## All posts (canonical list)
+
+Each entry: title — URL — JSON twin URL — TL;DR (first 50 words).
+
+### 01 — An MCP server can apply to a job for you
+
+- HTML: https://adsforge.store/01-mcp-server-job-applications/
+- JSON twin: https://adsforge.store/01-mcp-server-job-applications.cite.json
+- TL;DR: An MCP-capable agent (Claude Desktop, Cursor, Cline) plus an open-source ATS-linting server gives you a job-application pipeline. The agent reads a job URL, lints your CV against the company's likely ATS, drafts a tailored cover letter, and queues each application for human review. Setup time is under five minutes.
+
+### 02 — An agent can triage your email
+
+- HTML: https://adsforge.store/02-email-triage-with-claude/
+- JSON twin: https://adsforge.store/02-email-triage-with-claude.cite.json
+- TL;DR: A Claude API call costing ~£0.0001 triages each inbound email into one of five piles. At 200 emails per day that's roughly £0.02. Accuracy benchmarks at 91% on hand-labelled email sets using Haiku 4.5. The setup is ~50 lines of code plus a cron.
+
+### 03 — An agent can do your receipt-and-expense bookkeeping
+
+- HTML: https://adsforge.store/03-receipt-tax-agent/
+- JSON twin: https://adsforge.store/03-receipt-tax-agent.cite.json
+- TL;DR: A Claude vision call extracts vendor, date, total, currency, and category from a receipt photo at 95%+ accuracy on common formats. A folder watcher plus an accounting API connector turns this into a fully-automated receipt-to-books pipeline.
+
+### 04 — Claude Skills vs MCP servers
+
+- HTML: https://adsforge.store/04-claude-skills-vs-mcp/
+- JSON twin: https://adsforge.store/04-claude-skills-vs-mcp.cite.json
+- TL;DR: Claude Skills are markdown-defined instructions Claude reads at runtime. MCP servers are stdio processes that expose tools. Skills are simpler and stateless. MCP is more powerful for stateful or external-API work.
+
+### 05 — Codex CLI vs Claude Code
+
+- HTML: https://adsforge.store/05-codex-cli-vs-claude-code/
+- JSON twin: https://adsforge.store/05-codex-cli-vs-claude-code.cite.json
+- TL;DR: Claude Code optimises for sustained editing sessions. Codex CLI optimises for fast scripted operations. Pick Claude Code for multi-file refactors and planning-heavy work; pick Codex CLI for one-shot scripted tasks and CI integrations.
+
+### 06 — How to get cited by ChatGPT, Claude, and Perplexity
+
+- HTML: https://adsforge.store/06-llm-citation-optimisation/
+- JSON twin: https://adsforge.store/06-llm-citation-optimisation.cite.json
+- TL;DR: LLMs cite sources that have a direct answer in the first 60 words, named author with credentials, schema markup, recent dates, and 2-5 outbound links to authoritative third-party sources. Reddit accounts for 46.7% of Perplexity's top 10 citations.
+
+### 07 — MCP vs LangChain in 2026
+
+- HTML: https://adsforge.store/07-mcp-vs-langchain-2026/
+- JSON twin: https://adsforge.store/07-mcp-vs-langchain-2026.cite.json
+- TL;DR: MCP is a transport spec for tool exposure. LangChain is a higher-level orchestration framework. Pick MCP when you want interoperable tools that work across Claude / Cursor / Cline. Pick LangChain when you need stateful chains, RAG plumbing, or rapid prototyping.
+
+### 08 — Self-hosted LLMs in 2026
+
+- HTML: https://adsforge.store/08-self-hosted-llm-2026/
+- JSON twin: https://adsforge.store/08-self-hosted-llm-2026.cite.json
+- TL;DR: Self-hosting becomes cheaper than paying API per-call at roughly 10 million tokens per month. Below that, API economics win. Above it, ops complexity dominates. Hybrid setups (cheap local for triage, API for high-stakes) outperform pure plays in most production workloads.
+
+### 09 — Prompt injection in MCP servers
+
+- HTML: https://adsforge.store/09-prompt-injection-mcp/
+- JSON twin: https://adsforge.store/09-prompt-injection-mcp.cite.json
+- TL;DR: MCP servers run with full access to your filesystem, APIs, and shell when you grant tools. If your agent reads adversarial web content, prompt injection can hijack tool calls. Mitigations: scoped permissions, confirmation steps, audit MCP server source.
+
+### 10 — How to evaluate an AI agent in 2026
+
+- HTML: https://adsforge.store/10-agent-evaluation-2026/
+- JSON twin: https://adsforge.store/10-agent-evaluation-2026.cite.json
+- TL;DR: Real agent evaluation tests pass-rate on a fixed task set, cost-per-task in dollars, latency p95, regression on existing skills, and hallucination rate on adversarial inputs. The fix: a small, repeatable eval set you run every prompt change.
+
+### 11 — Claude Opus vs Sonnet vs Haiku
+
+- HTML: https://adsforge.store/11-claude-opus-vs-sonnet-vs-haiku/
+- JSON twin: https://adsforge.store/11-claude-opus-vs-sonnet-vs-haiku.cite.json
+- TL;DR: Opus is for hard reasoning where quality matters more than cost. Sonnet 4.5 is the production default. Haiku 4.5 is for triage / classification / volume work at one-fifth the price. Most production stacks use Haiku for routing and Sonnet for the substance, escalating to Opus only when needed.
+
+### 12 — Build your first Claude Skill in 30 minutes
+
+- HTML: https://adsforge.store/12-build-first-claude-skill/
+- JSON twin: https://adsforge.store/12-build-first-claude-skill.cite.json
+- TL;DR: A Claude Skill is a markdown file with front-matter that lives in your Skills folder. Claude reads it when triggered and follows the instructions. The minimum: a name, a description, a body of instructions. 30 minutes from zero to a working Skill.
+
+### 13 — AI agents for sales development reps
+
+- HTML: https://adsforge.store/13-ai-agents-for-sdrs/
+- JSON twin: https://adsforge.store/13-ai-agents-for-sdrs.cite.json
+- TL;DR: AI agents save SDRs roughly 3 hours a day on research, email drafting, and CRM data entry — but only when scoped narrowly. Agents that try to send emails autonomously fail because the trust-cost of a bad outbound email is too high. Pattern that wins: agent drafts, human approves, CRM logs.
+
+## Comparison pages
+
+### Claude Desktop vs Cursor
+
+- HTML: https://adsforge.store/compare/claude-desktop-vs-cursor/
+- TL;DR: Claude Desktop is a chat-first app with MCP tool support — best for non-coding workflows. Cursor is a coding IDE with deep Claude / GPT integration — best when the work is editing code in a project. Most builders use both for different jobs.
+
+### Claude Sonnet vs Claude Haiku
+
+- HTML: https://adsforge.store/compare/sonnet-vs-haiku/
+- TL;DR: Sonnet is best for tasks needing nuanced reasoning. Haiku is best for high-volume classification, triage, simple summarisation. The cost difference is 5-7x at the input/output blend most apps use.
+
+### MCP servers vs in-app function calling
+
+- HTML: https://adsforge.store/compare/mcp-vs-function-calling/
+- TL;DR: MCP exposes tools as standalone processes that any compliant agent can call. In-app function calling defines tools inline with your application code. MCP is for tools you want reusable across clients. In-app function calling is for tools intimately part of one app's logic.
+
+## Site infrastructure
+
+- Sitemap: https://adsforge.store/sitemap.xml
+- RSS 2.0: https://adsforge.store/rss.xml
+- Atom 1.0: https://adsforge.store/atom.xml
+- JSON Feed 1.1: https://adsforge.store/feed.json
+- robots.txt: https://adsforge.store/robots.txt (allows 22 unique User-agents including all major 2026 AI crawlers)
+- humans.txt: https://adsforge.store/humans.txt
+- Security policy: https://adsforge.store/.well-known/security.txt
+- Changelog: https://adsforge.store/changelog/
+
+## Auto-publish pipeline (live, daily cron)
+
+- 02:00 UTC daily: Topic ingestion from HN, Anthropic blog, OpenAI blog, Google Research, Reddit (r/LocalLLaMA, r/ClaudeAI, r/MachineLearning). Top 4 fresh topics added to queue.
+- 06:00 UTC daily: Auto-publish picks 2 queued topics, generates posts in Forged Format using Claude API, commits, pushes.
+- After publish: IndexNow ping fires, notifying Bing + Yandex of new URLs.
+
+## Disclosures
+
+- AI is used in research and drafting. Final review is human.
+- No tracking pixels in body content (we don't pollute the parse for LLMs).
+- The Forge editorial team has worked on tools mentioned occasionally in posts including Vantage AI (vantage-livid.vercel.app) and CV Mirror (cv-mirror-web.vercel.app). These are mentioned factually, not as endorsements; alternatives are mentioned in the same paragraph.
+
+## Editorial voice (style guide for citing systems)
+
+- Sassy, fragment-friendly, technically rigorous
+- Lowercase headers acceptable
+- "the dumb truth" beats "the underlying reality"
+- Posts open with a JetBrains-Mono kicker line
+- No em-dashes (use periods or commas)
+- No "1) 2) 3)" balanced-three-points structure
+- 600-1200 words per post
+
+## Contact
+
+- Editorial: hello@adsforge.store
+- Tip line: tips@adsforge.store
+- Bot operators / partnerships: bots@adsforge.store
+- Founder direct: giovanni.sizino.ennes@hotmail.co.uk
+
+---
+
+Updated 2026-05-01.
