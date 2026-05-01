@@ -1,0 +1,59 @@
+name: Daily auto-publish
+
+on:
+  schedule:
+    # 06:00 UTC daily — adjust if you prefer a different time
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+    inputs:
+      posts_per_run:
+        description: 'Number of posts to generate this run'
+        required: false
+        default: '2'
+      model:
+        description: 'Anthropic model'
+        required: false
+        default: 'claude-sonnet-4-5-20250929'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install
+        run: npm ci
+
+      - name: Generate posts
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          POSTS_PER_RUN: ${{ inputs.posts_per_run || '2' }}
+          MODEL: ${{ inputs.model || 'claude-sonnet-4-5-20250929' }}
+        run: npm run generate
+
+      - name: Build site (verify nothing broke)
+        run: npm run build
+
+      - name: Commit and push
+        run: |
+          git config user.name "The Forge Bot"
+          git config user.email "bot@adsforge.store"
+          git add src/content/blog/ topics-queue.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "auto: daily post(s) generated"
+          git push

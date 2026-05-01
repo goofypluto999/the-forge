@@ -8,13 +8,20 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "generate": "tsx scripts/generate.ts",
+    "approve": "tsx scripts/approve.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.40.0",
     "@astrojs/check": "^0.9.4",
     "@astrojs/rss": "^4.0.10",
     "@astrojs/sitemap": "^3.2.1",
     "astro": "^4.16.0",
     "typescript": "^5.6.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "@types/node": "^20.16.0"
   }
 }
