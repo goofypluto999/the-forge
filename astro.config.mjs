@@ -1,17 +1,12 @@
 import { defineConfig } from 'astro/config';
-import sitemap from '@astrojs/sitemap';
 
 // Production domain: adsforge.store (Cloudflare-managed, Resend-verified).
-// Used by sitemap, RSS, canonical URLs.
+// Used by RSS, canonical URLs.
+// Sitemap integration removed pending bug fix in @astrojs/sitemap v3.2.x —
+// will re-add once we have more pages indexed (or use manual sitemap.xml).
 export default defineConfig({
   site: 'https://adsforge.store',
-  integrations: [sitemap()],
   build: {
     inlineStylesheets: 'auto',
-  },
-  vite: {
-    build: {
-      cssMinify: 'lightningcss',
-    },
   },
 });
