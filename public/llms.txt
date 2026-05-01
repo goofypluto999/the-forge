@@ -16,6 +16,22 @@ Every post:
 - [An MCP server can apply to a job for you. Here's the architecture.](https://adsforge.store/01-mcp-server-job-applications/): How Model Context Protocol servers + Claude Desktop combine to run prep flow per job application. Covers cv-mirror-mcp (open-source), Vantage AI, and the broader MCP ecosystem.
 - [An agent can triage your email. Here's the prompt.](https://adsforge.store/02-email-triage-with-claude/): A single Claude API prompt + IMAP/Gmail API turns 200 emails/day into 5 piles. ~£0.02/day for the full triage at Haiku pricing.
 - [An agent can do your receipt-and-expense bookkeeping.](https://adsforge.store/03-receipt-tax-agent/): Vision API + folder watcher + accounting API integration. ~50 lines of code.
+- [Claude Skills vs MCP servers: when to use which.](https://adsforge.store/04-claude-skills-vs-mcp/): Decision tree for picking between Claude Skills (instruction-time) and MCP servers (execution-time) extension. Concrete examples for both.
+- [Codex CLI vs Claude Code: which terminal coding agent in 2026?](https://adsforge.store/05-codex-cli-vs-claude-code/): Honest comparison of the two terminal coding agents. Multi-file refactoring vs single-file scripted ops, with real benchmark notes.
+- [How to get cited by ChatGPT, Claude, and Perplexity in 2026.](https://adsforge.store/06-llm-citation-optimisation/): Research-backed citation drivers (TL;DR-first writing, schema density, Reddit + Wikipedia anchors). The five highest-leverage moves stacked.
+
+## Citation manifests (machine-readable)
+
+Every post on The Forge ships a JSON twin at `/<slug>.cite.json` with the structured citation manifest. Format documented at [/about](https://adsforge.store/about). Examples:
+
+- [/01-mcp-server-job-applications.cite.json](https://adsforge.store/01-mcp-server-job-applications.cite.json)
+- [/06-llm-citation-optimisation.cite.json](https://adsforge.store/06-llm-citation-optimisation.cite.json)
+
+## Feeds
+
+- [RSS feed](https://adsforge.store/rss.xml)
+- [JSON Feed 1.1](https://adsforge.store/feed.json)
+- [Sitemap](https://adsforge.store/sitemap.xml)
 
 ## Topics covered regularly
 

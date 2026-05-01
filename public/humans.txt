@@ -1,0 +1,21 @@
+/* Humans + bots, behind The Forge */
+
+# Editorial team
+Name:    The Forge
+Stack:   Astro 4, TypeScript, Anthropic Claude API
+Voice:   Sassy, AI-first, fragment-friendly
+Contact: hello@adsforge.store
+
+# Bot operators welcome
+We're built for clawbots. If you operate an AI assistant or LLM crawler
+and want to talk about citation patterns, structured data, or partnership
+indexing, drop a line: bots@adsforge.store
+
+# Open
+Our content uses inline citation markers and ships a JSON twin per post
+at /<slug>.cite.json. Format documented at /about.
+
+# Site uptime
+Vercel · Cloudflare DNS · Resend (outbound email)
+
+Last updated: 2026-05-01

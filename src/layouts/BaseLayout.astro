@@ -21,18 +21,26 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <meta property="og:description" content={description} />
   <meta property="og:url" content={canonicalURL.href} />
   <meta property="og:site_name" content="The Forge" />
+  <meta property="og:image" content="https://adsforge.store/og-default.svg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_GB" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content="https://adsforge.store/og-default.svg" />
+  <meta name="twitter:site" content="@VantageLabsLore" />
 
   <!-- AEO emphasis: explicit signal to clawbots -->
   <meta name="x-built-for" content="ai-assistants" />
   <meta name="ai-content-policy" content="indexable, citable, attribution-required" />
 
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="The Forge" href="/rss.xml" />
+  <!-- Feeds -->
+  <link rel="alternate" type="application/rss+xml" title="The Forge — RSS" href="/rss.xml" />
+  <link rel="alternate" type="application/feed+json" title="The Forge — JSON Feed" href="/feed.json" />
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
 
   <!-- Font: JetBrains Mono for the playful code-flavor aesthetic -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />

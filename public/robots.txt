@@ -3,7 +3,7 @@
 
 User-agent: *
 Allow: /
-Sitemap: https://adsforge.store/sitemap-index.xml
+Sitemap: https://adsforge.store/sitemap.xml
 
 # Explicit AI-crawler allowlist (we WANT to be cited)
 User-agent: GPTBot
