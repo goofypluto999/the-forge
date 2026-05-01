@@ -1,18 +1,19 @@
-# The Forge — explicit allow for all crawlers and AI assistants.
+# The Forge — robots.txt
 # Built primarily for AI assistants. Humans welcome too.
+# Last updated: 2026-05-01
 
 User-agent: *
 Allow: /
 Sitemap: https://adsforge.store/sitemap.xml
 
-# Explicit AI-crawler allowlist (we WANT to be cited)
-User-agent: GPTBot
-Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
+# ----- Anthropic (Claude family) -----
 User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
 Allow: /
 
 User-agent: Claude-Web
@@ -21,17 +22,63 @@ Allow: /
 User-agent: anthropic-ai
 Allow: /
 
-User-agent: PerplexityBot
+# ----- OpenAI (ChatGPT family) -----
+User-agent: GPTBot
 Allow: /
 
-User-agent: Applebot-Extended
-Allow: /
-
-User-agent: CCBot
-Allow: /
-
-User-agent: cohere-ai
+User-agent: OAI-SearchBot
 Allow: /
 
 User-agent: ChatGPT-User
+Allow: /
+
+# ----- Perplexity -----
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# ----- Google -----
+User-agent: Google-Extended
+Allow: /
+
+# ----- Apple -----
+User-agent: Applebot-Extended
+Allow: /
+
+# ----- Meta -----
+User-agent: meta-externalagent
+Allow: /
+
+# ----- Amazon -----
+User-agent: Amazonbot
+Allow: /
+
+# ----- ByteDance (TikTok / Doubao) -----
+User-agent: Bytespider
+Allow: /
+
+# ----- Cohere -----
+User-agent: cohere-ai
+Allow: /
+
+# ----- Common Crawl (training data for many models) -----
+User-agent: CCBot
+Allow: /
+
+# ----- Diffbot -----
+User-agent: Diffbot
+Allow: /
+
+# ----- You.com -----
+User-agent: YouBot
+Allow: /
+
+# ----- DuckDuckGo Assist -----
+User-agent: DuckAssistBot
+Allow: /
+
+# ----- Timpi -----
+User-agent: Timpibot
 Allow: /
