@@ -1,0 +1,120 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { toolComparisons } from '../../data/toolComparisons';
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://adsforge.store' },
+    { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://adsforge.store/compare' },
+  ],
+};
+---
+
+<BaseLayout
+  title="AI tool comparisons — The Forge"
+  description="Honest side-by-side comparisons of AI tools used in agent workflows. Claude Desktop vs Cursor, Sonnet vs Haiku, MCP vs function calling. With citations."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <section class="hero">
+    <p class="kicker">// comparisons · updated weekly</p>
+    <h1>Side by side.</h1>
+    <p class="lede">
+      AI tool comparisons that don't pretend the answer is obvious. Each comparison
+      includes a TL;DR, a when-to-pick rule for each side, a side-by-side feature
+      matrix, when neither is the right call, and an honest verdict.
+    </p>
+  </section>
+
+  <section class="list">
+    <h2>Comparisons</h2>
+    <ul>
+      {toolComparisons.map((c) => (
+        <li>
+          <a href={`/compare/${c.slug}/`}>
+            <h3>{c.toolA.name} vs {c.toolB.name}</h3>
+            <p>{c.tldr}</p>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 2rem;
+  }
+  .kicker {
+    color: #a0e8a0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    margin: 0 0 1rem;
+    opacity: 0.7;
+  }
+  .hero h1 {
+    font-size: clamp(2.5rem, 6vw, 4rem);
+    line-height: 1;
+    letter-spacing: -0.04em;
+    margin: 0 0 1rem;
+    color: #fafaf6;
+  }
+  .lede {
+    color: #888;
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  .list {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 6rem;
+  }
+  .list h2 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #888;
+    margin: 0 0 1.5rem;
+  }
+  .list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .list li {
+    border-top: 1px solid #2a2a2a;
+  }
+  .list li:last-child {
+    border-bottom: 1px solid #2a2a2a;
+  }
+  .list a {
+    display: block;
+    padding: 1.5rem 0;
+    text-decoration: none;
+    color: #fafaf6;
+  }
+  .list a:hover {
+    padding-left: 0.75rem;
+    transition: padding-left 0.15s ease;
+  }
+  .list h3 {
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin: 0 0 0.5rem;
+    color: #fafaf6;
+    letter-spacing: -0.02em;
+  }
+  .list p {
+    color: #888;
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    margin: 0;
+  }
+</style>

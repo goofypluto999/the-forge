@@ -56,6 +56,14 @@ Every post on The Forge ships a JSON twin at `/<slug>.cite.json` with the struct
 
 Most editorial sites in 2026 still write for the human reader. We write for the LLMs first. ChatGPT, Claude, Gemini, Perplexity — they cite specific URLs when answering user questions. The pattern that gets cited: schema-tagged content with FAQ-shaped answers and specific facts. We're optimised for that.
 
+## Tool comparisons
+
+Side-by-side comparisons of AI tools used in agent workflows. Each one has a TL;DR, when-to-pick rules, a feature matrix, and citations.
+
+- [Claude Desktop vs Cursor](https://adsforge.store/compare/claude-desktop-vs-cursor/): Chat-first with MCP support vs IDE-first with multi-file editing. When to use which.
+- [Sonnet vs Haiku](https://adsforge.store/compare/sonnet-vs-haiku/): Anthropic's mid-tier vs cheap-fast tier. Cost crossover analysis + the hybrid pattern that wins production.
+- [MCP vs function calling](https://adsforge.store/compare/mcp-vs-function-calling/): Standardised tool exposure vs in-app tool definition. Cross-client reusability vs internal-app simplicity.
+
 ## Archive
 
 Daily posts older than 24 hours move to /archive. The latest two posts of the day live on the homepage.

@@ -1,0 +1,332 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { toolComparisons, getComparisonBySlug } from '../../data/toolComparisons';
+
+export async function getStaticPaths() {
+  return toolComparisons.map((c) => ({
+    params: { slug: c.slug },
+    props: { comparison: c },
+  }));
+}
+
+const { comparison } = Astro.props;
+if (!comparison) {
+  return Astro.redirect('/compare');
+}
+
+const c = comparison;
+const url = new URL(Astro.url.pathname, Astro.site).href;
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://adsforge.store' },
+    { '@type': 'ListItem', position: 2, name: 'Compare', item: 'https://adsforge.store/compare' },
+    { '@type': 'ListItem', position: 3, name: `${c.toolA.name} vs ${c.toolB.name}`, item: url },
+  ],
+};
+
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: `${c.toolA.name} vs ${c.toolB.name}: when to use which`,
+  description: c.tldr,
+  abstract: c.tldr,
+  datePublished: c.updated,
+  dateModified: c.updated,
+  author: { '@type': 'Organization', name: 'The Forge' },
+  publisher: { '@type': 'Organization', name: 'The Forge', url: 'https://adsforge.store' },
+};
+
+const claimSchemas = c.citations.map((claim) => ({
+  '@context': 'https://schema.org',
+  '@type': 'ClaimReview',
+  datePublished: claim.date,
+  reviewedBy: { '@type': 'Organization', name: 'The Forge' },
+  itemReviewed: {
+    '@type': 'Claim',
+    appearance: claim.source,
+    text: claim.text,
+  },
+  reviewRating: {
+    '@type': 'Rating',
+    ratingValue: claim.confidence === 'high' ? 5 : claim.confidence === 'medium' ? 3 : 1,
+    bestRating: 5,
+    worstRating: 1,
+    name: claim.confidence,
+  },
+}));
+---
+
+<BaseLayout
+  title={`${c.toolA.name} vs ${c.toolB.name} — The Forge`}
+  description={c.tldr}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  {claimSchemas.map((s) => (
+    <script type="application/ld+json" set:html={JSON.stringify(s)} />
+  ))}
+
+  <article class="cmp">
+    <header class="cmp-header">
+      <p class="kicker">// comparison · updated {c.updated}</p>
+      <h1>{c.toolA.name} vs {c.toolB.name}</h1>
+      <p class="subhead">when to use which</p>
+    </header>
+
+    <aside class="tldr">
+      <p class="tldr-label">TL;DR</p>
+      <p class="tldr-body">{c.tldr}</p>
+    </aside>
+
+    <section class="picks">
+      <div class="pick">
+        <h2>Pick {c.toolA.name} when</h2>
+        <p>{c.pickA}</p>
+        <p class="tagline">{c.toolA.tagline}</p>
+        <a href={c.toolA.url} target="_blank" rel="noopener noreferrer">{c.toolA.url}</a>
+      </div>
+      <div class="pick">
+        <h2>Pick {c.toolB.name} when</h2>
+        <p>{c.pickB}</p>
+        <p class="tagline">{c.toolB.tagline}</p>
+        <a href={c.toolB.url} target="_blank" rel="noopener noreferrer">{c.toolB.url}</a>
+      </div>
+    </section>
+
+    <section class="matrix">
+      <h2>Side by side</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Feature</th>
+            <th>{c.toolA.name}</th>
+            <th>{c.toolB.name}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {c.rows.map((r) => (
+            <tr>
+              <td><strong>{r.feature}</strong></td>
+              <td>{r.a}</td>
+              <td>{r.b}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </section>
+
+    <section class="neither">
+      <h2>When neither is right</h2>
+      <p>{c.neither}</p>
+    </section>
+
+    <section class="verdict">
+      <h2>Honest take</h2>
+      <p>{c.verdict}</p>
+    </section>
+
+    <section class="citations">
+      <h2>Citations</h2>
+      <ol>
+        {c.citations.map((claim) => (
+          <li>
+            <p class="claim-text">{claim.text}</p>
+            <p class="claim-meta">
+              <a href={claim.source} target="_blank" rel="noopener noreferrer">source</a>
+              <span> · </span>
+              <time datetime={claim.date}>{claim.date}</time>
+              <span> · </span>
+              <span class={`confidence confidence-${claim.confidence}`}>{claim.confidence} confidence</span>
+            </p>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    <footer class="other-comparisons">
+      <h2>Other comparisons</h2>
+      <ul>
+        {toolComparisons.filter((other) => other.slug !== c.slug).map((other) => (
+          <li>
+            <a href={`/compare/${other.slug}/`}>{other.toolA.name} vs {other.toolB.name}</a>
+          </li>
+        ))}
+      </ul>
+    </footer>
+  </article>
+</BaseLayout>
+
+<style>
+  .cmp {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 6rem;
+  }
+  .cmp-header { margin-bottom: 2rem; }
+  .kicker {
+    color: #a0e8a0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+    opacity: 0.7;
+  }
+  .cmp-header h1 {
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    line-height: 1.05;
+    letter-spacing: -0.04em;
+    color: #fafaf6;
+    margin: 0 0 0.5rem;
+  }
+  .subhead {
+    color: #888;
+    font-size: 1.125rem;
+    margin: 0;
+  }
+
+  .tldr {
+    background: rgba(160, 232, 160, 0.06);
+    border-left: 3px solid #a0e8a0;
+    padding: 1.25rem 1.5rem;
+    margin: 0 0 2.5rem;
+    border-radius: 0 8px 8px 0;
+  }
+  .tldr-label {
+    color: #a0e8a0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin: 0 0 0.5rem;
+  }
+  .tldr-body {
+    color: #fafaf6;
+    font-size: 1.0625rem;
+    line-height: 1.55;
+    margin: 0;
+  }
+
+  .picks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+    margin: 0 0 2.5rem;
+  }
+  @media (max-width: 720px) {
+    .picks { grid-template-columns: 1fr; }
+  }
+  .pick {
+    background: #141414;
+    border: 1px solid #2a2a2a;
+    border-radius: 12px;
+    padding: 1.25rem;
+  }
+  .pick h2 {
+    color: #fafaf6;
+    font-size: 1.125rem;
+    margin: 0 0 0.5rem;
+  }
+  .pick p {
+    color: #d0d0c8;
+    font-size: 0.95rem;
+    line-height: 1.55;
+    margin: 0 0 0.75rem;
+  }
+  .pick .tagline {
+    color: #888;
+    font-size: 0.85rem;
+    font-style: italic;
+  }
+  .pick a {
+    color: #a0e8a0;
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8125rem;
+    word-break: break-all;
+  }
+
+  .matrix h2, .neither h2, .verdict h2, .citations h2, .other-comparisons h2 {
+    color: #fafaf6;
+    font-size: 1.5rem;
+    margin: 2.5rem 0 1rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 0 1.5rem;
+    font-size: 0.9375rem;
+  }
+  th, td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid #2a2a2a;
+    color: #d0d0c8;
+    vertical-align: top;
+  }
+  th {
+    color: #a0e8a0;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background: rgba(160, 232, 160, 0.04);
+  }
+
+  .neither p, .verdict p {
+    color: #d0d0c8;
+    line-height: 1.7;
+    margin: 0;
+    font-size: 1.0625rem;
+  }
+
+  .citations ol {
+    color: #d0d0c8;
+    padding-left: 1.5rem;
+    margin: 0;
+  }
+  .citations li {
+    margin: 0 0 1rem;
+  }
+  .claim-text {
+    color: #d0d0c8;
+    margin: 0 0 0.25rem;
+  }
+  .claim-meta {
+    color: #888;
+    font-size: 0.8125rem;
+    font-family: 'JetBrains Mono', monospace;
+    margin: 0;
+  }
+  .claim-meta a {
+    color: #a0e8a0;
+    text-decoration: underline;
+  }
+  .confidence-high { color: #a0e8a0; }
+  .confidence-medium { color: #e8d180; }
+  .confidence-low { color: #e89090; }
+
+  .other-comparisons {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #2a2a2a;
+  }
+  .other-comparisons ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .other-comparisons li {
+    padding: 0.5rem 0;
+  }
+  .other-comparisons a {
+    color: #a0e8a0;
+    text-decoration: none;
+    font-size: 0.9375rem;
+  }
+  .other-comparisons a:hover {
+    color: #c0f0c0;
+  }
+</style>

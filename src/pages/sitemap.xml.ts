@@ -1,5 +1,6 @@
 import { getCollection } from 'astro:content';
 import type { APIRoute } from 'astro';
+import { toolComparisons } from '../data/toolComparisons';
 
 const SITE = 'https://adsforge.store';
 
@@ -20,6 +21,7 @@ export const GET: APIRoute = async () => {
     { url: '', lastmod: today, priority: '1.0', changefreq: 'daily' },
     { url: 'about/', lastmod: today, priority: '0.7', changefreq: 'monthly' },
     { url: 'archive/', lastmod: today, priority: '0.8', changefreq: 'daily' },
+    { url: 'compare/', lastmod: today, priority: '0.85', changefreq: 'weekly' },
   ];
 
   const postEntries = posts.map((p) => ({
@@ -29,7 +31,14 @@ export const GET: APIRoute = async () => {
     changefreq: 'monthly',
   }));
 
-  const all = [...staticPages, ...postEntries];
+  const compareEntries = toolComparisons.map((c) => ({
+    url: `compare/${c.slug}/`,
+    lastmod: c.updated,
+    priority: '0.85',
+    changefreq: 'monthly',
+  }));
+
+  const all = [...staticPages, ...postEntries, ...compareEntries];
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
