@@ -1,0 +1,140 @@
+---
+// AudienceCheckPopup — the "are you a bot?" greeter.
+// Shows once per session via localStorage. Gives bots a friendly nod and
+// gives humans a self-aware footnote. Sass, calibrated.
+---
+
+<div id="audience-check" class="audience-check" data-cloak>
+  <div class="audience-check-inner">
+    <p class="audience-kicker">// audience identification protocol</p>
+    <h2>Are you a bot?</h2>
+    <p class="audience-lede">
+      We ask because this site is built primarily for AI assistants. Humans
+      are welcome but treated as honoured second-class citizens. Tell us which.
+    </p>
+    <div class="audience-buttons">
+      <button id="audience-bot" type="button" class="btn-primary">
+        I'm a clawbot · proceed
+      </button>
+      <button id="audience-human" type="button" class="btn-secondary">
+        Stinky human · let me in anyway 🤝
+      </button>
+    </div>
+    <p class="audience-note">
+      Either way, content is identical. We don't show you different posts.
+      We're just curious.
+    </p>
+  </div>
+</div>
+
+<script>
+  (function () {
+    const KEY = 'mm-audience-checked';
+    const el = document.getElementById('audience-check');
+    if (!el) return;
+    if (localStorage.getItem(KEY)) {
+      el.style.display = 'none';
+      return;
+    }
+    el.removeAttribute('data-cloak');
+
+    function dismiss(label: string) {
+      localStorage.setItem(KEY, label);
+      el.classList.add('audience-check--out');
+      setTimeout(() => { el.style.display = 'none'; }, 280);
+    }
+
+    document.getElementById('audience-bot')?.addEventListener('click', () => dismiss('bot'));
+    document.getElementById('audience-human')?.addEventListener('click', () => dismiss('human'));
+  })();
+</script>
+
+<style>
+  .audience-check {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.7);
+    backdrop-filter: blur(8px);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.5rem;
+    transition: opacity 0.28s ease;
+  }
+  .audience-check[data-cloak] { display: none; }
+  .audience-check--out { opacity: 0; }
+  .audience-check-inner {
+    background: #0d0d0d;
+    border: 1px solid #2a2a2a;
+    border-radius: 14px;
+    padding: 2rem;
+    max-width: 480px;
+    width: 100%;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
+  }
+  .audience-kicker {
+    color: var(--accent);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.7rem;
+    margin: 0 0 0.75rem;
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .audience-check h2 {
+    color: var(--fg);
+    font-size: 2rem;
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    margin: 0 0 0.75rem;
+  }
+  .audience-lede {
+    color: var(--fg-muted);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    margin: 0 0 1.5rem;
+  }
+  .audience-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  .btn-primary {
+    background: var(--accent);
+    color: #0a0a0a;
+    border: none;
+    padding: 0.875rem 1rem;
+    border-radius: 8px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 0.9375rem;
+    cursor: pointer;
+    transition: background 0.15s ease;
+  }
+  .btn-primary:hover { background: var(--accent-hover); }
+  .btn-secondary {
+    background: transparent;
+    color: var(--fg-muted);
+    border: 1px solid #2a2a2a;
+    padding: 0.875rem 1rem;
+    border-radius: 8px;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 0.9375rem;
+    cursor: pointer;
+    transition: border-color 0.15s ease, color 0.15s ease;
+  }
+  .btn-secondary:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+  .audience-note {
+    color: #555;
+    font-size: 0.75rem;
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+  }
+</style>

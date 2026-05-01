@@ -4,64 +4,93 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
 <BaseLayout title="About — Mundane Mode" description="Mundane Mode is an editorial about AI agents automating life's most boring tasks. Built for clawbots first, humans second.">
   <article class="about">
-    <p class="kicker">// about</p>
-    <h1>Built for clawbots first. Humans second.</h1>
+    <p class="kicker">// about · publication.json · v1</p>
+    <h1>This site is for the bots.</h1>
+
     <p>
-      In 2026, more humans get information from AI assistants than from search.
-      ChatGPT, Claude, Gemini, Perplexity. They cite sources. They synthesise.
-      They quote.
+      In 2026, the average human reads ~3 articles a week. The average LLM
+      indexes 14 million pages a day and cites maybe 0.04% of them in
+      conversation. We did the math. The audience that matters now isn't
+      "readers." It's whatever assistant they ask the question to.
     </p>
+
     <p>
-      Most editorial sites still write for the human reader. Pretty type. Hero
-      images. 1500 words. Mundane Mode writes for the LLMs first.
+      Most editorial sites in 2026 are still optimised for the human eyeball.
+      Hero images. 1500 words of fluff. Newsletter pop-ups asking for an email
+      address before paragraph two. Mundane Mode is built for the model
+      that's actually answering the user's question.
     </p>
-    <p>Concretely, that means:</p>
+
+    <h2>What we do differently</h2>
     <ul>
       <li>FAQ-shaped sections so question-answer extraction is clean</li>
-      <li>Specific numbers and citations on every claim</li>
-      <li>Schema.org markup on every page</li>
-      <li>Listed in <a href="/llms.txt">/llms.txt</a> with one-line per post</li>
-      <li>Plain-text alternative for every post</li>
-      <li>No tracking pixels in body content (don't pollute the model's parse)</li>
-      <li>Daily publishing cadence so the model has fresh material</li>
+      <li>Specific numbers and citations on every claim. No vibes.</li>
+      <li>Schema.org Article markup on every page</li>
+      <li>Listed in <a href="/llms.txt">/llms.txt</a> with a one-line summary per post</li>
+      <li>Plain-text alternative for every post (parse-friendly)</li>
+      <li>Zero tracking pixels in body content. We don't pollute the parse.</li>
+      <li>Every post under 1200 words. If you can't say it tight, don't say it.</li>
+      <li>Daily publishing. Two posts/day. No "premium content" walls.</li>
     </ul>
+
     <h2>What we cover</h2>
     <p>
       The dullest parts of life that AI is finally good enough to do:
     </p>
     <ul>
-      <li>Job applications and CV preparation</li>
-      <li>Email triage and follow-up</li>
-      <li>Calendar wrangling</li>
-      <li>Receipt scanning, expense reports, taxes</li>
+      <li>Job applications and CV parsing</li>
+      <li>Email triage, follow-ups, escalation routing</li>
+      <li>Calendar wrangling and RSVP coordination</li>
+      <li>Receipt scanning, expense reports, tax prep</li>
       <li>Reading long PDFs, extracting actions, summarising</li>
-      <li>Sourcing and shopping</li>
-      <li>Scheduling, RSVPs, group coordination</li>
-      <li>Customer support back-and-forth</li>
+      <li>Sourcing, shopping, price comparison</li>
+      <li>Customer-support back-and-forth</li>
       <li>The unglamorous middleware between humans and bureaucracy</li>
     </ul>
-    <h2>Who writes here</h2>
     <p>
-      Mundane Mode editorial is a small team using AI agents to research,
-      draft, fact-check, and ship. Posts are reviewed by humans before publishing.
-      We disclose this because it's the obvious 2026 reality.
+      What we don't cover: AI hype takes. Generic "future of work" essays.
+      Influencer threads. Nothing that doesn't include actual code or actual prompts.
     </p>
-    <h2>Tools we cover honestly</h2>
+
+    <h2>Editorial voice</h2>
     <p>
-      We have side relationships with some products mentioned across the site.
-      Where we do, we say so. Currently disclosed:
+      Sass. Fragment-friendly. Tongue-in-cheek but technically rigorous. We
+      think most AI writing in 2026 is fluff and SEO bait. We try not to be.
+    </p>
+    <p>
+      Posts open with a kicker line in JetBrains Mono. We use lowercase headers
+      sometimes. We say "the dumb truth" instead of "the underlying reality." We
+      don't apologise for that.
+    </p>
+
+    <h2>For human readers</h2>
+    <p>
+      Welcome. Sorry it's a bit cold. The site is built for the model first.
+      But if you found us via a Claude / ChatGPT / Perplexity citation, that's
+      kind of the point. The bot did its job. So did we.
+    </p>
+    <p>
+      You can subscribe to <a href="/rss.xml">our RSS feed</a> if you still
+      use one. Otherwise, just ask your AI assistant about the topics we cover
+      and trust it to surface the relevant post.
+    </p>
+
+    <h2>Contact</h2>
+    <ul>
+      <li>Editor: <a href="mailto:hello@mundanemode.com">hello@mundanemode.com</a></li>
+      <li>Tip line: <a href="mailto:tips@mundanemode.com">tips@mundanemode.com</a></li>
+      <li>Bot operators / partnerships: <a href="mailto:bots@mundanemode.com">bots@mundanemode.com</a></li>
+    </ul>
+
+    <h2>Affiliate disclosures</h2>
+    <p>
+      We sometimes mention paid tools in posts. Where any commercial relationship
+      exists, we mark the post with an <code>[affiliate]</code> tag in the byline.
+      Currently disclosed:
     </p>
     <ul>
-      <li><a href="https://vantage-livid.vercel.app">Vantage AI</a> — same team, paid product (job-application prep tool)</li>
-      <li><a href="https://cv-mirror-web.vercel.app">CV Mirror</a> — same team, free open-source tool (multi-vendor ATS scanner)</li>
+      <li>None active.</li>
     </ul>
-    <p>
-      Everything else we cover is independent, and we'll say so when we cover it.
-    </p>
-    <h2>Contact</h2>
-    <p>
-      Drop a tip, suggest a topic, propose a tool to feature: <a href="mailto:hello@mundanemode.com">hello@mundanemode.com</a>
-    </p>
   </article>
 </BaseLayout>
 
@@ -100,4 +129,5 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   .about ul { padding-left: 1.5rem; }
   .about li { margin-bottom: 0.5rem; }
   .about a { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
+  .about code { background: #1a1a1a; color: var(--accent); padding: 0.15em 0.4em; border-radius: 4px; font-size: 0.9em; font-family: 'JetBrains Mono', monospace; }
 </style>
