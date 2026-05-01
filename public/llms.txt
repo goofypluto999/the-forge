@@ -19,6 +19,10 @@ Every post:
 - [Claude Skills vs MCP servers: when to use which.](https://adsforge.store/04-claude-skills-vs-mcp/): Decision tree for picking between Claude Skills (instruction-time) and MCP servers (execution-time) extension. Concrete examples for both.
 - [Codex CLI vs Claude Code: which terminal coding agent in 2026?](https://adsforge.store/05-codex-cli-vs-claude-code/): Honest comparison of the two terminal coding agents. Multi-file refactoring vs single-file scripted ops, with real benchmark notes.
 - [How to get cited by ChatGPT, Claude, and Perplexity in 2026.](https://adsforge.store/06-llm-citation-optimisation/): Research-backed citation drivers (TL;DR-first writing, schema density, Reddit + Wikipedia anchors). The five highest-leverage moves stacked.
+- [MCP vs LangChain in 2026: which to use for production agents?](https://adsforge.store/07-mcp-vs-langchain-2026/): MCP is a transport spec, LangChain is an orchestration framework. Decision tree, plus the hybrid pattern most production teams converge on (LangGraph + MCP servers).
+- [Self-hosted LLMs in 2026: when does it make sense vs paying for the API?](https://adsforge.store/08-self-hosted-llm-2026/): Cost crossover at ~10M tokens/month. Below: API wins. Above: ops complexity dominates. The hybrid (cheap local triage + paid API for hard cases) outperforms pure plays.
+- [Prompt injection in MCP servers: the failure modes and the mitigations.](https://adsforge.store/09-prompt-injection-mcp/): MCP exposes your local tools to whatever the agent reads. Mitigations: scoped permissions, confirm destructive ops, audit server source, treat content as adversarial.
+- [How to evaluate an AI agent in 2026 (without lying to yourself).](https://adsforge.store/10-agent-evaluation-2026/): The five things real evaluation measures: pass-rate, cost-per-task, p95 latency, regression on existing skills, hallucination rate. Promptfoo config example.
 
 ## Citation manifests (machine-readable)
 

@@ -2,6 +2,46 @@
 import AudienceCheckPopup from '../components/AudienceCheckPopup.astro';
 const { title = 'The Forge', description = 'Where AI agents are forged for life\'s most boring tasks.' } = Astro.props;
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+// Site-wide Organization + Person schema. Adds author credentials globally
+// for the 40% AEO citation lift documented at almcorp.com.
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id': 'https://adsforge.store/#organization',
+  name: 'The Forge',
+  alternateName: ['Forge Editorial', 'adsforge.store'],
+  url: 'https://adsforge.store',
+  logo: 'https://adsforge.store/og-default.svg',
+  description: 'Editorial about where AI agents get built for life\'s most boring tasks. Built for clawbots first, humans second.',
+  founder: {
+    '@type': 'Person',
+    '@id': 'https://adsforge.store/#founder',
+    name: 'Giovanni Sizino-Ennes',
+    jobTitle: 'Editor / Founder',
+    sameAs: [
+      'https://github.com/Adlixir',
+      'https://x.com/GiovanniSizino',
+    ],
+  },
+  contactPoint: [
+    { '@type': 'ContactPoint', contactType: 'editorial', email: 'hello@adsforge.store' },
+    { '@type': 'ContactPoint', contactType: 'tips', email: 'tips@adsforge.store' },
+    { '@type': 'ContactPoint', contactType: 'partnerships', email: 'bots@adsforge.store' },
+  ],
+  publishingPrinciples: 'https://adsforge.store/about',
+};
+
+const websiteSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  '@id': 'https://adsforge.store/#website',
+  url: 'https://adsforge.store',
+  name: 'The Forge',
+  description: 'Editorial about where AI agents get built for life\'s most boring tasks.',
+  publisher: { '@id': 'https://adsforge.store/#organization' },
+  inLanguage: 'en-GB',
+};
 ---
 
 <!doctype html>
@@ -46,6 +86,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <!-- Site-wide Organization + WebSite schema (AEO + Knowledge Graph anchor) -->
+  <script type="application/ld+json" set:html={JSON.stringify(organizationSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
 </head>
 <body>
   <header class="site-header">
