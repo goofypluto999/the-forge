@@ -3,7 +3,7 @@
 
 User-agent: *
 Allow: /
-Sitemap: https://mundanemode.com/sitemap-index.xml
+Sitemap: https://adsforge.store/sitemap-index.xml
 
 # Explicit AI-crawler allowlist (we WANT to be cited)
 User-agent: GPTBot

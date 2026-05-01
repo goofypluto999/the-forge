@@ -1,10 +1,10 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
-// IMPORTANT: replace site below with the real domain once Gio plugs in his.
+// Production domain: adsforge.store (Cloudflare-managed, Resend-verified).
 // Used by sitemap, RSS, canonical URLs.
 export default defineConfig({
-  site: 'https://mundanemode.com',
+  site: 'https://adsforge.store',
   integrations: [sitemap()],
   build: {
     inlineStylesheets: 'auto',

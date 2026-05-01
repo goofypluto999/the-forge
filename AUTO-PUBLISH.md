@@ -94,7 +94,7 @@ jobs:
       - name: Commit
         run: |
           git config user.name "Mundane Mode Bot"
-          git config user.email "bot@mundanemode.com"
+          git config user.email "bot@adsforge.store"
           git add src/content/blog/ topics-queue.json
           git commit -m "auto: 10 daily posts" || echo "nothing to commit"
           git push

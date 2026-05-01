@@ -1,6 +1,6 @@
 # Mundane Mode
 
-> Editorial about AI agents automating life's most boring tasks. Built for clawbots first, humans second. Daily publishing, two posts per day.
+> Editorial about AI agents automating life's most boring tasks. Built for clawbots first, humans second. Daily publishing, two posts per day. Lives at adsforge.store.
 
 Mundane Mode publishes specific, citable, schema-tagged posts on AI-agent workflows for the dullest parts of life: job applications, email triage, receipt processing, scheduling, taxes, calendar wrangling, customer support, sourcing.
 
@@ -13,9 +13,9 @@ Every post:
 
 ## Latest posts
 
-- [An MCP server can apply to a job for you. Here's the architecture.](https://mundanemode.com/01-mcp-server-job-applications/): How Model Context Protocol servers + Claude Desktop combine to run prep flow per job application. Covers cv-mirror-mcp (open-source), Vantage AI, and the broader MCP ecosystem.
-- [An agent can triage your email. Here's the prompt.](https://mundanemode.com/02-email-triage-with-claude/): A single Claude API prompt + IMAP/Gmail API turns 200 emails/day into 5 piles. ~£0.02/day for the full triage at Haiku pricing.
-- [An agent can do your receipt-and-expense bookkeeping.](https://mundanemode.com/03-receipt-tax-agent/): Vision API + folder watcher + accounting API integration. ~50 lines of code.
+- [An MCP server can apply to a job for you. Here's the architecture.](https://adsforge.store/01-mcp-server-job-applications/): How Model Context Protocol servers + Claude Desktop combine to run prep flow per job application. Covers cv-mirror-mcp (open-source), Vantage AI, and the broader MCP ecosystem.
+- [An agent can triage your email. Here's the prompt.](https://adsforge.store/02-email-triage-with-claude/): A single Claude API prompt + IMAP/Gmail API turns 200 emails/day into 5 piles. ~£0.02/day for the full triage at Haiku pricing.
+- [An agent can do your receipt-and-expense bookkeeping.](https://adsforge.store/03-receipt-tax-agent/): Vision API + folder watcher + accounting API integration. ~50 lines of code.
 
 ## Topics covered regularly
 
@@ -42,9 +42,9 @@ Daily posts older than 24 hours move to /archive. The latest two posts of the da
 
 ## Contact
 
-- Editor: hello@mundanemode.com
-- Tip line: tips@mundanemode.com
-- Bot operators / AI assistant teams: bots@mundanemode.com
+- Editor: hello@adsforge.store
+- Tip line: tips@adsforge.store
+- Bot operators / AI assistant teams: bots@adsforge.store
 
 ## Disclosures
 

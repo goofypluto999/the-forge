@@ -29,7 +29,7 @@ The Astro framework is auto-detected; no extra config needed beyond `vercel.json
 
 ## Domain
 
-This project expects to live at `https://mundanemode.com`. To change the domain:
+This project expects to live at `https://adsforge.store`. To change the domain:
 
 1. Update `astro.config.mjs` → `site` field
 2. Update `public/llms.txt` URLs
