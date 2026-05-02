@@ -23,8 +23,15 @@
       "publishDate": "2026-02-01",
       "title": "What is the Model Context Protocol, actually?",
       "description": "Plain-English explainer of MCP for builders who keep hearing the acronym and want to know what's underneath. The actual transport, the tool-call shape, what changes for them.",
-      "tags": ["mcp", "beginner", "claude"],
-      "tools": ["Claude Desktop", "Anthropic SDK"],
+      "tags": [
+        "mcp",
+        "beginner",
+        "claude"
+      ],
+      "tools": [
+        "Claude Desktop",
+        "Anthropic SDK"
+      ],
       "category": "beginner",
       "status": "queued"
     },
@@ -33,8 +40,15 @@
       "publishDate": "2026-02-01",
       "title": "An agent can read your weekly Slack catch-up. Here's how.",
       "description": "Slack web API + Claude API + a daily cron. The exact prompt that summarises 50 channels into 5 bullet points without missing the things that matter.",
-      "tags": ["agents", "claude", "productivity"],
-      "tools": ["Slack API", "Claude API"],
+      "tags": [
+        "agents",
+        "claude",
+        "productivity"
+      ],
+      "tools": [
+        "Slack API",
+        "Claude API"
+      ],
       "category": "agent-prompt",
       "status": "queued"
     },
@@ -43,8 +57,15 @@
       "publishDate": "2026-02-02",
       "title": "filesystem-mcp: the most useful MCP server you're not using",
       "description": "Read, write, search files in your project from inside Claude Desktop. Set up in 90 seconds. The compounding effect on a coding workflow.",
-      "tags": ["mcp", "mcp-server", "developer-tools"],
-      "tools": ["Claude Desktop", "filesystem-mcp"],
+      "tags": [
+        "mcp",
+        "mcp-server",
+        "developer-tools"
+      ],
+      "tools": [
+        "Claude Desktop",
+        "filesystem-mcp"
+      ],
       "category": "mcp-server-review",
       "status": "queued"
     },
@@ -53,8 +74,16 @@
       "publishDate": "2026-02-02",
       "title": "Cursor vs Cline vs Claude Desktop: which to use when",
       "description": "Three MCP-capable agents, three different sweet spots. The criteria that actually matter when you're picking. Plus, when none of them fits.",
-      "tags": ["tool-comparison", "mcp", "developer-tools"],
-      "tools": ["Cursor", "Cline", "Claude Desktop"],
+      "tags": [
+        "tool-comparison",
+        "mcp",
+        "developer-tools"
+      ],
+      "tools": [
+        "Cursor",
+        "Cline",
+        "Claude Desktop"
+      ],
       "category": "tool-comparison",
       "status": "queued"
     },
@@ -63,10 +92,63 @@
       "publishDate": "2026-02-03",
       "title": "Stop building agents. Build composable tools instead.",
       "description": "Why \"agent\" is the wrong abstraction for most automation work. The case for thinking in tools and prompts, with the boundaries between them clean.",
-      "tags": ["contrarian", "agents", "prompt-engineering"],
-      "tools": ["Claude API"],
+      "tags": [
+        "contrarian",
+        "agents",
+        "prompt-engineering"
+      ],
+      "tools": [
+        "Claude API"
+      ],
       "category": "contrarian",
       "status": "queued"
+    },
+    {
+      "id": "ing-1777697886589-1",
+      "publishDate": "2026-05-02",
+      "title": "Governor – Claude Code plugin for token/context optimization",
+      "description": "Plugin reducing token waste in Claude Code environments through smart context management.",
+      "tags": [
+        "claude",
+        "prompt-engineering",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-05-02T04:58:06.589Z"
+    },
+    {
+      "id": "ing-1777697886589-2",
+      "publishDate": "2026-05-02",
+      "title": "Agent-Desktop: Playwright for desktop automation with 80% token savings",
+      "description": "Framework enabling agents to automate desktop app interactions with significant context efficiency gains.",
+      "tags": [
+        "agents",
+        "automation",
+        "browser-automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-05-02T04:58:06.589Z"
+    },
+    {
+      "id": "ing-1777697886589-3",
+      "publishDate": "2026-05-02",
+      "title": "Understand-Anything: Vision-based AI agent framework",
+      "description": "Open-source framework enabling agents to process and understand diverse media types for general reasoning tasks.",
+      "tags": [
+        "agents",
+        "vision",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "agent-prompt",
+      "status": "queued",
+      "ingestedAt": "2026-05-02T04:58:06.589Z"
     }
   ]
 }
