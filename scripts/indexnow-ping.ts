@@ -21,8 +21,16 @@ const HOST = 'adsforge.store';
 const KEY = process.env.INDEXNOW_KEY ?? '';
 
 if (!KEY) {
-  console.error('INDEXNOW_KEY missing from environment.');
-  process.exit(1);
+  // Fail-soft: this script runs as a downstream workflow after every successful
+  // publish. If the secret hasn't been configured yet, we don't want to mark
+  // the whole pipeline as failed — IndexNow is a "nice to have" notification
+  // to Bing/Yandex, not a blocker for the actual deploy.
+  //
+  // To enable: add INDEXNOW_KEY in repo Settings > Secrets > Actions, using
+  // the value that lives in public/<KEY>.txt (committed to this repo so the
+  // search engines can verify ownership of the domain).
+  console.warn('INDEXNOW_KEY missing — skipping IndexNow ping. Add the secret in repo settings to enable.');
+  process.exit(0);
 }
 
 // Discover URLs from sitemap.xml.ts behaviour: about, archive, plus all blog posts
