@@ -33,7 +33,7 @@
         "Anthropic SDK"
       ],
       "category": "beginner",
-      "status": "queued"
+      "status": "drafted"
     },
     {
       "id": "002",
@@ -50,7 +50,7 @@
         "Claude API"
       ],
       "category": "agent-prompt",
-      "status": "queued"
+      "status": "drafted"
     },
     {
       "id": "003",
