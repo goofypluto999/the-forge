@@ -149,6 +149,36 @@
       "category": "agent-prompt",
       "status": "queued",
       "ingestedAt": "2026-05-02T04:58:06.589Z"
+    },
+    {
+      "id": "ing-1777786220229-1",
+      "publishDate": "2026-05-03",
+      "title": "Agent Harness Architecture: Why Sandboxing Fails",
+      "description": "An exploration of why agent execution environments should operate outside traditional sandboxes for real-world task automation.",
+      "tags": [
+        "agents",
+        "developer-tools",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "contrarian",
+      "status": "queued",
+      "ingestedAt": "2026-05-03T05:30:20.229Z"
+    },
+    {
+      "id": "ing-1777786220229-2",
+      "publishDate": "2026-05-03",
+      "title": "VS Code Auto-Commits AI Attribution Without User Consent",
+      "description": "Examination of how tooling silently attributes work to Copilot, raising transparency issues for builders using AI-assisted development.",
+      "tags": [
+        "automation",
+        "developer-tools",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-05-03T05:30:20.229Z"
     }
   ]
 }
