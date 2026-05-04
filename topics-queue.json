@@ -67,7 +67,7 @@
         "filesystem-mcp"
       ],
       "category": "mcp-server-review",
-      "status": "queued"
+      "status": "drafted"
     },
     {
       "id": "004",
@@ -85,7 +85,7 @@
         "Claude Desktop"
       ],
       "category": "tool-comparison",
-      "status": "queued"
+      "status": "drafted"
     },
     {
       "id": "005",
