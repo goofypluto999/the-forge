@@ -179,6 +179,51 @@
       "category": "news-commentary",
       "status": "queued",
       "ingestedAt": "2026-05-03T05:30:20.229Z"
+    },
+    {
+      "id": "ing-1777958036298-1",
+      "publishDate": "2026-05-05",
+      "title": "Agent Skills",
+      "description": "Framework for building AI agent capabilities with practical skill patterns.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "agent-prompt",
+      "status": "queued",
+      "ingestedAt": "2026-05-05T05:13:56.298Z"
+    },
+    {
+      "id": "ing-1777958036298-2",
+      "publishDate": "2026-05-05",
+      "title": "Sierra Raises $950M at $15B Valuation",
+      "description": "Customer support AI agents company achieves unicorn valuation; case study in agent-first automation market.",
+      "tags": [
+        "agents",
+        "customer-support",
+        "automation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-05-05T05:13:56.298Z"
+    },
+    {
+      "id": "ing-1777958036298-3",
+      "publishDate": "2026-05-05",
+      "title": "OpenAI and PwC collaborate to reimagine the office of the CFO",
+      "description": "Enterprise AI agents automating finance workflows, forecasting, and controls show practical automation in high-value business domain.",
+      "tags": [
+        "agents",
+        "automation",
+        "openai"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-05-05T05:13:56.298Z"
     }
   ]
 }
