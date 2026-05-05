@@ -101,7 +101,7 @@
         "Claude API"
       ],
       "category": "contrarian",
-      "status": "queued"
+      "status": "drafted"
     },
     {
       "id": "ing-1777697886589-1",
@@ -115,7 +115,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-05-02T04:58:06.589Z"
     },
     {
