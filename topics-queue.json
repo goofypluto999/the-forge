@@ -224,6 +224,36 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-05-05T05:13:56.298Z"
+    },
+    {
+      "id": "ing-1778045332081-1",
+      "publishDate": "2026-05-06",
+      "title": "Agents can now create Cloudflare accounts, buy domains, and deploy",
+      "description": "Practical guide on agentic capabilities for infrastructure automation and deployment workflows.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-05-06T05:28:52.081Z"
+    },
+    {
+      "id": "ing-1778045332081-2",
+      "publishDate": "2026-05-06",
+      "title": "Computer Use is 45x more expensive than structured APIs",
+      "description": "Analysis of cost tradeoffs between vision-based agents and API-driven automation for practical decision-making.",
+      "tags": [
+        "agents",
+        "automation",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "contrarian",
+      "status": "queued",
+      "ingestedAt": "2026-05-06T05:28:52.081Z"
     }
   ]
 }
