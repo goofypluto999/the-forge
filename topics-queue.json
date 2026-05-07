@@ -254,6 +254,50 @@
       "category": "contrarian",
       "status": "queued",
       "ingestedAt": "2026-05-06T05:28:52.081Z"
+    },
+    {
+      "id": "ing-1778131879284-1",
+      "publishDate": "2026-05-07",
+      "title": "ProgramBench: Can Language Models Rebuild Programs?",
+      "description": "Benchmark evaluating LLM code generation capabilities from specifications.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-05-07T05:31:19.284Z"
+    },
+    {
+      "id": "ing-1778131879284-2",
+      "publishDate": "2026-05-07",
+      "title": "Templatical: Open-Source Email Builder Alternative",
+      "description": "Email templating tool for programmatic email design without vendor lock-in.",
+      "tags": [
+        "automation",
+        "email",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-05-07T05:31:19.284Z"
+    },
+    {
+      "id": "ing-1778131879284-3",
+      "publishDate": "2026-05-07",
+      "title": "Tilde.run: Agent Sandbox with Transactional Filesystem",
+      "description": "Execution environment for agents with versioning and state management capabilities.",
+      "tags": [
+        "agents",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-05-07T05:31:19.284Z"
     }
   ]
 }
