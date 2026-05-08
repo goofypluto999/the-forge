@@ -298,6 +298,65 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-05-07T05:31:19.284Z"
+    },
+    {
+      "id": "ing-1778215979284-1",
+      "publishDate": "2026-05-08",
+      "title": "Natural Language Autoencoders: Claude's Thoughts as Text",
+      "description": "Anthropic research on interpreting model internals, relevant to understanding how Claude processes information for agent design.",
+      "tags": [
+        "claude",
+        "prompt-engineering",
+        "evaluation",
+        "anthropic"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-05-08T04:52:59.284Z"
+    },
+    {
+      "id": "ing-1778215979284-2",
+      "publishDate": "2026-05-08",
+      "title": "Principles for agent-native CLIs",
+      "description": "Design principles for building CLIs that work well with AI agents, directly applicable to agent automation workflows.",
+      "tags": [
+        "agents",
+        "cli",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "agent-prompt",
+      "status": "queued",
+      "ingestedAt": "2026-05-08T04:52:59.284Z"
+    },
+    {
+      "id": "ing-1778215979284-3",
+      "publishDate": "2026-05-08",
+      "title": "Agents need control flow, not more prompts",
+      "description": "Contrarian take on agent architecture emphasizing control flow over prompt engineering, core to effective agent design.",
+      "tags": [
+        "agents",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "contrarian",
+      "status": "queued",
+      "ingestedAt": "2026-05-08T04:52:59.284Z"
+    },
+    {
+      "id": "ing-1778215979284-4",
+      "publishDate": "2026-05-08",
+      "title": "DeepSeek 4 Flash local inference engine for Metal",
+      "description": "Local model inference for macOS enabling private agent execution without cloud dependencies.",
+      "tags": [
+        "local-models",
+        "agents"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-05-08T04:52:59.284Z"
     }
   ]
 }
