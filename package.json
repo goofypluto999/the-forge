@@ -24,6 +24,8 @@
   },
   "devDependencies": {
     "tsx": "^4.19.0",
-    "@types/node": "^20.16.0"
+    "@types/node": "^20.16.0",
+    "@types/js-yaml": "^4.0.9",
+    "js-yaml": "^4.1.0"
   }
 }
