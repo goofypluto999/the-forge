@@ -192,7 +192,7 @@
       ],
       "tools": [],
       "category": "agent-prompt",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-05-05T05:13:56.298Z"
     },
     {
@@ -207,7 +207,7 @@
       ],
       "tools": [],
       "category": "news-commentary",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-05-05T05:13:56.298Z"
     },
     {
