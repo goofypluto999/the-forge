@@ -357,6 +357,54 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-05-08T04:52:59.284Z"
+    },
+    {
+      "id": "ing-1778304066286-1",
+      "publishDate": "2026-05-09",
+      "title": "Teaching Claude Why: Anthropic research on interpretability",
+      "description": "Anthropic's research on making Claude's reasoning more interpretable for builders",
+      "tags": [
+        "prompt-engineering",
+        "anthropic",
+        "evaluation",
+        "claude"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-05-09T05:21:06.286Z"
+    },
+    {
+      "id": "ing-1778304066286-2",
+      "publishDate": "2026-05-09",
+      "title": "Can LLMs Model Real-World Systems in TLA+?",
+      "description": "Explores whether LLMs can formally specify and verify distributed systems, relevant to agent reasoning and reliability",
+      "tags": [
+        "agents",
+        "evaluation",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "contrarian",
+      "status": "queued",
+      "ingestedAt": "2026-05-09T05:21:06.286Z"
+    },
+    {
+      "id": "ing-1778304066286-3",
+      "publishDate": "2026-05-09",
+      "title": "Running Codex Safely at OpenAI",
+      "description": "OpenAI details sandboxing, approvals, and telemetry for deploying coding agents securely in production",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools",
+        "openai",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-05-09T05:21:06.286Z"
     }
   ]
 }
