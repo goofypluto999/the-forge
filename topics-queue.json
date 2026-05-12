@@ -422,6 +422,51 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-05-10T05:36:36.341Z"
+    },
+    {
+      "id": "ing-1778564276552-1",
+      "publishDate": "2026-05-12",
+      "title": "Claude Platform on AWS now available",
+      "description": "Anthropic's Claude is now deployable on AWS infrastructure, expanding enterprise adoption options.",
+      "tags": [
+        "claude",
+        "anthropic",
+        "agents"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-05-12T05:37:56.552Z"
+    },
+    {
+      "id": "ing-1778564276552-2",
+      "publishDate": "2026-05-12",
+      "title": "AI tool automates sleep disruption analysis",
+      "description": "Builder used AI agents to develop a custom tool identifying sleep disturbances without manual logging.",
+      "tags": [
+        "agents",
+        "automation",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-05-12T05:37:56.552Z"
+    },
+    {
+      "id": "ing-1778564276552-3",
+      "publishDate": "2026-05-12",
+      "title": "Enterprise AI scaling guide from OpenAI",
+      "description": "Framework for deploying AI workflows at scale covering governance, workflow design, and quality control.",
+      "tags": [
+        "agents",
+        "automation",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-05-12T05:37:56.552Z"
     }
   ]
 }
