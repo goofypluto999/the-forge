@@ -467,6 +467,67 @@
       "category": "workflow-guide",
       "status": "queued",
       "ingestedAt": "2026-05-12T05:37:56.552Z"
+    },
+    {
+      "id": "ing-1778651283822-1",
+      "publishDate": "2026-05-13",
+      "title": "Needle: 26M Param Function-Calling Model for Edge Agents",
+      "description": "Distilled Gemini tool-calling into efficient 26M parameter model running at 6000 tok/s, enabling lightweight agents on edge devices.",
+      "tags": [
+        "agents",
+        "local-models",
+        "developer-tools",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-05-13T05:48:03.822Z"
+    },
+    {
+      "id": "ing-1778651283822-2",
+      "publishDate": "2026-05-13",
+      "title": "Reimagining Mouse Pointer for AI Era",
+      "description": "DeepMind explores AI-native pointer interaction paradigm, relevant to future agent interfaces and computer control.",
+      "tags": [
+        "agents",
+        "browser-automation",
+        "vision"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-05-13T05:48:03.822Z"
+    },
+    {
+      "id": "ing-1778651283822-3",
+      "publishDate": "2026-05-13",
+      "title": "Agentic Interface for Mainframes and COBOL",
+      "description": "Hypercubic brings AI agent tools to legacy mainframe systems, enabling automation of enterprise COBOL workflows.",
+      "tags": [
+        "agents",
+        "automation",
+        "case-study"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-05-13T05:48:03.822Z"
+    },
+    {
+      "id": "ing-1778651283822-4",
+      "publishDate": "2026-05-13",
+      "title": "Gigacatalyst: Embedded AI Builder for SaaS",
+      "description": "No-code AI feature builder allowing non-engineers to extend SaaS, applicable to internal automation and custom agent workflows.",
+      "tags": [
+        "agents",
+        "automation",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-05-13T05:48:03.822Z"
     }
   ]
 }
