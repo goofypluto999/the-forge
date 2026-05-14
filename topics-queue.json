@@ -528,6 +528,37 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-05-13T05:48:03.822Z"
+    },
+    {
+      "id": "ing-1778737632439-1",
+      "publishDate": "2026-05-14",
+      "title": "Claude for Small Business",
+      "description": "Anthropic releases Claude products tailored for SMB automation use cases.",
+      "tags": [
+        "anthropic",
+        "claude",
+        "automation",
+        "agents"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-05-14T05:47:12.439Z"
+    },
+    {
+      "id": "ing-1778737632439-2",
+      "publishDate": "2026-05-14",
+      "title": "Ardent: Postgres Sandboxes for Coding Agents",
+      "description": "YC startup building database sandboxes specifically designed for AI coding agents.",
+      "tags": [
+        "agents",
+        "developer-tools",
+        "automation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-05-14T05:47:12.439Z"
     }
   ]
 }
