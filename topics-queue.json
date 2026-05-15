@@ -559,6 +559,69 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-05-14T05:47:12.439Z"
+    },
+    {
+      "id": "ing-1778824448911-1",
+      "publishDate": "2026-05-15",
+      "title": "How Claude Code works in large codebases: best practices",
+      "description": "Practical guide to using Claude as a coding agent in real production codebases with workflow tips.",
+      "tags": [
+        "claude",
+        "agents",
+        "developer-tools",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-05-15T05:54:08.911Z"
+    },
+    {
+      "id": "ing-1778824448911-2",
+      "publishDate": "2026-05-15",
+      "title": "arXiv bans papers with hallucinated references for 1 year",
+      "description": "arXiv's new policy penalizing AI-generated hallucinations raises questions about evaluation and benchmark integrity for agent builders.",
+      "tags": [
+        "evaluation",
+        "agents",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-05-15T05:54:08.911Z"
+    },
+    {
+      "id": "ing-1778824448911-3",
+      "publishDate": "2026-05-15",
+      "title": "Codex now available in ChatGPT mobile app",
+      "description": "OpenAI's Codex coding agent reaches mobile, enabling remote approval and steering of AI-driven coding tasks across devices.",
+      "tags": [
+        "openai",
+        "agents",
+        "developer-tools",
+        "automation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-05-15T05:54:08.911Z"
+    },
+    {
+      "id": "ing-1778824448911-4",
+      "publishDate": "2026-05-15",
+      "title": "Sea Limited deploys Codex across engineering teams for agentic development",
+      "description": "Case study of a major company using AI coding agents to accelerate software development workflows in production.",
+      "tags": [
+        "openai",
+        "agents",
+        "developer-tools",
+        "case-study"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-05-15T05:54:08.911Z"
     }
   ]
 }
