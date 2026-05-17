@@ -371,7 +371,7 @@
       ],
       "tools": [],
       "category": "news-commentary",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-05-09T05:21:06.286Z"
     },
     {
@@ -386,7 +386,7 @@
       ],
       "tools": [],
       "category": "contrarian",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-05-09T05:21:06.286Z"
     },
     {
