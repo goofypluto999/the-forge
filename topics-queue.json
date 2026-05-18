@@ -403,7 +403,7 @@
       ],
       "tools": [],
       "category": "case-study",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-05-09T05:21:06.286Z"
     },
     {
@@ -420,7 +420,7 @@
       ],
       "tools": [],
       "category": "case-study",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-05-10T05:36:36.341Z"
     },
     {
