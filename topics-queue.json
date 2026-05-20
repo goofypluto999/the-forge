@@ -465,7 +465,7 @@
       ],
       "tools": [],
       "category": "workflow-guide",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-05-12T05:37:56.552Z"
     },
     {
@@ -481,7 +481,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-05-13T05:48:03.822Z"
     },
     {
