@@ -496,7 +496,7 @@
       ],
       "tools": [],
       "category": "news-commentary",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-05-13T05:48:03.822Z"
     },
     {
@@ -511,7 +511,7 @@
       ],
       "tools": [],
       "category": "case-study",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-05-13T05:48:03.822Z"
     },
     {
