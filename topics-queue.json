@@ -622,6 +622,52 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-05-15T05:54:08.911Z"
+    },
+    {
+      "id": "ing-1779429926814-1",
+      "publishDate": "2026-05-22",
+      "title": "Spec-Driven Development Workflow for Claude Code",
+      "description": "A structured approach to decomposing coding tasks for Claude agents to maximize output quality.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "claude"
+      ],
+      "tools": [],
+      "category": "agent-prompt",
+      "status": "queued",
+      "ingestedAt": "2026-05-22T06:05:26.814Z"
+    },
+    {
+      "id": "ing-1779429926814-2",
+      "publishDate": "2026-05-22",
+      "title": "Agent.email – AI agents claim email inboxes via curl",
+      "description": "YC startup giving autonomous agents their own email inboxes to receive/process messages programmatically.",
+      "tags": [
+        "agents",
+        "email",
+        "automation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-05-22T06:05:26.814Z"
+    },
+    {
+      "id": "ing-1779429926814-3",
+      "publishDate": "2026-05-22",
+      "title": "Runtime – Sandboxed Coding Agents for Teams",
+      "description": "YC infrastructure enabling non-engineers to ship code using Claude agents in isolated sandboxes.",
+      "tags": [
+        "agents",
+        "claude",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-05-22T06:05:26.814Z"
     }
   ]
 }
