@@ -668,6 +668,69 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-05-22T06:05:26.814Z"
+    },
+    {
+      "id": "ing-1779514737495-1",
+      "publishDate": "2026-05-23",
+      "title": "AI cost-benefit analysis: when agents exceed human labor economics",
+      "description": "Microsoft's research on AI token costs vs. human salaries reveals pricing tipping points for automation decisions.",
+      "tags": [
+        "agents",
+        "automation",
+        "evaluation",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-05-23T05:38:57.495Z"
+    },
+    {
+      "id": "ing-1779514737495-2",
+      "publishDate": "2026-05-23",
+      "title": "Models.dev: open-source AI model specs database for agent builders",
+      "description": "Community-maintained database of model pricing, capabilities, and specs—reference tool for selecting models in agent architectures.",
+      "tags": [
+        "agents",
+        "developer-tools",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-05-23T05:38:57.495Z"
+    },
+    {
+      "id": "ing-1779514737495-3",
+      "publishDate": "2026-05-23",
+      "title": "Kanbots: parallel agent execution on kanban cards as workflow engine",
+      "description": "Desktop app that runs AI agents on each task card—practical demonstration of agent orchestration for productivity workflows.",
+      "tags": [
+        "agents",
+        "automation",
+        "productivity",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-05-23T05:38:57.495Z"
+    },
+    {
+      "id": "ing-1779514737495-4",
+      "publishDate": "2026-05-23",
+      "title": "Superset: IDE for coding agents and agentic workflows",
+      "description": "YC-backed open-source IDE purpose-built for running and debugging coding agents—directly addresses agent development and execution tooling.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-05-23T05:38:57.495Z"
     }
   ]
 }
