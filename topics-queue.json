@@ -731,6 +731,39 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-05-23T05:38:57.495Z"
+    },
+    {
+      "id": "ing-1779690400914-1",
+      "publishDate": "2026-05-25",
+      "title": "DeepSeek Reasonix: Native Coding Agent with High Caching, Low Cost",
+      "description": "DeepSeek's new reasoning-based coding agent optimizes token caching for cost-effective backend automation.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools",
+        "evaluation",
+        "openai"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-05-25T06:26:40.914Z"
+    },
+    {
+      "id": "ing-1779690400914-2",
+      "publishDate": "2026-05-25",
+      "title": "Constraint Decay: LLM Agent Fragility in Code Generation",
+      "description": "Research on why code-generation agents fail at constraint maintenance reveals critical failure modes for automation builders.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-05-25T06:26:40.914Z"
     }
   ]
 }
