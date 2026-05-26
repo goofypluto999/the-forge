@@ -764,6 +764,51 @@
       "category": "news-commentary",
       "status": "queued",
       "ingestedAt": "2026-05-25T06:26:40.914Z"
+    },
+    {
+      "id": "ing-1779775549942-1",
+      "publishDate": "2026-05-26",
+      "title": "CVE-2026-28952: Apple macOS vuln found by Claude",
+      "description": "Demonstrates Claude's capability in security vulnerability discovery and automated code analysis for real-world impact.",
+      "tags": [
+        "claude",
+        "agents",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-05-26T06:05:49.942Z"
+    },
+    {
+      "id": "ing-1779775549942-2",
+      "publishDate": "2026-05-26",
+      "title": "Using AI to write better code more slowly",
+      "description": "Explores practical tradeoffs in AI-assisted development workflow and code quality vs. speed.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "contrarian",
+      "status": "queued",
+      "ingestedAt": "2026-05-26T06:05:49.942Z"
+    },
+    {
+      "id": "ing-1779775549942-3",
+      "publishDate": "2026-05-26",
+      "title": "OpenBrief – Local-first video downloader/summarizer",
+      "description": "Practical automation tool combining yt-dlp with local AI for transcription and summarization without external APIs.",
+      "tags": [
+        "local-models",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-05-26T06:05:49.942Z"
     }
   ]
 }
