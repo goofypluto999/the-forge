@@ -809,6 +809,22 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-05-26T06:05:49.942Z"
+    },
+    {
+      "id": "ing-1779862792054-1",
+      "publishDate": "2026-05-27",
+      "title": "Minicor: Desktop automation at scale for AI integration",
+      "description": "YC startup building RPA tooling for AI companies to integrate with legacy desktop systems without APIs.",
+      "tags": [
+        "agents",
+        "automation",
+        "browser-automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-05-27T06:19:52.054Z"
     }
   ]
 }
