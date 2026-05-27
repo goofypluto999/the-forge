@@ -682,7 +682,7 @@
       ],
       "tools": [],
       "category": "news-commentary",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-05-23T05:38:57.495Z"
     },
     {
@@ -697,7 +697,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-05-23T05:38:57.495Z"
     },
     {
