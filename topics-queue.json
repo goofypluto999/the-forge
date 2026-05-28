@@ -825,6 +825,55 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-05-27T06:19:52.054Z"
+    },
+    {
+      "id": "ing-1779948701477-1",
+      "publishDate": "2026-05-28",
+      "title": "Anthropic & OpenAI found product-market fit—what's next?",
+      "description": "Simon Willison analyzes why Claude and ChatGPT have achieved PMF and what that means for builder ecosystems.",
+      "tags": [
+        "agents",
+        "automation",
+        "claude",
+        "openai",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-05-28T06:11:41.477Z"
+    },
+    {
+      "id": "ing-1779948701477-2",
+      "publishDate": "2026-05-28",
+      "title": "Enterprise AI at scale: Cisco + OpenAI automate defects",
+      "description": "Cisco and OpenAI deployed Codex to scale AI-native development and automate engineering workflows.",
+      "tags": [
+        "agents",
+        "automation",
+        "openai",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-05-28T06:11:41.477Z"
+    },
+    {
+      "id": "ing-1779948701477-3",
+      "publishDate": "2026-05-28",
+      "title": "Self-improving tax agents with OpenAI & Thrive",
+      "description": "Case study on building agents that automate tax filings and improve accuracy through iteration.",
+      "tags": [
+        "agents",
+        "automation",
+        "taxes",
+        "openai"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-05-28T06:11:41.477Z"
     }
   ]
 }
