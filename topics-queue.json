@@ -874,6 +874,66 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-05-28T06:11:41.477Z"
+    },
+    {
+      "id": "ing-1780035174306-1",
+      "publishDate": "2026-05-29",
+      "title": "Claude Code hooks utility for automation workflows",
+      "description": "Python package for building Claude Code integrations with practical automation patterns.",
+      "tags": [
+        "claude",
+        "developer-tools",
+        "agents"
+      ],
+      "tools": [],
+      "category": "misc",
+      "status": "queued",
+      "ingestedAt": "2026-05-29T06:12:54.306Z"
+    },
+    {
+      "id": "ing-1780035174306-2",
+      "publishDate": "2026-05-29",
+      "title": "Claude Code configuration deep-dive for builders",
+      "description": "Reverse-engineered source analysis reveals undocumented Claude Code settings for advanced workflows.",
+      "tags": [
+        "claude",
+        "agents",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "agent-prompt",
+      "status": "queued",
+      "ingestedAt": "2026-05-29T06:12:54.306Z"
+    },
+    {
+      "id": "ing-1780035174307-3",
+      "publishDate": "2026-05-29",
+      "title": "LLM behavioral patterns and failure modes",
+      "description": "Analysis of common failure patterns (\"smells\") in LLM outputs to help builders debug agent behavior.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "agent-prompt",
+      "status": "queued",
+      "ingestedAt": "2026-05-29T06:12:54.307Z"
+    },
+    {
+      "id": "ing-1780035174307-4",
+      "publishDate": "2026-05-29",
+      "title": "Building agentic organizations with AI codex systems",
+      "description": "Case study of enterprise-scale agent deployment for requirements analysis and software delivery automation.",
+      "tags": [
+        "agents",
+        "automation",
+        "case-study"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-05-29T06:12:54.307Z"
     }
   ]
 }
