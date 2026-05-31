@@ -994,6 +994,21 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-05-30T05:47:24.474Z"
+    },
+    {
+      "id": "ing-1780208252788-1",
+      "publishDate": "2026-05-31",
+      "title": "Building a LangGraph pipeline for production data engineering",
+      "description": "Real-world walkthrough of agent orchestration patterns applicable to automated workflows.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-05-31T06:17:32.788Z"
     }
   ]
 }
