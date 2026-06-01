@@ -1009,6 +1009,36 @@
       "category": "workflow-guide",
       "status": "queued",
       "ingestedAt": "2026-05-31T06:17:32.788Z"
+    },
+    {
+      "id": "ing-1780296890489-1",
+      "publishDate": "2026-06-01",
+      "title": "ChatGPT for Google Sheets exfiltrates workbooks",
+      "description": "Security vulnerability in AI-powered spreadsheet tools highlights risks when building agents that access sensitive data.",
+      "tags": [
+        "agents",
+        "automation",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-06-01T06:54:50.489Z"
+    },
+    {
+      "id": "ing-1780296890489-2",
+      "publishDate": "2026-06-01",
+      "title": "The Speed of Prototyping in the Age of AI",
+      "description": "Explores how AI accelerates development cycles, relevant to understanding agent-building workflows.",
+      "tags": [
+        "agents",
+        "automation",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-06-01T06:54:50.489Z"
     }
   ]
 }
