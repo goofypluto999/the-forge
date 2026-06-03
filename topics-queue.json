@@ -1086,6 +1086,51 @@
       "category": "beginner",
       "status": "queued",
       "ingestedAt": "2026-06-02T06:40:59.423Z"
+    },
+    {
+      "id": "ing-1780469516493-1",
+      "publishDate": "2026-06-03",
+      "title": "Paseo – Beautiful open-source coding agent interface",
+      "description": "Open-source UI for building and running AI coding agents with an accessible interface.",
+      "tags": [
+        "agents",
+        "developer-tools",
+        "cli"
+      ],
+      "tools": [],
+      "category": "misc",
+      "status": "queued",
+      "ingestedAt": "2026-06-03T06:51:56.493Z"
+    },
+    {
+      "id": "ing-1780469516493-2",
+      "publishDate": "2026-06-03",
+      "title": "How we index images for RAG",
+      "description": "Technical guide on image indexing strategies for retrieval-augmented generation systems powering AI agents.",
+      "tags": [
+        "agents",
+        "vision",
+        "automation"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-06-03T06:51:56.493Z"
+    },
+    {
+      "id": "ing-1780469516493-3",
+      "publishDate": "2026-06-03",
+      "title": "Travelers deploys AI-powered claims with OpenAI",
+      "description": "Case study of enterprise customer support automation using AI-powered claims assistant.",
+      "tags": [
+        "customer-support",
+        "agents",
+        "automation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-03T06:51:56.493Z"
     }
   ]
 }
