@@ -1131,6 +1131,50 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-06-03T06:51:56.493Z"
+    },
+    {
+      "id": "ing-1780555309546-1",
+      "publishDate": "2026-06-04",
+      "title": "LLMs as security testing agents: $1.5K experiment on app hacking",
+      "description": "Practical exploration of LLM-based attack automation and red-teaming workflows.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "security-testing"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-04T06:41:49.546Z"
+    },
+    {
+      "id": "ing-1780555309546-2",
+      "publishDate": "2026-06-04",
+      "title": "How Anthropic contains Claude: safety & deployment constraints",
+      "description": "Technical deep-dive on model containment strategies relevant to agent design.",
+      "tags": [
+        "claude",
+        "anthropic",
+        "agents"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-06-04T06:41:49.546Z"
+    },
+    {
+      "id": "ing-1780555309546-3",
+      "publishDate": "2026-06-04",
+      "title": "Launch HN: Hyper—company brain for agentic development workflows",
+      "description": "Early-stage YC agent platform enabling team coordination and task automation.",
+      "tags": [
+        "agents",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-06-04T06:41:49.546Z"
     }
   ]
 }
