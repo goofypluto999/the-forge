@@ -1175,6 +1175,68 @@
       "category": "news-commentary",
       "status": "queued",
       "ingestedAt": "2026-06-04T06:41:49.546Z"
+    },
+    {
+      "id": "ing-1780640494666-1",
+      "publishDate": "2026-06-05",
+      "title": "Open Code Review – AI-powered CLI for automated code analysis",
+      "description": "Alibaba's open-source CLI tool automates code review using AI, relevant for developer workflow automation.",
+      "tags": [
+        "cli",
+        "agents",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-06-05T06:21:34.666Z"
+    },
+    {
+      "id": "ing-1780640494666-2",
+      "publishDate": "2026-06-05",
+      "title": "Latent Agents: Multi-Agent Debate as Post-Training for LLMs",
+      "description": "Research on internalized multi-agent debate techniques for improving model reasoning and decision-making capabilities.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "agent-prompt",
+      "status": "queued",
+      "ingestedAt": "2026-06-05T06:21:34.666Z"
+    },
+    {
+      "id": "ing-1780640494666-3",
+      "publishDate": "2026-06-05",
+      "title": "Anthropic's Defending Code Reference Harness for vulnerability discovery",
+      "description": "Open-source framework showing how to use Claude for AI-powered security vulnerability detection in code.",
+      "tags": [
+        "claude",
+        "agents",
+        "anthropic",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-05T06:21:34.666Z"
+    },
+    {
+      "id": "ing-1780640494666-4",
+      "publishDate": "2026-06-05",
+      "title": "How Endava redesigns software delivery with AI agents",
+      "description": "Case study of enterprise using AI agents and ChatGPT to automate workflows and accelerate software delivery at scale.",
+      "tags": [
+        "agents",
+        "automation",
+        "openai"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-05T06:21:34.666Z"
     }
   ]
 }
