@@ -1237,6 +1237,37 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-06-05T06:21:34.666Z"
+    },
+    {
+      "id": "ing-1780725200956-1",
+      "publishDate": "2026-06-06",
+      "title": "Did Claude increase bugs in rsync?",
+      "description": "Empirical analysis of AI-assisted code quality in real-world open-source project.",
+      "tags": [
+        "claude",
+        "agents",
+        "evaluation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "contrarian",
+      "status": "queued",
+      "ingestedAt": "2026-06-06T05:53:20.956Z"
+    },
+    {
+      "id": "ing-1780725200956-2",
+      "publishDate": "2026-06-06",
+      "title": "Unlocking dependable responses with Gemini Enterprise Agent Platform's Agentic RAG",
+      "description": "Google's production approach to enterprise agent workflows combining retrieval augmentation with structured responses.",
+      "tags": [
+        "agents",
+        "automation",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-06T05:53:20.956Z"
     }
   ]
 }
