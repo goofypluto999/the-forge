@@ -1268,6 +1268,53 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-06-06T05:53:20.956Z"
+    },
+    {
+      "id": "ing-1780813387448-1",
+      "publishDate": "2026-06-07",
+      "title": "I design with Claude more than Figma now",
+      "description": "Jane Street engineer describes workflow shift to Claude for design, revealing practical LLM agent patterns for creative automation.",
+      "tags": [
+        "claude",
+        "agents",
+        "workflow-guide",
+        "automation",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-07T06:23:07.448Z"
+    },
+    {
+      "id": "ing-1780813387448-2",
+      "publishDate": "2026-06-07",
+      "title": "TakoVM – Isolated model and tool execution",
+      "description": "Enterprise tool for sandboxing LLM+tool execution, directly applicable to building reliable autonomous agents.",
+      "tags": [
+        "agents",
+        "developer-tools",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-06-07T06:23:07.448Z"
+    },
+    {
+      "id": "ing-1780813387448-3",
+      "publishDate": "2026-06-07",
+      "title": "Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering",
+      "description": "Research on token consumption patterns in LLM agents, critical data for cost optimization in agent workflows.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-06-07T06:23:07.448Z"
     }
   ]
 }
