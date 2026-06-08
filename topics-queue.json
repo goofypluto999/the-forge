@@ -1315,6 +1315,39 @@
       "category": "news-commentary",
       "status": "queued",
       "ingestedAt": "2026-06-07T06:23:07.448Z"
+    },
+    {
+      "id": "ing-1780900934116-1",
+      "publishDate": "2026-06-08",
+      "title": "Algorithmic Monocultures in Hiring",
+      "description": "Research on hiring algorithmic bias reveals automation risks and design patterns for fairer recruitment workflows.",
+      "tags": [
+        "agents",
+        "job-search",
+        "automation",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "contrarian",
+      "status": "queued",
+      "ingestedAt": "2026-06-08T06:42:14.116Z"
+    },
+    {
+      "id": "ing-1780900934116-2",
+      "publishDate": "2026-06-08",
+      "title": "LLMs Eroding Software Engineering Careers",
+      "description": "Contrarian take on LLM impact examines how automation reshapes developer workflows and skill valuation.",
+      "tags": [
+        "agents",
+        "automation",
+        "prompt-engineering",
+        "developer-tools",
+        "contrarian"
+      ],
+      "tools": [],
+      "category": "contrarian",
+      "status": "queued",
+      "ingestedAt": "2026-06-08T06:42:14.116Z"
     }
   ]
 }
