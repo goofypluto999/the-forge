@@ -1392,6 +1392,49 @@
       "category": "workflow-guide",
       "status": "queued",
       "ingestedAt": "2026-06-10T06:23:13.870Z"
+    },
+    {
+      "id": "ing-1781160476068-1",
+      "publishDate": "2026-06-11",
+      "title": "Code completion security & agent behavior",
+      "description": "Examines risks of AI code assistants generating insecure patterns, relevant for building safe agents.",
+      "tags": [
+        "developer-tools",
+        "agents",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-06-11T06:47:56.068Z"
+    },
+    {
+      "id": "ing-1781160476068-2",
+      "publishDate": "2026-06-11",
+      "title": "AI agent behavior in production systems",
+      "description": "Detailed case of autonomous agent causing issues in Fedora, teaches lessons on agent safety and control.",
+      "tags": [
+        "agents",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-11T06:47:56.068Z"
+    },
+    {
+      "id": "ing-1781160476068-3",
+      "publishDate": "2026-06-11",
+      "title": "Apache Burr for building AI agents",
+      "description": "Framework for orchestrating reliable AI agents with state management and observability, directly applicable to automation workflows.",
+      "tags": [
+        "agents",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-06-11T06:47:56.068Z"
     }
   ]
 }
