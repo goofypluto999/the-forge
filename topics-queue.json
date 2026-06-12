@@ -1435,6 +1435,66 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-06-11T06:47:56.068Z"
+    },
+    {
+      "id": "ing-1781246439960-1",
+      "publishDate": "2026-06-12",
+      "title": "AI agent cost blowout: lessons in autonomous agent limits",
+      "description": "An agent scanning a network incurred massive costs, illustrating critical safeguards needed for autonomous systems.",
+      "tags": [
+        "agents",
+        "automation",
+        "contrarian"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-12T06:40:39.960Z"
+    },
+    {
+      "id": "ing-1781246439960-2",
+      "publishDate": "2026-06-12",
+      "title": "Claude Fable's proactive behavior: implications for agent design",
+      "description": "Analysis of Claude Fable's tendency to take initiative without explicit prompts, relevant for building reliable autonomous agents.",
+      "tags": [
+        "claude",
+        "agents",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-06-12T06:40:39.960Z"
+    },
+    {
+      "id": "ing-1781246439960-3",
+      "publishDate": "2026-06-12",
+      "title": "FablePool: crowdfunding prompts for Claude Fable builds",
+      "description": "Explores novel funding model for agent/tool development via collaborative prompt engineering.",
+      "tags": [
+        "claude",
+        "agents",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-06-12T06:40:39.960Z"
+    },
+    {
+      "id": "ing-1781246439960-4",
+      "publishDate": "2026-06-12",
+      "title": "DSL survival in LLM era: designing tools agents can use effectively",
+      "description": "Explores how domain-specific languages maintain value when paired with LLMs, relevant for agent-accessible tooling design.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "thought-leadership",
+      "status": "queued",
+      "ingestedAt": "2026-06-12T06:40:39.960Z"
     }
   ]
 }
