@@ -1068,7 +1068,7 @@
       ],
       "tools": [],
       "category": "agent-prompt",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-06-02T06:40:59.423Z"
     },
     {
@@ -1084,7 +1084,7 @@
       ],
       "tools": [],
       "category": "beginner",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-06-02T06:40:59.423Z"
     },
     {
