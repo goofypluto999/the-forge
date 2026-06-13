@@ -1495,6 +1495,67 @@
       "category": "thought-leadership",
       "status": "queued",
       "ingestedAt": "2026-06-12T06:40:39.960Z"
+    },
+    {
+      "id": "ing-1781331353305-1",
+      "publishDate": "2026-06-13",
+      "title": "\"Don't You Just Upload It to ChatGPT?\" – Real talk about limits",
+      "description": "Honest exploration of when AI automation fails and requires human judgment.",
+      "tags": [
+        "automation",
+        "prompt-engineering",
+        "contrarian"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-06-13T06:15:53.305Z"
+    },
+    {
+      "id": "ing-1781331353305-2",
+      "publishDate": "2026-06-13",
+      "title": "How to setup a local coding agent on macOS",
+      "description": "Hands-on guide for running open-source coding agents locally without cloud dependencies.",
+      "tags": [
+        "agents",
+        "local-models",
+        "developer-tools",
+        "cli"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-06-13T06:15:53.305Z"
+    },
+    {
+      "id": "ing-1781331353305-3",
+      "publishDate": "2026-06-13",
+      "title": "Launch HN: BitBoard – Analytics Workspace for Agents",
+      "description": "First production agent observability and analytics platform for monitoring agentic workflows.",
+      "tags": [
+        "agents",
+        "productivity",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-13T06:15:53.305Z"
+    },
+    {
+      "id": "ing-1781331353305-4",
+      "publishDate": "2026-06-13",
+      "title": "New OpenAI Academy courses for the next era of work",
+      "description": "Official training on building practical AI workflows and agents for real work scenarios.",
+      "tags": [
+        "agents",
+        "automation",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "beginner",
+      "status": "queued",
+      "ingestedAt": "2026-06-13T06:15:53.305Z"
     }
   ]
 }
