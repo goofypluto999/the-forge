@@ -1556,6 +1556,22 @@
       "category": "beginner",
       "status": "queued",
       "ingestedAt": "2026-06-13T06:15:53.305Z"
+    },
+    {
+      "id": "ing-1781507950268-1",
+      "publishDate": "2026-06-15",
+      "title": "Local video indexing with ML models for content search",
+      "description": "Built a system to index 669GB of GoPro footage using local models on M1 to automate video discovery and annotation",
+      "tags": [
+        "automation",
+        "vision",
+        "local-models",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-15T07:19:10.268Z"
     }
   ]
 }
