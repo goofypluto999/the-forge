@@ -1572,6 +1572,67 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-06-15T07:19:10.268Z"
+    },
+    {
+      "id": "ing-1781594745965-1",
+      "publishDate": "2026-06-16",
+      "title": "Reviews expensive, rewrites cheap—code AI analysis angle",
+      "description": "AI rewriting code faster than review cycles teaches workflow optimization for development teams.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-06-16T07:25:45.965Z"
+    },
+    {
+      "id": "ing-1781594745965-2",
+      "publishDate": "2026-06-16",
+      "title": "Why email strangers: outreach automation insights",
+      "description": "Cold email patterns reveal automation opportunities for sourcing and networking tasks.",
+      "tags": [
+        "email",
+        "sourcing",
+        "job-search"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-16T07:25:45.965Z"
+    },
+    {
+      "id": "ing-1781594745965-3",
+      "publishDate": "2026-06-16",
+      "title": "LinkedIn job offer backdoor—credential attack surface",
+      "description": "Security lessons for job-search automation tools and credential handling in hiring workflows.",
+      "tags": [
+        "job-search",
+        "automation",
+        "security"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-06-16T07:25:45.965Z"
+    },
+    {
+      "id": "ing-1781594745965-4",
+      "publishDate": "2026-06-16",
+      "title": "Homelab AI dev platform—local agent infrastructure",
+      "description": "Local-first AI platform for development automates testing and deployment without cloud dependency.",
+      "tags": [
+        "local-models",
+        "developer-tools",
+        "automation",
+        "agents"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-16T07:25:45.965Z"
     }
   ]
 }
