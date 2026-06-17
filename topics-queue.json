@@ -1633,6 +1633,21 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-06-16T07:25:45.965Z"
+    },
+    {
+      "id": "ing-1781680088752-1",
+      "publishDate": "2026-06-17",
+      "title": "Running local models is good now",
+      "description": "Practical guide to deploying open models locally for agent workflows without cloud dependency.",
+      "tags": [
+        "local-models",
+        "agents",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-06-17T07:08:08.752Z"
     }
   ]
 }
