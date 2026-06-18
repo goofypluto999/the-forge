@@ -1648,6 +1648,51 @@
       "category": "workflow-guide",
       "status": "queued",
       "ingestedAt": "2026-06-17T07:08:08.752Z"
+    },
+    {
+      "id": "ing-1781765442848-1",
+      "publishDate": "2026-06-18",
+      "title": "Local models are specialized tools, not worse Claude",
+      "description": "Exploring when local LLMs outperform cloud models for agent workflows",
+      "tags": [
+        "local-models",
+        "agents",
+        "contrarian"
+      ],
+      "tools": [],
+      "category": "contrarian",
+      "status": "queued",
+      "ingestedAt": "2026-06-18T06:50:42.848Z"
+    },
+    {
+      "id": "ing-1781765442848-2",
+      "publishDate": "2026-06-18",
+      "title": "AI agents for mechanical CAD design",
+      "description": "YC startup building agents to automate CAD workflows using AI",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-18T06:50:42.848Z"
+    },
+    {
+      "id": "ing-1781765442848-3",
+      "publishDate": "2026-06-18",
+      "title": "AI agents accelerate chemistry research workflows",
+      "description": "Using near-autonomous AI agents to improve medicinal chemistry reactions shows practical agent automation in specialized domains",
+      "tags": [
+        "agents",
+        "automation",
+        "openai"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-18T06:50:42.848Z"
     }
   ]
 }
