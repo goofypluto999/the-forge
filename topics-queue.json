@@ -1189,7 +1189,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-06-05T06:21:34.666Z"
     },
     {
@@ -1204,7 +1204,7 @@
       ],
       "tools": [],
       "category": "agent-prompt",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-06-05T06:21:34.666Z"
     },
     {
