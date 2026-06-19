@@ -1693,6 +1693,38 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-06-18T06:50:42.848Z"
+    },
+    {
+      "id": "ing-1781852708221-1",
+      "publishDate": "2026-06-19",
+      "title": "Zero-Touch OAuth for MCP",
+      "description": "MCP now supports enterprise-managed OAuth without manual token setup, enabling seamless integration for AI agent deployments.",
+      "tags": [
+        "mcp",
+        "mcp-server",
+        "agents",
+        "anthropic"
+      ],
+      "tools": [],
+      "category": "mcp-server-review",
+      "status": "queued",
+      "ingestedAt": "2026-06-19T07:05:08.221Z"
+    },
+    {
+      "id": "ing-1781852708221-2",
+      "publishDate": "2026-06-19",
+      "title": "TesterArmy: Agentic Platform for End-to-End Testing",
+      "description": "YC-backed agentic testing platform automates web and mobile app testing workflows using AI agents.",
+      "tags": [
+        "agents",
+        "automation",
+        "browser-automation",
+        "customer-support"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-19T07:05:08.221Z"
     }
   ]
 }
