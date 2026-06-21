@@ -1725,6 +1725,21 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-06-19T07:05:08.221Z"
+    },
+    {
+      "id": "ing-1782024624044-1",
+      "publishDate": "2026-06-21",
+      "title": "Building reliable agentic AI systems",
+      "description": "Martin Fowler on patterns for production AI agents and LLM reliability.",
+      "tags": [
+        "agents",
+        "automation",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-06-21T06:50:24.044Z"
     }
   ]
 }
