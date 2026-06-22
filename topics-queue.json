@@ -1740,6 +1740,37 @@
       "category": "workflow-guide",
       "status": "queued",
       "ingestedAt": "2026-06-21T06:50:24.044Z"
+    },
+    {
+      "id": "ing-1782112979580-1",
+      "publishDate": "2026-06-22",
+      "title": "Fine-tuning Qwen 3.0.6B for question categorization",
+      "description": "Local LLM fine-tuning guide for text classification that could power automated routing agents.",
+      "tags": [
+        "local-models",
+        "prompt-engineering",
+        "automation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-22T07:22:59.580Z"
+    },
+    {
+      "id": "ing-1782112979580-2",
+      "publishDate": "2026-06-22",
+      "title": "Recall – Local project memory for Claude Code",
+      "description": "Tool for persistent context management in AI coding agents, enabling stateful automation workflows.",
+      "tags": [
+        "claude",
+        "agents",
+        "developer-tools",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-06-22T07:22:59.580Z"
     }
   ]
 }
