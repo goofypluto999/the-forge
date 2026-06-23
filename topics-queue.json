@@ -1771,6 +1771,51 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-06-22T07:22:59.580Z"
+    },
+    {
+      "id": "ing-1782194738565-1",
+      "publishDate": "2026-06-23",
+      "title": "GLM-5.2 – How to Run Locally",
+      "description": "Guide to running an open-source model locally for agents and automation use cases.",
+      "tags": [
+        "local-models",
+        "developer-tools",
+        "agents"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-06-23T06:05:38.565Z"
+    },
+    {
+      "id": "ing-1782194738565-2",
+      "publishDate": "2026-06-23",
+      "title": "Prompt Injection as Role Confusion",
+      "description": "Framework for understanding prompt injection attacks as role confusion vulnerabilities in AI systems.",
+      "tags": [
+        "prompt-engineering",
+        "agents",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-06-23T06:05:38.565Z"
+    },
+    {
+      "id": "ing-1782194738565-3",
+      "publishDate": "2026-06-23",
+      "title": "Oak – Git Version Control for Agents",
+      "description": "Version control system designed specifically for agent workflows to improve speed and context management.",
+      "tags": [
+        "agents",
+        "developer-tools",
+        "automation"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-06-23T06:05:38.565Z"
     }
   ]
 }
