@@ -1313,7 +1313,7 @@
       ],
       "tools": [],
       "category": "news-commentary",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-06-07T06:23:07.448Z"
     },
     {
@@ -1329,7 +1329,7 @@
       ],
       "tools": [],
       "category": "contrarian",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-06-08T06:42:14.116Z"
     },
     {
