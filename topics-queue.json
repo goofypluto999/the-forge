@@ -1904,6 +1904,37 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-06-25T06:05:28.925Z"
+    },
+    {
+      "id": "ing-1782454177807-1",
+      "publishDate": "2026-06-26",
+      "title": "What Happened After 2K People Tried to Hack My AI Assistant",
+      "description": "Security lessons from stress-testing an AI agent in production.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-26T06:09:37.807Z"
+    },
+    {
+      "id": "ing-1782454177807-2",
+      "publishDate": "2026-06-26",
+      "title": "OpenKnowledge: Open-Source AI-First Alternative to Obsidian",
+      "description": "Markdown editor with AI integrations designed for knowledge work automation.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-06-26T06:09:37.807Z"
     }
   ]
 }
