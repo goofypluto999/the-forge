@@ -1935,6 +1935,39 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-06-26T06:09:37.807Z"
+    },
+    {
+      "id": "ing-1782539557708-1",
+      "publishDate": "2026-06-27",
+      "title": "Gap between open-weight and closed LLMs in capability",
+      "description": "Analysis of performance differences between open-source and proprietary models relevant to agent builders choosing tools.",
+      "tags": [
+        "evaluation",
+        "local-models",
+        "openai"
+      ],
+      "tools": [],
+      "category": "contrarian",
+      "status": "queued",
+      "ingestedAt": "2026-06-27T05:52:37.708Z"
+    },
+    {
+      "id": "ing-1782539557708-2",
+      "publishDate": "2026-06-27",
+      "title": "Smart model routing for Claude, Codex, and Cursor",
+      "description": "Practical tool that intelligently routes requests to optimal models across coding agents, reducing latency and cost.",
+      "tags": [
+        "agents",
+        "developer-tools",
+        "prompt-engineering",
+        "claude",
+        "cursor",
+        "cline"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-06-27T05:52:37.708Z"
     }
   ]
 }
