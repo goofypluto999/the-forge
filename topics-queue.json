@@ -1405,7 +1405,7 @@
       ],
       "tools": [],
       "category": "news-commentary",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-06-11T06:47:56.068Z"
     },
     {
@@ -1419,7 +1419,7 @@
       ],
       "tools": [],
       "category": "case-study",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-06-11T06:47:56.068Z"
     },
     {
