@@ -1968,6 +1968,66 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-06-27T05:52:37.708Z"
+    },
+    {
+      "id": "ing-1782715545237-1",
+      "publishDate": "2026-06-29",
+      "title": "Lore – Give coding agents access to team decision history",
+      "description": "Tool for equipping AI coding agents with organizational context and past decisions to improve code recommendations.",
+      "tags": [
+        "agents",
+        "developer-tools",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-06-29T06:45:45.237Z"
+    },
+    {
+      "id": "ing-1782715545237-2",
+      "publishDate": "2026-06-29",
+      "title": "Herdr: Agent multiplexer for terminal workflows",
+      "description": "Terminal-based agent multiplexer that orchestrates multiple AI agents in sequence.",
+      "tags": [
+        "agents",
+        "cli",
+        "automation"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-06-29T06:45:45.237Z"
+    },
+    {
+      "id": "ing-1782715545237-3",
+      "publishDate": "2026-06-29",
+      "title": "HackerRank open-sources ATS: Resume scoring inconsistency",
+      "description": "Critique of an open-source ATS reveals how fragile automated hiring decisions are—lesson for building reliable job-search automation.",
+      "tags": [
+        "job-search",
+        "evaluation",
+        "contrarian"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-29T06:45:45.237Z"
+    },
+    {
+      "id": "ing-1782715545237-4",
+      "publishDate": "2026-06-29",
+      "title": "Bash4LLM+: Lightweight LLM CLI wrapper for automation",
+      "description": "Single-file Bash wrapper for LLM APIs enables quick automation scripts without dependency overhead.",
+      "tags": [
+        "cli",
+        "developer-tools",
+        "automation"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-06-29T06:45:45.237Z"
     }
   ]
 }
