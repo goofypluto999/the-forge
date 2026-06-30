@@ -2028,6 +2028,69 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-06-29T06:45:45.237Z"
+    },
+    {
+      "id": "ing-1782799839833-1",
+      "publishDate": "2026-06-30",
+      "title": "Ornith-1.0: self-improving agentic coding models for local development",
+      "description": "Open-source MoE model designed for agentic coding with self-improvement capabilities, relevant for builders automating code tasks.",
+      "tags": [
+        "agents",
+        "local-models",
+        "developer-tools",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-30T06:10:39.833Z"
+    },
+    {
+      "id": "ing-1782799839833-2",
+      "publishDate": "2026-06-30",
+      "title": "Qwen 3.6 27B: practical local LLM for agent development",
+      "description": "Lightweight 27B model gaining traction as production-ready foundation for local agent workflows and automation tooling.",
+      "tags": [
+        "local-models",
+        "agents",
+        "developer-tools",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-06-30T06:10:39.833Z"
+    },
+    {
+      "id": "ing-1782799839833-3",
+      "publishDate": "2026-06-30",
+      "title": "Working With AI: concrete example of agentic workflows",
+      "description": "Essay on practical patterns for integrating AI into real development tasks, teaching workflow design for automation.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "developer-tools",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-06-30T06:10:39.833Z"
+    },
+    {
+      "id": "ing-1782799839833-4",
+      "publishDate": "2026-06-30",
+      "title": "Mapping Europe's AI Workforce Opportunity (OpenAI)",
+      "description": "Analysis of job automation and workflow changes across EU sectors, valuable research for agents and automation impact on employment.",
+      "tags": [
+        "agents",
+        "automation",
+        "news-commentary"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-06-30T06:10:39.833Z"
     }
   ]
 }
