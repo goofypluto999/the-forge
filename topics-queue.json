@@ -2150,6 +2150,21 @@
       "category": "news-commentary",
       "status": "queued",
       "ingestedAt": "2026-07-01T06:25:23.991Z"
+    },
+    {
+      "id": "ing-1782971879343-1",
+      "publishDate": "2026-07-02",
+      "title": "Senior SWE-Bench: benchmark for evaluating AI agents as engineers",
+      "description": "Open-source benchmark that systematically assesses autonomous agents on senior-level software engineering tasks, directly relevant to agent evaluation.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "agent-prompt",
+      "status": "queued",
+      "ingestedAt": "2026-07-02T05:57:59.343Z"
     }
   ]
 }
