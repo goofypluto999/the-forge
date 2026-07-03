@@ -2165,6 +2165,37 @@
       "category": "agent-prompt",
       "status": "queued",
       "ingestedAt": "2026-07-02T05:57:59.343Z"
+    },
+    {
+      "id": "ing-1783057939844-1",
+      "publishDate": "2026-07-03",
+      "title": "Short Leash AI: Beat LLM Reasoning with Constrained Loops",
+      "description": "Technique for controlling AI coding models through tight feedback loops to improve reliability and reduce hallucinations.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "agent-prompt",
+      "status": "queued",
+      "ingestedAt": "2026-07-03T05:52:19.844Z"
+    },
+    {
+      "id": "ing-1783057939844-2",
+      "publishDate": "2026-07-03",
+      "title": "Claude Real Video: Video Analysis for Any LLM",
+      "description": "Tool enabling video understanding in any LLM via Claude, expanding agent capabilities beyond text.",
+      "tags": [
+        "claude",
+        "vision",
+        "automation",
+        "agents"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-03T05:52:19.844Z"
     }
   ]
 }
