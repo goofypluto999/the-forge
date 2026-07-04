@@ -2196,6 +2196,21 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-07-03T05:52:19.844Z"
+    },
+    {
+      "id": "ing-1783143861618-1",
+      "publishDate": "2026-07-04",
+      "title": "Agentic coding loops: How AI agents wrote parts of this post",
+      "description": "Dan Luu's hands-on analysis of agentic loop patterns in AI-assisted coding with practical examples.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-07-04T05:44:21.618Z"
     }
   ]
 }
