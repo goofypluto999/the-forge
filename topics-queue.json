@@ -2211,6 +2211,65 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-07-04T05:44:21.618Z"
+    },
+    {
+      "id": "ing-1783231383701-1",
+      "publishDate": "2026-07-05",
+      "title": "Mouse: Precision Editing Tools for AI Coding Agents",
+      "description": "Framework for improving agent control and code generation accuracy in AI-assisted development.",
+      "tags": [
+        "agents",
+        "developer-tools",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-05T06:03:03.701Z"
+    },
+    {
+      "id": "ing-1783231383701-2",
+      "publishDate": "2026-07-05",
+      "title": "The Log Is the Agent",
+      "description": "Explores how logging and event streams can function as core agent mechanisms for state management and reasoning.",
+      "tags": [
+        "agents",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "agent-prompt",
+      "status": "queued",
+      "ingestedAt": "2026-07-05T06:03:03.701Z"
+    },
+    {
+      "id": "ing-1783231383701-3",
+      "publishDate": "2026-07-05",
+      "title": "Mapping with In-Memory Layers to Reduce LLM Overload",
+      "description": "Technique for structuring agent prompts and context management to improve LLM efficiency and reduce token consumption.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "automation"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-07-05T06:03:03.701Z"
+    },
+    {
+      "id": "ing-1783231383701-4",
+      "publishDate": "2026-07-05",
+      "title": "GPT-5.5 Codex Reasoning-Token Clustering Performance Degradation",
+      "description": "Analysis of reasoning token clustering effects on model performance and implications for agent reliability.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "openai"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-07-05T06:03:03.701Z"
     }
   ]
 }
