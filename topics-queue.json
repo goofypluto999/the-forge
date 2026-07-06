@@ -2270,6 +2270,21 @@
       "category": "news-commentary",
       "status": "queued",
       "ingestedAt": "2026-07-05T06:03:03.701Z"
+    },
+    {
+      "id": "ing-1783319230777-1",
+      "publishDate": "2026-07-06",
+      "title": "Does code cleanliness affect coding agents?",
+      "description": "Research on how code structure impacts AI agent performance in coding tasks.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "evaluation",
+      "status": "queued",
+      "ingestedAt": "2026-07-06T06:27:10.777Z"
     }
   ]
 }
