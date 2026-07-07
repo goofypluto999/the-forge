@@ -2285,6 +2285,52 @@
       "category": "evaluation",
       "status": "queued",
       "ingestedAt": "2026-07-06T06:27:10.777Z"
+    },
+    {
+      "id": "ing-1783404397157-1",
+      "publishDate": "2026-07-07",
+      "title": "Ternlight – 7MB embedding model runs in browser",
+      "description": "Lightweight local-first embedding model enabling client-side AI automation without external dependencies.",
+      "tags": [
+        "local-models",
+        "developer-tools",
+        "browser-automation"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-07T06:06:37.157Z"
+    },
+    {
+      "id": "ing-1783404397157-2",
+      "publishDate": "2026-07-07",
+      "title": "Pruning RAG context down to what the answer actually needs",
+      "description": "Practical technique for optimizing RAG-based agent efficiency by reducing irrelevant context.",
+      "tags": [
+        "agents",
+        "automation",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-07-07T06:06:37.157Z"
+    },
+    {
+      "id": "ing-1783404397157-3",
+      "publishDate": "2026-07-07",
+      "title": "OfficeCLI – Office suite for AI agents",
+      "description": "Purpose-built CLI enabling AI agents to read and edit Microsoft Office files for document automation workflows.",
+      "tags": [
+        "agents",
+        "automation",
+        "cli",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-07T06:06:37.157Z"
     }
   ]
 }
