@@ -2331,6 +2331,39 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-07-07T06:06:37.157Z"
+    },
+    {
+      "id": "ing-1783488013486-1",
+      "publishDate": "2026-07-08",
+      "title": "Local CPU-Friendly TTS with Kokoro",
+      "description": "Open-source text-to-speech model runnable offline, useful for agent voice output and automation workflows.",
+      "tags": [
+        "local-models",
+        "productivity",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-08T05:20:13.487Z"
+    },
+    {
+      "id": "ing-1783488013487-2",
+      "publishDate": "2026-07-08",
+      "title": "Rowboat: Local-First Claude Desktop Alternative",
+      "description": "Open-source alternative to Claude Desktop focused on work automation rather than chat, enabling local-first agentic workflows.",
+      "tags": [
+        "claude-desktop",
+        "agents",
+        "local-models",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-08T05:20:13.487Z"
     }
   ]
 }
