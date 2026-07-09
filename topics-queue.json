@@ -2364,6 +2364,66 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-07-08T05:20:13.487Z"
+    },
+    {
+      "id": "ing-1783577012575-1",
+      "publishDate": "2026-07-09",
+      "title": "Model comparison: Grok 4.5 vs GPT-5.5 vs Claude build-off",
+      "description": "Three frontier models compete on real app-building tasks, revealing practical agent capability differences.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "tool-comparison"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-09T06:03:32.575Z"
+    },
+    {
+      "id": "ing-1783577012575-2",
+      "publishDate": "2026-07-09",
+      "title": "Benchmarking coding agents on million-line Databricks codeba",
+      "description": "Real-world agent evaluation on massive enterprise codebases reveals scalability and accuracy gaps.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "agent-prompt",
+      "status": "queued",
+      "ingestedAt": "2026-07-09T06:03:32.575Z"
+    },
+    {
+      "id": "ing-1783577012575-3",
+      "publishDate": "2026-07-09",
+      "title": "Separating signal from noise in coding evaluations",
+      "description": "OpenAI critiques SWE-Bench Pro reliability, exposing benchmark pitfalls builders should know when evaluating coding agents.",
+      "tags": [
+        "evaluation",
+        "agents",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-07-09T06:03:32.575Z"
+    },
+    {
+      "id": "ing-1783577012575-4",
+      "publishDate": "2026-07-09",
+      "title": "DocuBrowser: turn documents into searchable knowledge base",
+      "description": "Open-source tool for converting unstructured documents into queryable agents, applicable to automation workflows.",
+      "tags": [
+        "automation",
+        "agents",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-07-09T06:03:32.575Z"
     }
   ]
 }
