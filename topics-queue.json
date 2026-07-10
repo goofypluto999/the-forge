@@ -2424,6 +2424,67 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-07-09T06:03:32.575Z"
+    },
+    {
+      "id": "ing-1783663356991-1",
+      "publishDate": "2026-07-10",
+      "title": "Building a real-time AI tutor for 5-year-olds",
+      "description": "AI agent architecture for real-time interactive tasks with latency constraints.",
+      "tags": [
+        "agents",
+        "automation",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-07-10T06:02:36.991Z"
+    },
+    {
+      "id": "ing-1783663356991-2",
+      "publishDate": "2026-07-10",
+      "title": "Context.dev: API to get structured data from websites",
+      "description": "Practical tool for agents to extract and structure web data programmatically.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools",
+        "browser-automation"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-10T06:02:36.991Z"
+    },
+    {
+      "id": "ing-1783663356991-3",
+      "publishDate": "2026-07-10",
+      "title": "Getting GLM 5.2 running locally on consumer hardware",
+      "description": "Practical guide to running capable open-source models locally for agent applications.",
+      "tags": [
+        "local-models",
+        "agents",
+        "automation"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-07-10T06:02:36.991Z"
+    },
+    {
+      "id": "ing-1783663356991-4",
+      "publishDate": "2026-07-10",
+      "title": "ChatGPT Work: agent that automates multi-step projects",
+      "description": "Deep dive into OpenAI's agent product for workflow automation across apps.",
+      "tags": [
+        "agents",
+        "automation",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-07-10T06:02:36.991Z"
     }
   ]
 }
