@@ -2485,6 +2485,67 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-07-10T06:02:36.991Z"
+    },
+    {
+      "id": "ing-1783834002223-1",
+      "publishDate": "2026-07-12",
+      "title": "xAI Grok Build CLI telemetry & privacy implications",
+      "description": "Analysis of what data Grok CLI sends to xAI servers, relevant to developers evaluating LLM tools",
+      "tags": [
+        "cli",
+        "developer-tools",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-07-12T05:26:42.223Z"
+    },
+    {
+      "id": "ing-1783834002223-2",
+      "publishDate": "2026-07-12",
+      "title": "Running Qwen 3.5-122B locally on Mac Studio",
+      "description": "Technical guide to fixing bugs that enable running large open-source LLMs locally",
+      "tags": [
+        "local-models",
+        "developer-tools",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-07-12T05:26:42.223Z"
+    },
+    {
+      "id": "ing-1783834002223-3",
+      "publishDate": "2026-07-12",
+      "title": "Mesh LLM: distributed AI computing architecture",
+      "description": "Framework for running distributed LLM inference across mesh networks using iroh",
+      "tags": [
+        "agents",
+        "developer-tools",
+        "local-models"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-12T05:26:42.223Z"
+    },
+    {
+      "id": "ing-1783834002223-4",
+      "publishDate": "2026-07-12",
+      "title": "Sqlsure: deterministic semantic checks for AI-generated SQL",
+      "description": "Tool for validating AI-generated SQL with deterministic checks, reducing errors in agent-generated queries",
+      "tags": [
+        "agents",
+        "automation",
+        "evaluation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-12T05:26:42.223Z"
     }
   ]
 }
