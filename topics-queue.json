@@ -2546,6 +2546,39 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-07-12T05:26:42.223Z"
+    },
+    {
+      "id": "ing-1783920956735-1",
+      "publishDate": "2026-07-13",
+      "title": "Claude Code token overhead vs OpenCode: practical comparison",
+      "description": "Token efficiency comparison between Claude and OpenAI code agents for real workflows.",
+      "tags": [
+        "agents",
+        "claude",
+        "openai",
+        "evaluation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-13T05:35:56.735Z"
+    },
+    {
+      "id": "ing-1783920956735-2",
+      "publishDate": "2026-07-13",
+      "title": "Migrating production AI agent to GPT-5.6: 2.2x faster, 27% cheaper",
+      "description": "Real-world case study of agent migration showing performance and cost improvements with model upgrade.",
+      "tags": [
+        "agents",
+        "openai",
+        "evaluation",
+        "case-study"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-07-13T05:35:56.735Z"
     }
   ]
 }
