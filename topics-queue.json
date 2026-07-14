@@ -2579,6 +2579,68 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-07-13T05:35:56.735Z"
+    },
+    {
+      "id": "ing-1784004596271-1",
+      "publishDate": "2026-07-14",
+      "title": "Agents.md – Dumb Human",
+      "description": "A gist exploring agent design patterns and principles for AI-driven systems.",
+      "tags": [
+        "agents",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "beginner",
+      "status": "queued",
+      "ingestedAt": "2026-07-14T04:49:56.271Z"
+    },
+    {
+      "id": "ing-1784004596271-2",
+      "publishDate": "2026-07-14",
+      "title": "Building Food Metadata with LLM Juries",
+      "description": "DoorDash's approach to using LLM consensus for data labeling and multimodal AI in production.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "automation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-07-14T04:49:56.271Z"
+    },
+    {
+      "id": "ing-1784004596271-3",
+      "publishDate": "2026-07-14",
+      "title": "Sx 2.0 – Share AI Skills with Your Team Through Dropbox",
+      "description": "CLI tool for sharing reusable AI skills across teams without git dependency, enabling skill-as-code workflows.",
+      "tags": [
+        "agents",
+        "cli",
+        "developer-tools",
+        "automation"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-14T04:49:56.271Z"
+    },
+    {
+      "id": "ing-1784004596271-4",
+      "publishDate": "2026-07-14",
+      "title": "Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+      "description": "Academic evaluation of Claude Code and Copilot CLI adoption patterns and performance.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "cli",
+        "anthropic",
+        "openai"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-07-14T04:49:56.271Z"
     }
   ]
 }
