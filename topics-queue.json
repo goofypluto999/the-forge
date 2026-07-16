@@ -2686,6 +2686,37 @@
       "category": "workflow-guide",
       "status": "queued",
       "ingestedAt": "2026-07-15T04:50:27.338Z"
+    },
+    {
+      "id": "ing-1784177933410-1",
+      "publishDate": "2026-07-16",
+      "title": "LLM Networking with MikroTik",
+      "description": "Using LLMs to automate network configuration and management tasks on routers.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-07-16T04:58:53.410Z"
+    },
+    {
+      "id": "ing-1784177933410-2",
+      "publishDate": "2026-07-16",
+      "title": "GPT-Red: Unlocking Self-Improvement for Robustness",
+      "description": "OpenAI's automated red teaming system demonstrates how LLMs can self-improve on safety and prompt injection robustness.",
+      "tags": [
+        "agents",
+        "anthropic",
+        "prompt-engineering",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-07-16T04:58:53.410Z"
     }
   ]
 }
