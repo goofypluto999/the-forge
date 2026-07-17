@@ -2717,6 +2717,52 @@
       "category": "news-commentary",
       "status": "queued",
       "ingestedAt": "2026-07-16T04:58:53.410Z"
+    },
+    {
+      "id": "ing-1784265154850-1",
+      "publishDate": "2026-07-17",
+      "title": "The Human-in-the-Loop Is Tired",
+      "description": "Challenges the \"human review\" bottleneck in AI workflows and explores when to remove humans from loops",
+      "tags": [
+        "agents",
+        "automation",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "contrarian",
+      "status": "queued",
+      "ingestedAt": "2026-07-17T05:12:34.850Z"
+    },
+    {
+      "id": "ing-1784265154850-2",
+      "publishDate": "2026-07-17",
+      "title": "LM Studio Bionic: The AI Agent for Open Models",
+      "description": "Open-source AI agent platform for local models with practical automation capabilities",
+      "tags": [
+        "agents",
+        "local-models",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-17T05:12:34.850Z"
+    },
+    {
+      "id": "ing-1784265154850-3",
+      "publishDate": "2026-07-17",
+      "title": "Detecting LLM-Generated Texts with Classical ML",
+      "description": "Practical evaluation technique for identifying synthetic content in agent outputs and workflows",
+      "tags": [
+        "evaluation",
+        "agents",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-07-17T05:12:34.850Z"
     }
   ]
 }
