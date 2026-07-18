@@ -2763,6 +2763,52 @@
       "category": "workflow-guide",
       "status": "queued",
       "ingestedAt": "2026-07-17T05:12:34.850Z"
+    },
+    {
+      "id": "ing-1784350084974-1",
+      "publishDate": "2026-07-18",
+      "title": "State of Open Source AI report and landscape 2026",
+      "description": "A comprehensive survey of open-source AI models, tools, and ecosystem for builders to understand available agents and local-model options.",
+      "tags": [
+        "agents",
+        "local-models",
+        "opensource",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-07-18T04:48:04.974Z"
+    },
+    {
+      "id": "ing-1784350084974-2",
+      "publishDate": "2026-07-18",
+      "title": "Kimi K3 and the pelican benchmark — model evaluation lessons",
+      "description": "Simon Willison explores what the pelican benchmark reveals about frontier model capabilities and practical limitations for agent builders.",
+      "tags": [
+        "evaluation",
+        "agents",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-07-18T04:48:04.974Z"
+    },
+    {
+      "id": "ing-1784350084974-3",
+      "publishDate": "2026-07-18",
+      "title": "OpenAI AI Scorecard: ROI metrics for task automation",
+      "description": "Framework for measuring practical value of AI agents through task success rates, cost efficiency, and dependability metrics.",
+      "tags": [
+        "agents",
+        "automation",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-07-18T04:48:04.974Z"
     }
   ]
 }
