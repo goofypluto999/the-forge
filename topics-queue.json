@@ -2809,6 +2809,22 @@
       "category": "workflow-guide",
       "status": "queued",
       "ingestedAt": "2026-07-18T04:48:04.974Z"
+    },
+    {
+      "id": "ing-1784438515125-1",
+      "publishDate": "2026-07-19",
+      "title": "Claude Controls Mac: Step-by-step Guide for Computer Use",
+      "description": "Learn how to set up Claude as a computer use agent to automate tasks on macOS via step-by-step walkthrough.",
+      "tags": [
+        "agents",
+        "claude",
+        "automation",
+        "browser-automation"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-07-19T05:21:55.125Z"
     }
   ]
 }
