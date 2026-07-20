@@ -2825,6 +2825,36 @@
       "category": "workflow-guide",
       "status": "queued",
       "ingestedAt": "2026-07-19T05:21:55.125Z"
+    },
+    {
+      "id": "ing-1784525911114-1",
+      "publishDate": "2026-07-20",
+      "title": "Claude solves the Jacobian Conjecture counterexample",
+      "description": "Demonstrates Claude's reasoning capability on mathematical proofs with practical implications for AI problem-solving.",
+      "tags": [
+        "claude",
+        "agents",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-07-20T05:38:31.114Z"
+    },
+    {
+      "id": "ing-1784525911114-2",
+      "publishDate": "2026-07-20",
+      "title": "I burned all my tokens researching how to save tokens",
+      "description": "Building custom deep research pipelines to optimize LLM token usage in agent workflows.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "automation"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-07-20T05:38:31.114Z"
     }
   ]
 }
