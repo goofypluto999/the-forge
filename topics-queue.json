@@ -2855,6 +2855,51 @@
       "category": "workflow-guide",
       "status": "queued",
       "ingestedAt": "2026-07-20T05:38:31.114Z"
+    },
+    {
+      "id": "ing-1784611171279-1",
+      "publishDate": "2026-07-21",
+      "title": "Nativ: Run frontier open models locally on your Mac",
+      "description": "Tool for running open LLMs locally that could power agent workflows without API dependencies.",
+      "tags": [
+        "local-models",
+        "productivity",
+        "misc"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-21T05:19:31.279Z"
+    },
+    {
+      "id": "ing-1784611171279-2",
+      "publishDate": "2026-07-21",
+      "title": "Agent swarms and the new model economics",
+      "description": "Cursor explores how multi-agent systems reduce inference costs and reshape AI tool economics.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-07-21T05:19:31.279Z"
+    },
+    {
+      "id": "ing-1784611171279-3",
+      "publishDate": "2026-07-21",
+      "title": "Safety and alignment in an era of long-horizon models",
+      "description": "OpenAI discusses risks and safeguards for extended-runtime agents, offering lessons for building reliable long-running automation.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "anthropic"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-07-21T05:19:31.279Z"
     }
   ]
 }
