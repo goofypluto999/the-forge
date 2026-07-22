@@ -2900,6 +2900,36 @@
       "category": "news-commentary",
       "status": "queued",
       "ingestedAt": "2026-07-21T05:19:31.279Z"
+    },
+    {
+      "id": "ing-1784697484417-1",
+      "publishDate": "2026-07-22",
+      "title": "Jack Dorsey launches Buzz: team chat, AI agents, Git hosting",
+      "description": "Buzz combines team collaboration with native AI agents for workflow automation and code management integration.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-07-22T05:18:04.417Z"
+    },
+    {
+      "id": "ing-1784697484417-2",
+      "publishDate": "2026-07-22",
+      "title": "OpenAI ChatGPT for Small Business program",
+      "description": "OpenAI's new program teaches entrepreneurs to build AI skills and automate work with ChatGPT Work.",
+      "tags": [
+        "agents",
+        "automation",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "beginner",
+      "status": "queued",
+      "ingestedAt": "2026-07-22T05:18:04.417Z"
     }
   ]
 }
