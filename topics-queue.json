@@ -2930,6 +2930,64 @@
       "category": "beginner",
       "status": "queued",
       "ingestedAt": "2026-07-22T05:18:04.417Z"
+    },
+    {
+      "id": "ing-1784784198637-1",
+      "publishDate": "2026-07-23",
+      "title": "Text-to-SQL benchmarking challenges for real-world data",
+      "description": "Article on evaluating text-to-SQL agent performance in production—directly relevant to building SQL automation agents.",
+      "tags": [
+        "evaluation",
+        "agents",
+        "automation"
+      ],
+      "tools": [],
+      "category": "agent-prompt",
+      "status": "queued",
+      "ingestedAt": "2026-07-23T05:23:18.637Z"
+    },
+    {
+      "id": "ing-1784784198637-2",
+      "publishDate": "2026-07-23",
+      "title": "Cactus Hybrid: Teaching models to recognize uncertainty",
+      "description": "On-device model that knows when it's wrong—useful for building reliable autonomous agents with graceful fallback behavior.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "local-models"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-23T05:23:18.637Z"
+    },
+    {
+      "id": "ing-1784784198637-3",
+      "publishDate": "2026-07-23",
+      "title": "Unlayer: Adding no-code builders to apps via API",
+      "description": "Email/document builder platform relevant for automation workflows and customer-facing agent interfaces.",
+      "tags": [
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-23T05:23:18.637Z"
+    },
+    {
+      "id": "ing-1784784198637-4",
+      "publishDate": "2026-07-23",
+      "title": "Making with AI: Practical agent & tool use patterns",
+      "description": "Article on AI-assisted making and tooling—touches agent patterns and practical automation.",
+      "tags": [
+        "agents",
+        "automation"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-07-23T05:23:18.637Z"
     }
   ]
 }
