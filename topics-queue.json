@@ -2988,6 +2988,66 @@
       "category": "workflow-guide",
       "status": "queued",
       "ingestedAt": "2026-07-23T05:23:18.637Z"
+    },
+    {
+      "id": "ing-1784870347589-1",
+      "publishDate": "2026-07-24",
+      "title": "Echo: Multi-Model Pooling for Cost-Efficient AI Results",
+      "description": "Open-weight model ensemble approach that could teach readers about optimization strategies for agent inference costs.",
+      "tags": [
+        "agents",
+        "local-models",
+        "automation"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-24T05:19:07.589Z"
+    },
+    {
+      "id": "ing-1784870347589-2",
+      "publishDate": "2026-07-24",
+      "title": "Screenpipe (YC S26): Screen Recording for AI Agents",
+      "description": "Tool that captures user activity locally to give agents searchable context, enabling practical automation workflows.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-24T05:19:07.589Z"
+    },
+    {
+      "id": "ing-1784870347589-3",
+      "publishDate": "2026-07-24",
+      "title": "OneCLI: Credential Management for AI Agents",
+      "description": "Open-source vault designed to keep secrets secure while enabling agents to access credentials safely.",
+      "tags": [
+        "agents",
+        "developer-tools",
+        "automation"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-07-24T05:19:07.589Z"
+    },
+    {
+      "id": "ing-1784870347589-4",
+      "publishDate": "2026-07-24",
+      "title": "Why Software Factories Fail: Context Engineering for Coding Agents",
+      "description": "Deep dive into why agent-driven code generation fails and how advanced context engineering can improve outcomes.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "contrarian",
+      "status": "queued",
+      "ingestedAt": "2026-07-24T05:19:07.589Z"
     }
   ]
 }
