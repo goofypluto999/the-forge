@@ -3048,6 +3048,36 @@
       "category": "contrarian",
       "status": "queued",
       "ingestedAt": "2026-07-24T05:19:07.589Z"
+    },
+    {
+      "id": "ing-1784956403843-1",
+      "publishDate": "2026-07-25",
+      "title": "Claude Opus 5 capabilities for agent builders",
+      "description": "Anthropic's latest model release with system card details on reasoning, tool use, and agentic capabilities.",
+      "tags": [
+        "claude",
+        "anthropic",
+        "agents",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-07-25T05:13:23.843Z"
+    },
+    {
+      "id": "ing-1784956403843-2",
+      "publishDate": "2026-07-25",
+      "title": "GitHub admin token leak via IoT device",
+      "description": "Security lessons for builders shipping AI agents and tools that integrate with external services and APIs.",
+      "tags": [
+        "developer-tools",
+        "agents"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-07-25T05:13:23.843Z"
     }
   ]
 }
