@@ -3109,6 +3109,21 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-07-26T05:30:46.751Z"
+    },
+    {
+      "id": "ing-1785131319007-1",
+      "publishDate": "2026-07-27",
+      "title": "New AI Superpowers: Focus and Followthrough",
+      "description": "Explores how AI excels at sustained task execution and multi-step workflows, directly applicable to agent design patterns.",
+      "tags": [
+        "agents",
+        "automation",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-07-27T05:48:39.007Z"
     }
   ]
 }
