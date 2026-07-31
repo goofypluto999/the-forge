@@ -1872,7 +1872,7 @@
       ],
       "tools": [],
       "category": "workflow-guide",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-06-25T06:05:28.925Z"
     },
     {
@@ -1887,7 +1887,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-06-25T06:05:28.925Z"
     },
     {
