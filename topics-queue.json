@@ -1966,7 +1966,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-06-27T05:52:37.708Z"
     },
     {
@@ -1981,7 +1981,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-06-29T06:45:45.237Z"
     },
     {
