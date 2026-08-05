@@ -2026,7 +2026,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-06-29T06:45:45.237Z"
     },
     {
@@ -2042,7 +2042,7 @@
       ],
       "tools": [],
       "category": "case-study",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-06-30T06:10:39.833Z"
     },
     {
