@@ -2178,7 +2178,7 @@
       ],
       "tools": [],
       "category": "agent-prompt",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-07-03T05:52:19.844Z"
     },
     {
@@ -2194,7 +2194,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-07-03T05:52:19.844Z"
     },
     {
