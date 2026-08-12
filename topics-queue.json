@@ -2238,7 +2238,7 @@
       ],
       "tools": [],
       "category": "agent-prompt",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-07-05T06:03:03.701Z"
     },
     {
@@ -2253,7 +2253,7 @@
       ],
       "tools": [],
       "category": "workflow-guide",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-07-05T06:03:03.701Z"
     },
     {
