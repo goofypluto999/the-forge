@@ -2483,7 +2483,7 @@
       ],
       "tools": [],
       "category": "case-study",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-07-10T06:02:36.991Z"
     },
     {
@@ -2498,7 +2498,7 @@
       ],
       "tools": [],
       "category": "news-commentary",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-07-12T05:26:42.223Z"
     },
     {
