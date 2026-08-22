@@ -2544,7 +2544,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-07-12T05:26:42.223Z"
     },
     {
@@ -2561,7 +2561,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-07-13T05:35:56.735Z"
     },
     {
