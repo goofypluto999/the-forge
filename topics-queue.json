@@ -2913,7 +2913,7 @@
       ],
       "tools": [],
       "category": "news-commentary",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-07-22T05:18:04.417Z"
     },
     {
@@ -2928,7 +2928,7 @@
       ],
       "tools": [],
       "category": "beginner",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-07-22T05:18:04.417Z"
     },
     {
