@@ -3031,7 +3031,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-07-24T05:19:07.589Z"
     },
     {
@@ -3046,7 +3046,7 @@
       ],
       "tools": [],
       "category": "contrarian",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-07-24T05:19:07.589Z"
     },
     {
