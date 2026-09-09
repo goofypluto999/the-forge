@@ -3092,7 +3092,7 @@
       ],
       "tools": [],
       "category": "agent-prompt",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-07-26T05:30:46.751Z"
     },
     {
@@ -3107,7 +3107,7 @@
       ],
       "tools": [],
       "category": "case-study",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-07-26T05:30:46.751Z"
     },
     {
