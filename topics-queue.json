@@ -3124,6 +3124,71 @@
       "category": "news-commentary",
       "status": "skipped",
       "ingestedAt": "2026-07-27T05:48:39.007Z"
+    },
+    {
+      "id": "ing-1789110006620-1",
+      "publishDate": "2026-09-11",
+      "title": "Nine coding harnesses vs your laptop",
+      "description": "Comparison of AI coding assistants (Cursor, Cline, Claude, etc) for developer productivity automation.",
+      "tags": [
+        "cursor",
+        "cline",
+        "claude",
+        "automation",
+        "developer-tools",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-09-11T07:00:06.620Z"
+    },
+    {
+      "id": "ing-1789110006620-2",
+      "publishDate": "2026-09-11",
+      "title": "OpenAI Agents API",
+      "description": "Framework for building autonomous agents with structured tool use and planning capabilities.",
+      "tags": [
+        "agents",
+        "openai",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-09-11T07:00:06.620Z"
+    },
+    {
+      "id": "ing-1789110006620-3",
+      "publishDate": "2026-09-11",
+      "title": "Cognition launches new SWE-2 model rivaling competitors",
+      "description": "Code generation model benchmarks and capabilities for software engineering automation tasks.",
+      "tags": [
+        "agents",
+        "automation",
+        "evaluation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-09-11T07:00:06.620Z"
+    },
+    {
+      "id": "ing-1789110006620-4",
+      "publishDate": "2026-09-11",
+      "title": "Now everyone can put data to work — Data agent in ChatGPT",
+      "description": "Agentic workflow for connecting company data and building dashboards with natural language.",
+      "tags": [
+        "agents",
+        "automation",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-09-11T07:00:06.620Z"
     }
   ]
 }
