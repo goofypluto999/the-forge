@@ -3189,6 +3189,67 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-09-11T07:00:06.620Z"
+    },
+    {
+      "id": "ing-1789195882575-1",
+      "publishDate": "2026-09-12",
+      "title": "Google's anti-scraping update threatens web automation",
+      "description": "Google's goto links break scraper-based agents and web automation tools.",
+      "tags": [
+        "agents",
+        "browser-automation",
+        "automation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-09-12T06:51:22.575Z"
+    },
+    {
+      "id": "ing-1789195882575-2",
+      "publishDate": "2026-09-12",
+      "title": "ResolveHQ helpdesk on Cloudflare Workers",
+      "description": "A helpdesk built with serverless infra offers patterns for customer-support automation systems.",
+      "tags": [
+        "customer-support",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-09-12T06:51:22.575Z"
+    },
+    {
+      "id": "ing-1789195882575-3",
+      "publishDate": "2026-09-12",
+      "title": "AI coding cost benchmarks challenge RTK claims",
+      "description": "Real cost comparisons between coding agents help builders choose tools wisely.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "evaluation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-09-12T06:51:22.575Z"
+    },
+    {
+      "id": "ing-1789195882575-4",
+      "publishDate": "2026-09-12",
+      "title": "Devin improves code testing with GPT-6 Astra",
+      "description": "AI agents testing their own output reduces engineer review burden and shows autonomy improvements.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-09-12T06:51:22.575Z"
     }
   ]
 }
