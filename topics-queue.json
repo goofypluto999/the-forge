@@ -3250,6 +3250,36 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-09-12T06:51:22.575Z"
+    },
+    {
+      "id": "ing-1789283403856-1",
+      "publishDate": "2026-09-13",
+      "title": "AgentsDock: IDE for agentic AI research",
+      "description": "Dedicated development environment for building and testing AI agents with research-oriented workflows.",
+      "tags": [
+        "agents",
+        "developer-tools",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-09-13T07:10:03.856Z"
+    },
+    {
+      "id": "ing-1789283403856-2",
+      "publishDate": "2026-09-13",
+      "title": "Real-SWE: Benchmarking AI on enterprise codebases",
+      "description": "Evaluation framework for measuring AI agent performance on real-world private enterprise software engineering tasks.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "agent-prompt",
+      "status": "queued",
+      "ingestedAt": "2026-09-13T07:10:03.856Z"
     }
   ]
 }
