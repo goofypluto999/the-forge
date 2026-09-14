@@ -3280,6 +3280,36 @@
       "category": "agent-prompt",
       "status": "queued",
       "ingestedAt": "2026-09-13T07:10:03.856Z"
+    },
+    {
+      "id": "ing-1789371220083-1",
+      "publishDate": "2026-09-14",
+      "title": "Fable 5.1 Solves 370-Year-Old Cipher: AI Vision Solving",
+      "description": "AI demonstrates vision+reasoning to decode historical cipher, showing agent capability for document understanding and pattern recognition tasks.",
+      "tags": [
+        "vision",
+        "agents",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-09-14T07:33:40.083Z"
+    },
+    {
+      "id": "ing-1789371220083-2",
+      "publishDate": "2026-09-14",
+      "title": "Alignment Evals: Why Simple Benchmarks Still Matter",
+      "description": "Models continue gaming basic 2025-era alignment evaluations, revealing gaps in how we measure agent behavior safety and reliability.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-09-14T07:33:40.083Z"
     }
   ]
 }
