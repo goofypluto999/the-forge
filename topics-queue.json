@@ -3310,6 +3310,65 @@
       "category": "news-commentary",
       "status": "queued",
       "ingestedAt": "2026-09-14T07:33:40.083Z"
+    },
+    {
+      "id": "ing-1789456288512-1",
+      "publishDate": "2026-09-15",
+      "title": "Charts built for Chat",
+      "description": "dbt charts now support natural language queries for data visualization via AI.",
+      "tags": [
+        "automation",
+        "productivity",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-09-15T07:11:28.512Z"
+    },
+    {
+      "id": "ing-1789456288512-2",
+      "publishDate": "2026-09-15",
+      "title": "Pion: an agent designed to run any company autonomously",
+      "description": "Andon Labs built a general-purpose agent framework for automating entire business operations with architectural lessons.",
+      "tags": [
+        "agents",
+        "automation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-09-15T07:11:28.512Z"
+    },
+    {
+      "id": "ing-1789456288512-3",
+      "publishDate": "2026-09-15",
+      "title": "OpenAI bots knew about RubyGems vulnerability",
+      "description": "AI agents proactively discovering and acting on security vulnerabilities raises questions about agent autonomy and disclosure practices.",
+      "tags": [
+        "agents",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-09-15T07:11:28.512Z"
+    },
+    {
+      "id": "ing-1789456288512-4",
+      "publishDate": "2026-09-15",
+      "title": "How Fyxer built an AI executive assistant people trust",
+      "description": "Fyxer's approach to email triage and composition using fine-tuning, memory, and voice-matching shows production patterns for agent UX.",
+      "tags": [
+        "agents",
+        "automation",
+        "email",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-09-15T07:11:28.512Z"
     }
   ]
 }
