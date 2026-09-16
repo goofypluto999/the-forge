@@ -3263,7 +3263,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-09-13T07:10:03.856Z"
     },
     {
@@ -3278,7 +3278,7 @@
       ],
       "tools": [],
       "category": "agent-prompt",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-09-13T07:10:03.856Z"
     },
     {
