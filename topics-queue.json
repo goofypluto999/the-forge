@@ -3384,6 +3384,51 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-09-16T07:13:51.684Z"
+    },
+    {
+      "id": "ing-1789628997233-1",
+      "publishDate": "2026-09-17",
+      "title": "Jev Ultrafast: A browser agent with dynamic indexed action space",
+      "description": "Browser agent optimizing action selection for faster web automation tasks.",
+      "tags": [
+        "browser-automation",
+        "agents",
+        "automation"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-09-17T07:09:57.233Z"
+    },
+    {
+      "id": "ing-1789628997233-2",
+      "publishDate": "2026-09-17",
+      "title": "HarnessTax: How Much Does the Harness Matter for Coding Agents?",
+      "description": "Empirical evaluation of prompt engineering and environment setup impact on agent performance.",
+      "tags": [
+        "evaluation",
+        "agents",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-09-17T07:09:57.233Z"
+    },
+    {
+      "id": "ing-1789628997233-3",
+      "publishDate": "2026-09-17",
+      "title": "Reverse-engineered Jev-like model",
+      "description": "Open-source implementation of fast browser agent architecture for automation workflows.",
+      "tags": [
+        "browser-automation",
+        "agents",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "misc",
+      "status": "queued",
+      "ingestedAt": "2026-09-17T07:09:57.233Z"
     }
   ]
 }
