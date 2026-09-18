@@ -3429,6 +3429,68 @@
       "category": "misc",
       "status": "queued",
       "ingestedAt": "2026-09-17T07:09:57.233Z"
+    },
+    {
+      "id": "ing-1789714979933-1",
+      "publishDate": "2026-09-18",
+      "title": "Devin AI Code Scans: Automated code review and issue detection",
+      "description": "Devin introduces Code Scans for automated code vulnerability and issue detection without manual review.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-09-18T07:02:59.933Z"
+    },
+    {
+      "id": "ing-1789714979933-2",
+      "publishDate": "2026-09-18",
+      "title": "Hacking OpenAI: Jailbreaks, prompt injection, and agent security",
+      "description": "Article explores security vulnerabilities and attack vectors against OpenAI systems and agents.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-09-18T07:02:59.933Z"
+    },
+    {
+      "id": "ing-1789714979933-3",
+      "publishDate": "2026-09-18",
+      "title": "How to Write with an LLM: Practical prompt techniques for content generation",
+      "description": "Essay on workflows and prompt strategies for using LLMs to improve writing and productivity.",
+      "tags": [
+        "prompt-engineering",
+        "productivity",
+        "automation"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-09-18T07:02:59.933Z"
+    },
+    {
+      "id": "ing-1789714979933-4",
+      "publishDate": "2026-09-18",
+      "title": "Astra for Law: ChatGPT-powered legal document automation and workflow",
+      "description": "OpenAI case study on deploying ChatGPT to automate legal research, drafting, and compliance tasks.",
+      "tags": [
+        "agents",
+        "automation",
+        "customer-support",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-09-18T07:02:59.933Z"
     }
   ]
 }
