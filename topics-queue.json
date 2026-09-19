@@ -3491,6 +3491,38 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-09-18T07:02:59.933Z"
+    },
+    {
+      "id": "ing-1789801322666-1",
+      "publishDate": "2026-09-19",
+      "title": "Claude Code now reads AGENTS.md for agent definitions",
+      "description": "Claude Code now supports AGENTS.md file for agent configuration alongside Claude.md, expanding agent definition workflows.",
+      "tags": [
+        "claude",
+        "agents",
+        "claude-desktop",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-09-19T07:02:02.666Z"
+    },
+    {
+      "id": "ing-1789801322666-2",
+      "publishDate": "2026-09-19",
+      "title": "Cache-to-Cache: Direct LLM semantic communication",
+      "description": "Research on direct semantic communication between LLMs without text, enabling efficient multi-agent architectures.",
+      "tags": [
+        "agents",
+        "anthropic",
+        "openai",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "research",
+      "status": "queued",
+      "ingestedAt": "2026-09-19T07:02:02.666Z"
     }
   ]
 }
