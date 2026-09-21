@@ -3538,6 +3538,38 @@
       "category": "beginner",
       "status": "queued",
       "ingestedAt": "2026-09-20T07:26:40.551Z"
+    },
+    {
+      "id": "ing-1789976244611-1",
+      "publishDate": "2026-09-21",
+      "title": "Google AX: Open Agentic Orchestrator for multi-step automation",
+      "description": "Google's new orchestration framework for chaining agent workflows and tool calls at scale.",
+      "tags": [
+        "agents",
+        "anthropic",
+        "openai",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-09-21T07:37:24.611Z"
+    },
+    {
+      "id": "ing-1789976244611-2",
+      "publishDate": "2026-09-21",
+      "title": "MCP Was Always a Bad Idea? Critique of Model Context Protocol design",
+      "description": "Contrarian take on why MCP's abstraction layer approach may not solve real agent integration problems.",
+      "tags": [
+        "mcp",
+        "agents",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "contrarian",
+      "status": "queued",
+      "ingestedAt": "2026-09-21T07:37:24.611Z"
     }
   ]
 }
