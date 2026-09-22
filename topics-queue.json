@@ -3570,6 +3570,21 @@
       "category": "contrarian",
       "status": "queued",
       "ingestedAt": "2026-09-21T07:37:24.611Z"
+    },
+    {
+      "id": "ing-1790061516225-1",
+      "publishDate": "2026-09-22",
+      "title": "AI coding speeds up development; teams hit CI bottlenecks",
+      "description": "Linear shares how reworking CI/CD pipelines became critical as AI coding assistants outpaced testing infrastructure.",
+      "tags": [
+        "automation",
+        "developer-tools",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-09-22T07:18:36.225Z"
     }
   ]
 }
