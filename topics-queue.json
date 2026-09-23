@@ -3585,6 +3585,51 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-09-22T07:18:36.225Z"
+    },
+    {
+      "id": "ing-1790148059775-1",
+      "publishDate": "2026-09-23",
+      "title": "Unreal Agent: AI agent for game development automation",
+      "description": "An open-source AI agent framework for automating game development tasks in Unreal Engine.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-09-23T07:20:59.775Z"
+    },
+    {
+      "id": "ing-1790148059775-2",
+      "publishDate": "2026-09-23",
+      "title": "Better prompt caching for GPT-6: optimize token reuse in agent loops",
+      "description": "GPT-6's improved prompt caching with diagnostics and explicit breakpoints reduces latency and costs for agent workflows.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "openai"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-09-23T07:20:59.775Z"
+    },
+    {
+      "id": "ing-1790148059775-3",
+      "publishDate": "2026-09-23",
+      "title": "Parallel cuts research time with GPT-6 Astra agents",
+      "description": "Case study of how AI agents using GPT-6 Astra automated labor-market research, cutting time and cost by half.",
+      "tags": [
+        "agents",
+        "automation",
+        "openai"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-09-23T07:20:59.775Z"
     }
   ]
 }
