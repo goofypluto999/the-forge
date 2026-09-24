@@ -3630,6 +3630,69 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-09-23T07:20:59.775Z"
+    },
+    {
+      "id": "ing-1790233895480-1",
+      "publishDate": "2026-09-24",
+      "title": "FLAWED benchmark flaws expose agent evaluation pitfalls",
+      "description": "Critical analysis of benchmarking methodology directly relevant to agent developers and prompt engineers.",
+      "tags": [
+        "evaluation",
+        "agents",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-09-24T07:11:35.480Z"
+    },
+    {
+      "id": "ing-1790233895480-2",
+      "publishDate": "2026-09-24",
+      "title": "LensVLM compresses long context for efficient agentic vision processing",
+      "description": "Vision-based approach to token efficiency enables longer-context agents on resource-constrained systems.",
+      "tags": [
+        "vision",
+        "agents",
+        "automation",
+        "local-models"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-09-24T07:11:35.480Z"
+    },
+    {
+      "id": "ing-1790233895480-3",
+      "publishDate": "2026-09-24",
+      "title": "Claude discovers enzyme system via autonomous research",
+      "description": "Case study of agentic Claude workflow solving real scientific problems shows practical reasoning at scale.",
+      "tags": [
+        "agents",
+        "claude",
+        "anthropic",
+        "automation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-09-24T07:11:35.480Z"
+    },
+    {
+      "id": "ing-1790233895480-4",
+      "publishDate": "2026-09-24",
+      "title": "Harvey uses GPT-6 Astra for legal document drafting",
+      "description": "Real-world case of AI agents automating legal document generation with improved structure and context awareness.",
+      "tags": [
+        "agents",
+        "automation",
+        "case-study",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-09-24T07:11:35.480Z"
     }
   ]
 }
