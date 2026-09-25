@@ -3693,6 +3693,36 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-09-24T07:11:35.480Z"
+    },
+    {
+      "id": "ing-1790320034839-1",
+      "publishDate": "2026-09-25",
+      "title": "Opus 5.5 for video generation—practical AI tool for content creators",
+      "description": "Explores Claude's capability for automating explainer video creation with practical implications.",
+      "tags": [
+        "claude",
+        "automation",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-09-25T07:07:14.839Z"
+    },
+    {
+      "id": "ing-1790320034839-2",
+      "publishDate": "2026-09-25",
+      "title": "Whiteboard IDE—agents co-designing software with humans",
+      "description": "Open-source tool enabling human-agent collaboration for thoughtful software architecture and design automation.",
+      "tags": [
+        "agents",
+        "developer-tools",
+        "automation"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-09-25T07:07:14.839Z"
     }
   ]
 }
