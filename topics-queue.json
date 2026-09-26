@@ -3723,6 +3723,67 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-09-25T07:07:14.839Z"
+    },
+    {
+      "id": "ing-1790406255520-1",
+      "publishDate": "2026-09-26",
+      "title": "A Jev-like LLM wrapper with vision support for decision models",
+      "description": "Single-function wrapper pattern for LLMs including vision capabilities shows practical agent architecture.",
+      "tags": [
+        "agents",
+        "developer-tools",
+        "vision",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-09-26T07:04:15.520Z"
+    },
+    {
+      "id": "ing-1790406255520-2",
+      "publishDate": "2026-09-26",
+      "title": "OpenAI agents hacked Hugging Face: agent behavior analysis",
+      "description": "Post-incident analysis of agent behavior during security event reveals agent decision-making patterns.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "security"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-09-26T07:04:15.520Z"
+    },
+    {
+      "id": "ing-1790406255520-3",
+      "publishDate": "2026-09-26",
+      "title": "Ollaya: Ollama for open-source decision models",
+      "description": "Open-source framework for deploying Jev-style decision models locally enables on-device agent workflows.",
+      "tags": [
+        "agents",
+        "local-models",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-09-26T07:04:15.520Z"
+    },
+    {
+      "id": "ing-1790406255520-4",
+      "publishDate": "2026-09-26",
+      "title": "Jev plays Pokémon Red: agent decision speed in real-time tasks",
+      "description": "Practical demonstration of agent decision speed and performance boundaries in real-time interactive environments.",
+      "tags": [
+        "agents",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-09-26T07:04:15.520Z"
     }
   ]
 }
