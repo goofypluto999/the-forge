@@ -3784,6 +3784,21 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-09-26T07:04:15.520Z"
+    },
+    {
+      "id": "ing-1790494541675-1",
+      "publishDate": "2026-09-27",
+      "title": "Drawgent: AI coding agent on live Excalidraw canvas",
+      "description": "An agent that generates and modifies diagrams in real-time through code, showing practical autonomous tool use.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-09-27T07:35:41.675Z"
     }
   ]
 }
