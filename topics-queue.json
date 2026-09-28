@@ -3799,6 +3799,21 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-09-27T07:35:41.675Z"
+    },
+    {
+      "id": "ing-1790583289455-1",
+      "publishDate": "2026-09-28",
+      "title": "Imp: DSPy port to BEAM for prompt engineering",
+      "description": "Port of DSPy framework to Erlang/Elixir BEAM runtime enables prompt engineering and agent workflows on distributed systems.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-09-28T08:14:49.455Z"
     }
   ]
 }
