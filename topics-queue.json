@@ -3814,6 +3814,50 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-09-28T08:14:49.455Z"
+    },
+    {
+      "id": "ing-1790668376637-1",
+      "publishDate": "2026-09-29",
+      "title": "Pac-Bench: One-Shot Model Performance on Game Creation",
+      "description": "Evaluates how well LLMs can generate a complete Pac-Man game from a single prompt, benchmarking agentic code generation capabilities.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "evaluation",
+      "status": "queued",
+      "ingestedAt": "2026-09-29T07:52:56.637Z"
+    },
+    {
+      "id": "ing-1790668376637-2",
+      "publishDate": "2026-09-29",
+      "title": "Nvidia Watchdog Chip for AI Agents: Safety Architecture",
+      "description": "Nvidia proposes dedicated hardware safeguards for AI agents, addressing trust and oversight in autonomous systems.",
+      "tags": [
+        "agents",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-09-29T07:52:56.637Z"
+    },
+    {
+      "id": "ing-1790668376637-3",
+      "publishDate": "2026-09-29",
+      "title": "HN.watch: LLM-Powered Video Summaries of Hacker News",
+      "description": "Uses LLMs to automatically generate video content from HN posts, demonstrating content automation at scale.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-09-29T07:52:56.637Z"
     }
   ]
 }
