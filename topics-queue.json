@@ -3858,6 +3858,22 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-09-29T07:52:56.637Z"
+    },
+    {
+      "id": "ing-1790755118939-1",
+      "publishDate": "2026-09-30",
+      "title": "Introducing Dots: OpenAI's Always-On Agents Framework",
+      "description": "OpenAI launches Dots, always-on agents that automate tasks across apps and services—core agent infrastructure for Forge readers.",
+      "tags": [
+        "agents",
+        "openai",
+        "automation",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-09-30T07:58:38.939Z"
     }
   ]
 }
