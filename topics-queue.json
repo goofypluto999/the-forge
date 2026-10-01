@@ -3874,6 +3874,36 @@
       "category": "news-commentary",
       "status": "queued",
       "ingestedAt": "2026-09-30T07:58:38.939Z"
+    },
+    {
+      "id": "ing-1790842734626-1",
+      "publishDate": "2026-10-01",
+      "title": "Magnitude: Self-Optimizing Inference Engine for Agents",
+      "description": "YC startup building inference optimization specifically for agent workloads with hardware adaptation.",
+      "tags": [
+        "agents",
+        "developer-tools",
+        "automation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-10-01T08:18:54.627Z"
+    },
+    {
+      "id": "ing-1790842734627-2",
+      "publishDate": "2026-10-01",
+      "title": "You Said No MCP",
+      "description": "Contrarian take on why MCP (Model Context Protocol) adoption matters despite initial skepticism in agent tooling.",
+      "tags": [
+        "mcp",
+        "agents",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "contrarian",
+      "status": "queued",
+      "ingestedAt": "2026-10-01T08:18:54.627Z"
     }
   ]
 }
