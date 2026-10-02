@@ -3904,6 +3904,64 @@
       "category": "contrarian",
       "status": "queued",
       "ingestedAt": "2026-10-01T08:18:54.627Z"
+    },
+    {
+      "id": "ing-1790927771615-1",
+      "publishDate": "2026-10-02",
+      "title": "Frog and Toad: AI agents for increasingly capab",
+      "description": "Explores how modern AI models can handle complex multi-step tasks with increasing autonomy.",
+      "tags": [
+        "agents",
+        "automation",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "contrarian",
+      "status": "queued",
+      "ingestedAt": "2026-10-02T07:56:11.615Z"
+    },
+    {
+      "id": "ing-1790927771615-2",
+      "publishDate": "2026-10-02",
+      "title": "Opus 5.5 discovers dodo record via AI research",
+      "description": "Practical case study of using vision models to extract historical knowledge from images.",
+      "tags": [
+        "vision",
+        "automation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-10-02T07:56:11.615Z"
+    },
+    {
+      "id": "ing-1790927771615-3",
+      "publishDate": "2026-10-02",
+      "title": "Pi 1.0: Practical agentic reasoning system",
+      "description": "Explores a new framework for building agents that can reason and act autonomously over time.",
+      "tags": [
+        "agents",
+        "automation",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "agent-prompt",
+      "status": "queued",
+      "ingestedAt": "2026-10-02T07:56:11.615Z"
+    },
+    {
+      "id": "ing-1790927771615-4",
+      "publishDate": "2026-10-02",
+      "title": "Vote on AI challenges met: benchmark evaluation",
+      "description": "Crowd-sourced assessment of whether AI has solved HN's proposed challenges, useful for benchmarking agent capabilities.",
+      "tags": [
+        "agents",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-10-02T07:56:11.615Z"
     }
   ]
 }
