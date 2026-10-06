@@ -4007,6 +4007,50 @@
       "category": "workflow-guide",
       "status": "queued",
       "ingestedAt": "2026-10-03T07:35:01.201Z"
+    },
+    {
+      "id": "ing-1791275602451-1",
+      "publishDate": "2026-10-06",
+      "title": "Opus agents discover room-temp magnetic semiconductors via research automation",
+      "description": "Anthropic's Opus agents autonomously conducted scientific research and identified new material candidates, demonstrating agent workflow in real-world problem-solving.",
+      "tags": [
+        "agents",
+        "automation",
+        "contrarian"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-10-06T08:33:22.451Z"
+    },
+    {
+      "id": "ing-1791275602451-2",
+      "publishDate": "2026-10-06",
+      "title": "Cloudflare Web Search API enables agent web retrieval workflows",
+      "description": "New search API enables agents to perform real-time web lookups, unlocking retrieval-augmented agent patterns.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-10-06T08:33:22.451Z"
+    },
+    {
+      "id": "ing-1791275602451-3",
+      "publishDate": "2026-10-06",
+      "title": "Google research on agentic privacy and security patterns",
+      "description": "Contextual analysis of emerging privacy/security risks in autonomous agent systems for builders deploying production agents.",
+      "tags": [
+        "agents",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-10-06T08:33:22.451Z"
     }
   ]
 }
