@@ -4051,6 +4051,68 @@
       "category": "news-commentary",
       "status": "queued",
       "ingestedAt": "2026-10-06T08:33:22.451Z"
+    },
+    {
+      "id": "ing-1791360551639-1",
+      "publishDate": "2026-10-07",
+      "title": "NanoMuse – AI agent for phone and computer",
+      "description": "Open-source agent framework for mobile/desktop automation and task execution.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-10-07T08:09:11.639Z"
+    },
+    {
+      "id": "ing-1791360551639-2",
+      "publishDate": "2026-10-07",
+      "title": "Strands Decider 2B: open-source decision model",
+      "description": "Small decision-making model for agent reasoning and workflow automation.",
+      "tags": [
+        "agents",
+        "evaluation",
+        "local-models"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-10-07T08:09:11.639Z"
+    },
+    {
+      "id": "ing-1791360551639-3",
+      "publishDate": "2026-10-07",
+      "title": "Penguin Mail – open-source Rust email client with AI",
+      "description": "Email client with AI capabilities for email automation and triage workflows.",
+      "tags": [
+        "agents",
+        "automation",
+        "email",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-10-07T08:09:11.639Z"
+    },
+    {
+      "id": "ing-1791360551639-4",
+      "publishDate": "2026-10-07",
+      "title": "OpenAI Decisions API in public beta",
+      "description": "New API for structured agent decision-making and agentic workflows.",
+      "tags": [
+        "agents",
+        "openai",
+        "automation",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-10-07T08:09:11.639Z"
     }
   ]
 }
