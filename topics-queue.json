@@ -4113,6 +4113,68 @@
       "category": "news-commentary",
       "status": "queued",
       "ingestedAt": "2026-10-07T08:09:11.639Z"
+    },
+    {
+      "id": "ing-1791447914436-1",
+      "publishDate": "2026-10-08",
+      "title": "TypeScript compiler ported to Rust by LLM shows AI-assisted code translation",
+      "description": "Demonstrates how agents can automate large codebase migrations and language ports using LLMs.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-10-08T08:25:14.436Z"
+    },
+    {
+      "id": "ing-1791447914436-2",
+      "publishDate": "2026-10-08",
+      "title": "Claude Haiku 5.5 release with cost/speed improvements for agents",
+      "description": "Smaller, faster model enables more efficient AI agent deployments for automation tasks.",
+      "tags": [
+        "claude",
+        "agents",
+        "anthropic",
+        "automation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-10-08T08:25:14.436Z"
+    },
+    {
+      "id": "ing-1791447914436-3",
+      "publishDate": "2026-10-08",
+      "title": "Docker Agent automates container workflows and deployments",
+      "description": "Native agent for Docker ecosystem enables AI-driven container management and CI/CD automation.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-10-08T08:25:14.436Z"
+    },
+    {
+      "id": "ing-1791447914436-4",
+      "publishDate": "2026-10-08",
+      "title": "ChatGPT's college planner automates student applications and planning",
+      "description": "AI agent helps teens manage college applications, demonstrating practical automation for high-stakes workflow.",
+      "tags": [
+        "agents",
+        "automation",
+        "job-search"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-10-08T08:25:14.436Z"
     }
   ]
 }
