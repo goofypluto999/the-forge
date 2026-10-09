@@ -4175,6 +4175,37 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-10-08T08:25:14.436Z"
+    },
+    {
+      "id": "ing-1791534556667-1",
+      "publishDate": "2026-10-09",
+      "title": "Whistle: Speech to Text in 16.9 MB",
+      "description": "Lightweight on-device speech recognition enables local AI agents to process audio without cloud dependencies.",
+      "tags": [
+        "local-models",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "misc",
+      "status": "queued",
+      "ingestedAt": "2026-10-09T08:29:16.667Z"
+    },
+    {
+      "id": "ing-1791534556667-2",
+      "publishDate": "2026-10-09",
+      "title": "How Oracle turns days of work into minutes with ChatGPT",
+      "description": "Oracle automates recruiting, engineering, and operations workflows by turning specialist knowledge into repeatable ChatGPT-powered processes.",
+      "tags": [
+        "agents",
+        "automation",
+        "customer-support",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-10-09T08:29:16.667Z"
     }
   ]
 }
