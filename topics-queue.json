@@ -4206,6 +4206,21 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-10-09T08:29:16.667Z"
+    },
+    {
+      "id": "ing-1791619577068-1",
+      "publishDate": "2026-10-10",
+      "title": "What Mathematicians Should Know About Lean Theorem Prover",
+      "description": "Terry Tao explores Lean's reliability and AI applications in formal proof verification.",
+      "tags": [
+        "ai",
+        "evaluation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "contrarian",
+      "status": "queued",
+      "ingestedAt": "2026-10-10T08:06:17.068Z"
     }
   ]
 }
