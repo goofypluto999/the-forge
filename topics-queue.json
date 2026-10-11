@@ -3872,7 +3872,7 @@
       ],
       "tools": [],
       "category": "news-commentary",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-09-30T07:58:38.939Z"
     },
     {
@@ -3887,7 +3887,7 @@
       ],
       "tools": [],
       "category": "case-study",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-10-01T08:18:54.627Z"
     },
     {
