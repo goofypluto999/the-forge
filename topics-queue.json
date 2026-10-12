@@ -4266,6 +4266,21 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-10-11T08:17:23.576Z"
+    },
+    {
+      "id": "ing-1791794213919-1",
+      "publishDate": "2026-10-12",
+      "title": "Local Indexing to Reduce Tool Calling and Token Usage",
+      "description": "Explores optimization techniques for reducing token overhead in agent tool-calling workflows.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-10-12T08:36:53.919Z"
     }
   ]
 }
