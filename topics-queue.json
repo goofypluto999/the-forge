@@ -3931,7 +3931,7 @@
       ],
       "tools": [],
       "category": "case-study",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-10-02T07:56:11.615Z"
     },
     {
@@ -3946,7 +3946,7 @@
       ],
       "tools": [],
       "category": "agent-prompt",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-10-02T07:56:11.615Z"
     },
     {
