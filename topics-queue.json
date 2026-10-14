@@ -3960,7 +3960,7 @@
       ],
       "tools": [],
       "category": "news-commentary",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-10-02T07:56:11.615Z"
     },
     {
@@ -3974,7 +3974,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-10-03T07:35:01.201Z"
     },
     {
