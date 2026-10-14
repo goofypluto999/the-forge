@@ -4281,6 +4281,21 @@
       "category": "workflow-guide",
       "status": "queued",
       "ingestedAt": "2026-10-12T08:36:53.919Z"
+    },
+    {
+      "id": "ing-1791961560714-1",
+      "publishDate": "2026-10-14",
+      "title": "Redesigning source control at Anthropic",
+      "description": "Anthropic engineering shares infrastructure patterns for version control that could inform how teams structure AI agent codebases and tooling.",
+      "tags": [
+        "developer-tools",
+        "prompt-engineering",
+        "workflow-guide"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-10-14T07:06:00.714Z"
     }
   ]
 }
