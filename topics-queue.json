@@ -4296,6 +4296,66 @@
       "category": "workflow-guide",
       "status": "queued",
       "ingestedAt": "2026-10-14T07:06:00.714Z"
+    },
+    {
+      "id": "ing-1792047455227-1",
+      "publishDate": "2026-10-15",
+      "title": "LFM2.5-24B-A2B: Fast on-device agent model",
+      "description": "Liquid AI releases 24B parameter model optimized for local agent inference and low-latency tool use.",
+      "tags": [
+        "agents",
+        "local-models",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-10-15T06:57:35.227Z"
+    },
+    {
+      "id": "ing-1792047455227-2",
+      "publishDate": "2026-10-15",
+      "title": "Petal: Open-source CoScreen alternative for remote work",
+      "description": "Former CoScreen founders release open-source collaborative screen-sharing tool that could enable remote agent pair-programming and automation testing.",
+      "tags": [
+        "automation",
+        "productivity",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-10-15T06:57:35.227Z"
+    },
+    {
+      "id": "ing-1792047455227-3",
+      "publishDate": "2026-10-15",
+      "title": "AI security failures rooted in containment, not agent capabilities",
+      "description": "Industry experts clarify that reported AI agent incidents stem from poor monitoring and sandboxing, not autonomous misbehavior.",
+      "tags": [
+        "agents",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-10-15T06:57:35.227Z"
+    },
+    {
+      "id": "ing-1792047455227-4",
+      "publishDate": "2026-10-15",
+      "title": "Amp: AI agents beyond code with OpenAI models",
+      "description": "OpenAI showcases multi-model agent system handling workflows across code, email, scheduling, and business processes.",
+      "tags": [
+        "agents",
+        "openai",
+        "automation",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-10-15T06:57:35.227Z"
     }
   ]
 }
