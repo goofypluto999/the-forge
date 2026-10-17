@@ -4356,6 +4356,67 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-10-15T06:57:35.227Z"
+    },
+    {
+      "id": "ing-1792218809220-1",
+      "publishDate": "2026-10-17",
+      "title": "Claude code review workflow at Anthropic",
+      "description": "Internal practices for using Claude as an agent in the code review process.",
+      "tags": [
+        "claude",
+        "agents",
+        "automation",
+        "prompt-engineering",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-10-17T06:33:29.220Z"
+    },
+    {
+      "id": "ing-1792218809220-2",
+      "publishDate": "2026-10-17",
+      "title": "Running GGUF models on PS5 with llama.cpp",
+      "description": "Practical guide to deploying local models on constrained hardware for agent applications.",
+      "tags": [
+        "local-models",
+        "cli",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-10-17T06:33:29.220Z"
+    },
+    {
+      "id": "ing-1792218809220-3",
+      "publishDate": "2026-10-17",
+      "title": "Designing quantum circuits with Claude",
+      "description": "Using Claude as an agent to optimize complex technical problems with measurable results.",
+      "tags": [
+        "claude",
+        "agents",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-10-17T06:33:29.220Z"
+    },
+    {
+      "id": "ing-1792218809220-4",
+      "publishDate": "2026-10-17",
+      "title": "90% of work not covered by AI benchmarks",
+      "description": "Critical evaluation of why standard benchmarks miss real-world automation opportunities for agents.",
+      "tags": [
+        "agents",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "contrarian",
+      "status": "queued",
+      "ingestedAt": "2026-10-17T06:33:29.220Z"
     }
   ]
 }
