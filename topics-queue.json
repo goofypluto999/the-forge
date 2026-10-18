@@ -4417,6 +4417,22 @@
       "category": "contrarian",
       "status": "queued",
       "ingestedAt": "2026-10-17T06:33:29.220Z"
+    },
+    {
+      "id": "ing-1792306633807-1",
+      "publishDate": "2026-10-18",
+      "title": "Sphinx – AI coding agent validation workflow tool",
+      "description": "Hook that quizzes AI agents on code understanding before production deployment.",
+      "tags": [
+        "agents",
+        "developer-tools",
+        "prompt-engineering",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-10-18T06:57:13.807Z"
     }
   ]
 }
