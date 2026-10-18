@@ -4079,7 +4079,7 @@
       ],
       "tools": [],
       "category": "news-commentary",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-10-07T08:09:11.639Z"
     },
     {
@@ -4095,7 +4095,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-10-07T08:09:11.639Z"
     },
     {
