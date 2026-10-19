@@ -4111,7 +4111,7 @@
       ],
       "tools": [],
       "category": "news-commentary",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-10-07T08:09:11.639Z"
     },
     {
@@ -4127,7 +4127,7 @@
       ],
       "tools": [],
       "category": "case-study",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-10-08T08:25:14.436Z"
     },
     {
