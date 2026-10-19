@@ -4433,6 +4433,53 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-10-18T06:57:13.807Z"
+    },
+    {
+      "id": "ing-1792394322903-1",
+      "publishDate": "2026-10-19",
+      "title": "Superlite: Faster alternative to Superpowers for agent specs",
+      "description": "Framework for specifying agent behavior and capabilities.",
+      "tags": [
+        "agents",
+        "prompt-engineering",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "agent-prompt",
+      "status": "queued",
+      "ingestedAt": "2026-10-19T07:18:42.903Z"
+    },
+    {
+      "id": "ing-1792394322903-2",
+      "publishDate": "2026-10-19",
+      "title": "WhatsApp MCP for Claude: Free Cloudflare deployment",
+      "description": "MCP server enabling Claude mobile access to WhatsApp messages without business tier or server costs.",
+      "tags": [
+        "mcp",
+        "mcp-server",
+        "claude",
+        "automation",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "mcp-server-review",
+      "status": "queued",
+      "ingestedAt": "2026-10-19T07:18:42.903Z"
+    },
+    {
+      "id": "ing-1792394322903-3",
+      "publishDate": "2026-10-19",
+      "title": "Running Your Own LLM Proxy: Visibility and control",
+      "description": "Article on why self-hosting an LLM proxy matters for understanding system behavior and debugging.",
+      "tags": [
+        "developer-tools",
+        "local-models",
+        "automation"
+      ],
+      "tools": [],
+      "category": "contrarian",
+      "status": "queued",
+      "ingestedAt": "2026-10-19T07:18:42.903Z"
     }
   ]
 }
