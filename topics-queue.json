@@ -4480,6 +4480,67 @@
       "category": "contrarian",
       "status": "queued",
       "ingestedAt": "2026-10-19T07:18:42.903Z"
+    },
+    {
+      "id": "ing-1792566214763-1",
+      "publishDate": "2026-10-21",
+      "title": "Alter (YC S25) – Access control for multi-user agents",
+      "description": "Framework for managing agent permissions across multiple users and actions, critical infrastructure for production agent deployments.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-10-21T07:03:34.763Z"
+    },
+    {
+      "id": "ing-1792566214763-2",
+      "publishDate": "2026-10-21",
+      "title": "Nexus-CLI – Go bridge to DeepSeek/Claude with Ollama support",
+      "description": "CLI tool enabling local and cloud LLM integration for agent builders and developers.",
+      "tags": [
+        "cli",
+        "claude",
+        "developer-tools",
+        "local-models"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-10-21T07:03:34.763Z"
+    },
+    {
+      "id": "ing-1792566214763-3",
+      "publishDate": "2026-10-21",
+      "title": "Using Claude to reduce attack surface of code",
+      "description": "AI-assisted security analysis demonstrating practical agent use case for automated code review and vulnerability reduction.",
+      "tags": [
+        "claude",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-10-21T07:03:34.763Z"
+    },
+    {
+      "id": "ing-1792566214763-4",
+      "publishDate": "2026-10-21",
+      "title": "Advanced coding in low-resource programming languages",
+      "description": "OpenAI research on AI model performance in underrepresented languages, relevant for building inclusive automation tools and agents.",
+      "tags": [
+        "automation",
+        "developer-tools",
+        "prompt-engineering"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-10-21T07:03:34.763Z"
     }
   ]
 }
