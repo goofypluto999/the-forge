@@ -4541,6 +4541,68 @@
       "category": "news-commentary",
       "status": "queued",
       "ingestedAt": "2026-10-21T07:03:34.763Z"
+    },
+    {
+      "id": "ing-1792652736828-1",
+      "publishDate": "2026-10-22",
+      "title": "OpenAI CLI: Building command-line agents for model automation",
+      "description": "OpenAI releases a CLI tool for programmatic access to models, enabling automation workflows from the terminal.",
+      "tags": [
+        "cli",
+        "openai",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-10-22T07:05:36.828Z"
+    },
+    {
+      "id": "ing-1792652736828-2",
+      "publishDate": "2026-10-22",
+      "title": "Omnara: Open-source alternative to Claude Managed Agents",
+      "description": "Omnara launches open-source API for building and running durable agents as Claude Managed Agents alternative.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools",
+        "openai"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-10-22T07:05:36.828Z"
+    },
+    {
+      "id": "ing-1792652736828-3",
+      "publishDate": "2026-10-22",
+      "title": "Patch the Planet: AI agents coordinating vulnerability disclosures",
+      "description": "OpenAI demonstrates AI agents autonomously discovering and coordinating disclosure of critical vulnerabilities.",
+      "tags": [
+        "agents",
+        "automation",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-10-22T07:05:36.828Z"
+    },
+    {
+      "id": "ing-1792652736828-4",
+      "publishDate": "2026-10-22",
+      "title": "LiteLLM supply chain compromise: LLM tooling security implications",
+      "description": "Popular LLM library compromised with credential stealer; critical for agents relying on open-source LLM infrastructure.",
+      "tags": [
+        "agents",
+        "developer-tools",
+        "evaluation"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-10-22T07:05:36.828Z"
     }
   ]
 }
