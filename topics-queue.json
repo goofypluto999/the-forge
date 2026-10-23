@@ -4603,6 +4603,54 @@
       "category": "news-commentary",
       "status": "queued",
       "ingestedAt": "2026-10-22T07:05:36.828Z"
+    },
+    {
+      "id": "ing-1792738651543-1",
+      "publishDate": "2026-10-23",
+      "title": "LLMs enable formal software verification at scale",
+      "description": "Anthropic research shows how AI agents can automate formal verification workflows, teaching builders about LLM-driven code safety automation.",
+      "tags": [
+        "agents",
+        "automation",
+        "evaluation",
+        "developer-tools",
+        "anthropic"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-10-23T06:57:31.543Z"
+    },
+    {
+      "id": "ing-1792738651543-2",
+      "publishDate": "2026-10-23",
+      "title": "OpenShell: runtime for autonomous AI agent fleets",
+      "description": "NVIDIA's open-source framework for safely deploying multi-agent systems at scale, teaching builders about agent orchestration and safety patterns.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-10-23T06:57:31.543Z"
+    },
+    {
+      "id": "ing-1792738651543-3",
+      "publishDate": "2026-10-23",
+      "title": "OpenAI Decisions API for low-cost structured outputs",
+      "description": "Fast, focused decision-making API for applications; enables builders to automate conditional logic and routing in agent workflows.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools",
+        "openai"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-10-23T06:57:31.543Z"
     }
   ]
 }
