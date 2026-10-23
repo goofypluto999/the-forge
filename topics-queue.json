@@ -4234,7 +4234,7 @@
       ],
       "tools": [],
       "category": "case-study",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-10-11T08:17:23.576Z"
     },
     {
@@ -4249,7 +4249,7 @@
       ],
       "tools": [],
       "category": "agent-prompt",
-      "status": "queued",
+      "status": "drafted",
       "ingestedAt": "2026-10-11T08:17:23.576Z"
     },
     {
