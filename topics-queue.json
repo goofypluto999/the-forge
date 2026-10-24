@@ -4651,6 +4651,22 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-10-23T06:57:31.543Z"
+    },
+    {
+      "id": "ing-1792824727891-1",
+      "publishDate": "2026-10-24",
+      "title": "Corgi: agent terminal multiplexer for workflow automation",
+      "description": "An open-source agent multiplexer designed for daily terminal work and task orchestration.",
+      "tags": [
+        "agents",
+        "cli",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-10-24T06:52:07.891Z"
     }
   ]
 }
