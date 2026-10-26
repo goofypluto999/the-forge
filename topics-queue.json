@@ -4667,6 +4667,69 @@
       "category": "tool-comparison",
       "status": "queued",
       "ingestedAt": "2026-10-24T06:52:07.891Z"
+    },
+    {
+      "id": "ing-1792999480527-1",
+      "publishDate": "2026-10-26",
+      "title": "Proc-CLI: Agent-Friendly CLI for Process Management",
+      "description": "A purpose-built CLI tool designed for agent integration and automation workflows.",
+      "tags": [
+        "agents",
+        "cli",
+        "developer-tools",
+        "automation"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-10-26T07:24:40.527Z"
+    },
+    {
+      "id": "ing-1792999480527-2",
+      "publishDate": "2026-10-26",
+      "title": "PaperPilot: Zero-Cloud Rust PDF Engine with MCP Support",
+      "description": "A Rust-based PDF engine with MCP integration enabling agents to process documents locally.",
+      "tags": [
+        "mcp",
+        "agents",
+        "automation",
+        "developer-tools"
+      ],
+      "tools": [],
+      "category": "tool-comparison",
+      "status": "queued",
+      "ingestedAt": "2026-10-26T07:24:40.527Z"
+    },
+    {
+      "id": "ing-1792999480527-3",
+      "publishDate": "2026-10-26",
+      "title": "Why LLM Prices Collapsed: Implications for Agent Builders",
+      "description": "Explores the economics behind 80% LLM price cuts and what it means for building cost-effective agents.",
+      "tags": [
+        "agents",
+        "automation",
+        "productivity",
+        "economics"
+      ],
+      "tools": [],
+      "category": "news-commentary",
+      "status": "queued",
+      "ingestedAt": "2026-10-26T07:24:40.527Z"
+    },
+    {
+      "id": "ing-1792999480527-4",
+      "publishDate": "2026-10-26",
+      "title": "The State of Context Engineering",
+      "description": "Deep dive into context engineering practices essential for prompt optimization and agent performance.",
+      "tags": [
+        "prompt-engineering",
+        "agents",
+        "productivity"
+      ],
+      "tools": [],
+      "category": "workflow-guide",
+      "status": "queued",
+      "ingestedAt": "2026-10-26T07:24:40.527Z"
     }
   ]
 }
