@@ -4730,6 +4730,38 @@
       "category": "workflow-guide",
       "status": "queued",
       "ingestedAt": "2026-10-26T07:24:40.527Z"
+    },
+    {
+      "id": "ing-1793085474610-1",
+      "publishDate": "2026-10-27",
+      "title": "Greptile uses GPT-6 Astra for automated code review workflows",
+      "description": "Agent-powered bug detection and security testing tool reducing manual code review overhead.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools",
+        "customer-support"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-10-27T07:17:54.610Z"
+    },
+    {
+      "id": "ing-1793085474610-2",
+      "publishDate": "2026-10-27",
+      "title": "CodeRabbit security agent powered by GPT-6.1 Sol",
+      "description": "Agent automates security risk investigation across codebases, assisting developer review.",
+      "tags": [
+        "agents",
+        "automation",
+        "developer-tools",
+        "customer-support"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-10-27T07:17:54.610Z"
     }
   ]
 }
