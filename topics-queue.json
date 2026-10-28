@@ -4762,6 +4762,37 @@
       "category": "case-study",
       "status": "queued",
       "ingestedAt": "2026-10-27T07:17:54.610Z"
+    },
+    {
+      "id": "ing-1793174100307-1",
+      "publishDate": "2026-10-28",
+      "title": "Survival LLM: Local AI assistant for offline emergencies",
+      "description": "Demonstrates running capable LLMs locally without internet, useful for building resilient agent systems.",
+      "tags": [
+        "local-models",
+        "agents",
+        "anthropic"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-10-28T07:55:00.307Z"
+    },
+    {
+      "id": "ing-1793174100307-2",
+      "publishDate": "2026-10-28",
+      "title": "Retell's voice agents hit 100M calls with GPT-6 Astra",
+      "description": "Case study of production voice agent scaling using OpenAI models, showcasing real-world customer support automation benchmarks.",
+      "tags": [
+        "agents",
+        "customer-support",
+        "openai",
+        "automation"
+      ],
+      "tools": [],
+      "category": "case-study",
+      "status": "queued",
+      "ingestedAt": "2026-10-28T07:55:00.307Z"
     }
   ]
 }
