@@ -4386,7 +4386,7 @@
       ],
       "tools": [],
       "category": "workflow-guide",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-10-17T06:33:29.220Z"
     },
     {
@@ -4401,7 +4401,7 @@
       ],
       "tools": [],
       "category": "case-study",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-10-17T06:33:29.220Z"
     },
     {
