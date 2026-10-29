@@ -4415,7 +4415,7 @@
       ],
       "tools": [],
       "category": "contrarian",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-10-17T06:33:29.220Z"
     },
     {
@@ -4431,7 +4431,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-10-18T06:57:13.807Z"
     },
     {
