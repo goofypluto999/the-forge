@@ -4446,7 +4446,7 @@
       ],
       "tools": [],
       "category": "agent-prompt",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-10-19T07:18:42.903Z"
     },
     {
@@ -4463,7 +4463,7 @@
       ],
       "tools": [],
       "category": "mcp-server-review",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-10-19T07:18:42.903Z"
     },
     {
