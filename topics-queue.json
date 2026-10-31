@@ -4478,7 +4478,7 @@
       ],
       "tools": [],
       "category": "contrarian",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-10-19T07:18:42.903Z"
     },
     {
@@ -4493,7 +4493,7 @@
       ],
       "tools": [],
       "category": "case-study",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-10-21T07:03:34.763Z"
     },
     {
