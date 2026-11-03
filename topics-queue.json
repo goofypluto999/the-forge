@@ -4571,7 +4571,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-10-22T07:05:36.828Z"
     },
     {
@@ -4586,7 +4586,7 @@
       ],
       "tools": [],
       "category": "case-study",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-10-22T07:05:36.828Z"
     },
     {
