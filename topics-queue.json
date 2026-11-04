@@ -4601,7 +4601,7 @@
       ],
       "tools": [],
       "category": "news-commentary",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-10-22T07:05:36.828Z"
     },
     {
@@ -4618,7 +4618,7 @@
       ],
       "tools": [],
       "category": "news-commentary",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-10-23T06:57:31.543Z"
     },
     {
