@@ -4633,7 +4633,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-10-23T06:57:31.543Z"
     },
     {
@@ -4649,7 +4649,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-10-23T06:57:31.543Z"
     },
     {
