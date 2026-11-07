@@ -4697,7 +4697,7 @@
       ],
       "tools": [],
       "category": "tool-comparison",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-10-26T07:24:40.527Z"
     },
     {
@@ -4713,7 +4713,7 @@
       ],
       "tools": [],
       "category": "news-commentary",
-      "status": "queued",
+      "status": "skipped",
       "ingestedAt": "2026-10-26T07:24:40.527Z"
     },
     {
